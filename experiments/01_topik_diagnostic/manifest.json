@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "expected_count": 12,
+  "loop": "generation -> AI validation -> repair; ontology post-generation diagnostic",
+  "ontology_mode": "diagnostic",
+  "records": [
+    {
+      "source_key": "pet_restaurant",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "passage_status": "NEEDS_HUMAN_REVIEW",
+      "question_status": "PASS",
+      "grade": 1,
+      "text_type": "개인 문자",
+      "rounds": 4
+    },
+    {
+      "source_key": "pet_restaurant",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "passage_status": "NEEDS_HUMAN_REVIEW",
+      "question_status": "PASS",
+      "grade": 2,
+      "text_type": "안내문",
+      "rounds": 4
+    },
+    {
+      "source_key": "pet_restaurant",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 3,
+      "text_type": "짧은 기사",
+      "rounds": 1
+    },
+    {
+      "source_key": "pet_restaurant",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 4,
+      "text_type": "사회적 설명문",
+      "rounds": 1
+    },
+    {
+      "source_key": "pet_restaurant",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 5,
+      "text_type": "보고서",
+      "rounds": 1
+    },
+    {
+      "source_key": "pet_restaurant",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 6,
+      "text_type": "전문 자료",
+      "rounds": 1
+    },
+    {
+      "source_key": "energy_saving",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "passage_status": "NEEDS_HUMAN_REVIEW",
+      "question_status": "PASS",
+      "grade": 1,
+      "text_type": "개인 문자",
+      "rounds": 4
+    },
+    {
+      "source_key": "energy_saving",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "passage_status": "NEEDS_HUMAN_REVIEW",
+      "question_status": "PASS",
+      "grade": 2,
+      "text_type": "안내문",
+      "rounds": 4
+    },
+    {
+      "source_key": "energy_saving",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 3,
+      "text_type": "짧은 기사",
+      "rounds": 1
+    },
+    {
+      "source_key": "energy_saving",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 4,
+      "text_type": "사회적 설명문",
+      "rounds": 1
+    },
+    {
+      "source_key": "energy_saving",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 5,
+      "text_type": "보고서",
+      "rounds": 1
+    },
+    {
+      "source_key": "energy_saving",
+      "status": "PASS",
+      "passage_status": "PASS",
+      "question_status": "PASS",
+      "grade": 6,
+      "text_type": "전문 자료",
+      "rounds": 1
+    }
+  ]
+}

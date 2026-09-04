@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "experiment": "topik_economy_grade_vocabulary_repair",
+  "ontology_mode": "diagnostic",
+  "source_key": "pet_restaurant",
+  "grade": 3,
+  "text_type": "짧은 기사",
+  "essential_lexemes": [
+    "접종"
+  ],
+  "required_keyword": "",
+  "source_terms": [
+    "반려동물",
+    "접종"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "passage_status": "PASS",
+  "question_status": "NEEDS_REGENERATION",
+  "rounds_used": 1,
+  "generated_passage": "2026년 3월 1일부터 약속된 규칙을 지키는 식당에서 반려동물(강아지와 고양이)과 같이 들어갈 수 있습니다. 모든 가게가 아니라 깨끗하고 안전하게 운영하는 장소에서만 가능합니다. 접종을 하지 않은 동물은 들어오면 안 되며 그 사실을 써 붙여야 합니다. 가게 안에서는 음식을 만드는 곳이나 재료를 보관하는 방에 동물이 들어가지 못하게 막아야 합니다. 또 동물이 정해진 자리나 우리 안에 있게 하고 이동을 막아야 합니다. 음식에 다른 물건이 들어가지 않게 잘 관리해야 하며, 나라 기관은 나중에도 이 규칙을 잘 지키는지 확인할 것입니다.",
+  "final_ai_validation": {
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료(F1-F12)의 주요 내용인 시행일(2026.3.1), 대상 동물(개/고양이), 특정 장소 제한(조리장 등), 관리 조치(케이지, 거리 유지), 점검 계획 등이 모두 정확하게 포함됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료에 없는 정보나 추측성 내용을 단정적으로 기술하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "3급 수준에 적합한 어휘와 문법을 사용하였으며, 약 240자로 목표 길이(220~300자)를 충족함. 복잡한 수식어 없이 핵심 정보를 전달하는 구조임.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "문장 간 연결이 자연스러우며, '다만', '또한' 등의 담화 표지를 사용하여 앞 문장의 조건을 구체화하거나 추가 정보를 결합하고 있음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "반려동물 동반 가능 조건과 금지 사항이 명확히 제시되어 있어 세부 정보 파악 및 추론이 가능한 충분한 단서를 제공함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 문화적 편향이나 민감한 정보가 포함되지 않은 공공 정책 관련 내용임.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "중복되는 표현이나 불필요하게 어려운 한자어 치환 없이 필요한 용어를 적절히 활용함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 주어와 서술어의 호응이 정확하며, 지시 대상이 모호하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "정보 전달에 방해를 주는 감정적 수식어나 중복된 꾸밈말을 배제하고 사실 관계 중심의 어휘를 사용함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-10",
+        "passed": true,
+        "evidence": "단순 나열 방식이 아니라 '동반 가능 안내 -> 세부 제한 조건 -> 향후 점검 계획'으로 이어지는 논리적인 흐름을 갖춘 짧은 기사 형식을 취함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-11",
+        "passed": true,
+        "evidence": "원문과 비교 시 날짜(2026년 3월), 대상(개/고양이), 금지 구역 등 핵심 정보가 왜곡 없이 반영되었으며 자연스러운 한국어 표현을 유지함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB-ADVISORY",
+        "passed": true,
+        "evidence": "등급 검토 참고 어휘: 접종(6급), 준수(6급), 묘(5급), 위생(5급), 적합(5급), 향후(5급), 갖추다(4급), 다만(4급), 섞이다(4급), 여부(4급), 움직임(4급), 입장(4급), 점검(4급), 제한(4급), 특정(4급)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-GRADE-RESOURCE",
+      "O-VAL-REQUIRED-RELATIONS"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "공백 포함 299자, 3급 목표 220~300자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 220~300자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "운영(4급)",
+        "revision_instruction": "다음 어휘를 3급 이하 등록 표현으로 바꾸세요: 운영(4급)",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "reading_items": [
+    {
+      "question_type": "main_idea",
+      "question": "이 글의 중심 생각으로 가장 알맞은 것은 무엇입니까?",
+      "choices": [
+        "반려동물 동반 가능 음식점의 입실 조건과 관리 규칙",
+        "음식점 내에서 반려동물을 키울 때 주의할 점",
+        "위생 관리를 위해 강화되는 식당 운영 방침",
+        "반려견과 반려묘를 위한 전용 카페의 개관 소식"
+      ],
+      "answer": "반려동물 동반 가능 음식점의 입실 조건과 관리 규칙",
+      "explanation": "지문은 2026년부터 특정 조건을 갖춘 음식점에서 반려동물 동반이 가능해진다는 사실과 그에 따른 위생, 안전 관리 수칙을 설명하고 있습니다."
+    },
+    {
+      "question_type": "content_match",
+      "question": "지문의 내용과 일치하는 것은 무엇입니까?",
+      "choices": [
+        "모든 음식점에서 반려동물과 함께 들어갈 수 있습니다.",
+        "예방접종을 하지 않은 동물도 매장에 들어올 수 있습니다.",
+        "매장 내에서는 동물이 자유롭게 돌아다녀도 됩니다.",
+        "관계 기관은 향후 위생 기준 적합 여부를 점검할 예정입니다."
+      ],
+      "answer": "관계 기관은 향후 위생 기준 적합 여부를 점검할 예정입니다.",
+      "explanation": "지문 마지막 문장에 '관계 기관은 향후 위생 기준 적합 여부를 점검할 예정입니다'라고 명시되어 있습니다. (1번은 '모든 가게가 아니라', 2번은 '제한됩니다', 3번은 '움직임을 제한해야 합니다'라고 나와 있어 틀린 내용입니다.)"
+    }
+  ],
+  "question_checks": [
+    {
+      "question_type": "main_idea",
+      "passed": true,
+      "failed_ids": []
+    },
+    {
+      "question_type": "content_match",
+      "passed": true,
+      "failed_ids": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "2026년 3월 1일부터 특정 조건을 갖춘 음식점에서 반려견과 반려묘를 데리고 들어갈 수 있습니다. 다만 모든 가게가 아니라 위생 및 안전관리 기준을 준수하는 곳에서만 가능하며, 예방접종을 하지 않은 동물은 입장이 제한됩니다. 매장 내에서는 조리장이나 식재료 창고에 동물이 들어가지 못하게 해야 하며, 전용 의자나 케이지 등으로 움직임을 제한해야 합니다. 또한 음식에 이물질이 섞이지 않도록 관리해야 하며, 관계 기관은 향후 위생 기준 적합 여부를 점검할 예정입니다.",
+      "chars": 261,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 3,
+        "violations": [
+          {
+            "word": "접종",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "접종"
+            ]
+          },
+          {
+            "word": "준수",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "준수"
+            ]
+          },
+          {
+            "word": "묘",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "묘"
+            ]
+          },
+          {
+            "word": "위생",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "위생"
+            ]
+          },
+          {
+            "word": "적합",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "적합"
+            ]
+          },
+          {
+            "word": "향후",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "향후"
+            ]
+          },
+          {
+            "word": "갖추다",
+            "grade": 4,
+            "part_of_speech": "VV",
+            "tokens": [
+              "갖추"
+            ]
+          },
+          {
+            "word": "다만",
+            "grade": 4,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "다만"
+            ]
+          },
+          {
+            "word": "섞이다",
+            "grade": 4,
+            "part_of_speech": "VV",
+            "tokens": [
+              "섞이"
+            ]
+          },
+          {
+            "word": "여부",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "여부"
+            ]
+          },
+          {
+            "word": "움직임",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "움직임"
+            ]
+          },
+          {
+            "word": "입장",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "입장"
+            ]
+          },
+          {
+            "word": "점검",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "점검"
+            ]
+          },
+          {
+            "word": "제한",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "제한"
+            ]
+          },
+          {
+            "word": "특정",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "특정"
+            ]
+          }
+        ],
+        "violation_count": 15,
+        "known_token_count": 47,
+        "unknown_tokens": [
+          "반려견",
+          "반려",
+          "있다",
+          "식재료",
+          "이물질"
+        ],
+        "unknown_token_count": 5,
+        "unknown_items": [
+          {
+            "word": "반려견",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "반려",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "식재료",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "이물질",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1-F12)의 주요 내용인 시행일(2026.3.1), 대상 동물(개/고양이), 특정 장소 제한(조리장 등), 관리 조치(케이지, 거리 유지), 점검 계획 등이 모두 정확하게 포함됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 정보나 추측성 내용을 단정적으로 기술하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "3급 수준에 적합한 어휘와 문법을 사용하였으며, 약 240자로 목표 길이(220~300자)를 충족함. 복잡한 수식어 없이 핵심 정보를 전달하는 구조임.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "문장 간 연결이 자연스러우며, '다만', '또한' 등의 담화 표지를 사용하여 앞 문장의 조건을 구체화하거나 추가 정보를 결합하고 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "반려동물 동반 가능 조건과 금지 사항이 명확히 제시되어 있어 세부 정보 파악 및 추론이 가능한 충분한 단서를 제공함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보가 포함되지 않은 공공 정책 관련 내용임.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "중복되는 표현이나 불필요하게 어려운 한자어 치환 없이 필요한 용어를 적절히 활용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어와 서술어의 호응이 정확하며, 지시 대상이 모호하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "정보 전달에 방해를 주는 감정적 수식어나 중복된 꾸밈말을 배제하고 사실 관계 중심의 어휘를 사용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열 방식이 아니라 '동반 가능 안내 -> 세부 제한 조건 -> 향후 점검 계획'으로 이어지는 논리적인 흐름을 갖춘 짧은 기사 형식을 취함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "원문과 비교 시 날짜(2026년 3월), 대상(개/고양이), 금지 구역 등 핵심 정보가 왜곡 없이 반영되었으며 자연스러운 한국어 표현을 유지함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB-ADVISORY",
+            "passed": true,
+            "evidence": "등급 검토 참고 어휘: 접종(6급), 준수(6급), 묘(5급), 위생(5급), 적합(5급), 향후(5급), 갖추다(4급), 다만(4급), 섞이다(4급), 여부(4급), 움직임(4급), 입장(4급), 점검(4급), 제한(4급), 특정(4급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 261자, 3급 목표 220~300자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 220~300자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "준수(6급), 묘(5급), 위생(5급), 적합(5급), 향후(5급), 갖추다(4급), 다만(4급), 섞이다(4급), 여부(4급), 움직임(4급), 입장(4급), 점검(4급), 제한(4급), 특정(4급)",
+            "revision_instruction": "다음 어휘를 3급 이하 등록 표현으로 바꾸세요: 준수(6급), 묘(5급), 위생(5급), 적합(5급), 향후(5급), 갖추다(4급), 다만(4급), 섞이다(4급), 여부(4급), 움직임(4급), 입장(4급), 점검(4급), 제한(4급), 특정(4급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-08-27T00:16:14.091697+00:00",
+  "vocabulary_repair": {
+    "before_passage": "2026년 3월 1일부터 특정 조건을 갖춘 음식점에서 반려견과 반려묘를 데리고 들어갈 수 있습니다. 다만 모든 가게가 아니라 위생 및 안전관리 기준을 준수하는 곳에서만 가능하며, 예방접종을 하지 않은 동물은 입장이 제한됩니다. 매장 내에서는 조리장이나 식재료 창고에 동물이 들어가지 못하게 해야 하며, 전용 의자나 케이지 등으로 움직임을 제한해야 합니다. 또한 음식에 이물질이 섞이지 않도록 관리해야 하며, 관계 기관은 향후 위생 기준 적합 여부를 점검할 예정입니다.",
+    "after_passage": "2026년 3월 1일부터 약속된 규칙을 지키는 식당에서 반려동물(강아지와 고양이)과 같이 들어갈 수 있습니다. 모든 가게가 아니라 깨끗하고 안전하게 운영하는 장소에서만 가능합니다. 접종을 하지 않은 동물은 들어오면 안 되며 그 사실을 써 붙여야 합니다. 가게 안에서는 음식을 만드는 곳이나 재료를 보관하는 방에 동물이 들어가지 못하게 막아야 합니다. 또 동물이 정해진 자리나 우리 안에 있게 하고 이동을 막아야 합니다. 음식에 다른 물건이 들어가지 않게 잘 관리해야 하며, 나라 기관은 나중에도 이 규칙을 잘 지키는지 확인할 것입니다.",
+    "before_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 3,
+      "violations": [
+        {
+          "word": "준수",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "준수"
+          ]
+        },
+        {
+          "word": "묘",
+          "grade": 5,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "묘"
+          ]
+        },
+        {
+          "word": "위생",
+          "grade": 5,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "위생"
+          ]
+        },
+        {
+          "word": "적합",
+          "grade": 5,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "적합"
+          ]
+        },
+        {
+          "word": "향후",
+          "grade": 5,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "향후"
+          ]
+        },
+        {
+          "word": "갖추다",
+          "grade": 4,
+          "part_of_speech": "VV",
+          "tokens": [
+            "갖추"
+          ]
+        },
+        {
+          "word": "다만",
+          "grade": 4,
+          "part_of_speech": "MAG",
+          "tokens": [
+            "다만"
+          ]
+        },
+        {
+          "word": "섞이다",
+          "grade": 4,
+          "part_of_speech": "VV",
+          "tokens": [
+            "섞이"
+          ]
+        },
+        {
+          "word": "여부",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "여부"
+          ]
+        },
+        {
+          "word": "움직임",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "움직임"
+          ]
+        },
+        {
+          "word": "입장",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "입장"
+          ]
+        },
+        {
+          "word": "점검",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "점검"
+          ]
+        },
+        {
+          "word": "제한",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "제한"
+          ]
+        },
+        {
+          "word": "특정",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "특정"
+          ]
+        }
+      ],
+      "violation_count": 14,
+      "known_token_count": 46,
+      "unknown_tokens": [
+        "반려견",
+        "반려",
+        "있다",
+        "식재료",
+        "이물질"
+      ],
+      "unknown_token_count": 5,
+      "unknown_items": [
+        {
+          "word": "반려견",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "반려",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "있다",
+          "part_of_speech": "VA",
+          "policy": "record_only"
+        },
+        {
+          "word": "식재료",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "이물질",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        }
+      ],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "after_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 3,
+      "violations": [
+        {
+          "word": "운영",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "운영"
+          ]
+        }
+      ],
+      "violation_count": 1,
+      "known_token_count": 53,
+      "unknown_tokens": [
+        "있다",
+        "그",
+        "사실"
+      ],
+      "unknown_token_count": 3,
+      "unknown_items": [
+        {
+          "word": "있다",
+          "part_of_speech": "VA",
+          "policy": "record_only"
+        },
+        {
+          "word": "그",
+          "part_of_speech": "MM",
+          "policy": "record_only"
+        },
+        {
+          "word": "사실",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        }
+      ],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "history": [
+      {
+        "round": 1,
+        "before_chars": 261,
+        "after_chars": 271,
+        "before_violations": [
+          {
+            "word": "준수",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "준수"
+            ]
+          },
+          {
+            "word": "묘",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "묘"
+            ]
+          },
+          {
+            "word": "위생",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "위생"
+            ]
+          },
+          {
+            "word": "적합",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "적합"
+            ]
+          },
+          {
+            "word": "향후",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "향후"
+            ]
+          },
+          {
+            "word": "갖추다",
+            "grade": 4,
+            "part_of_speech": "VV",
+            "tokens": [
+              "갖추"
+            ]
+          },
+          {
+            "word": "다만",
+            "grade": 4,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "다만"
+            ]
+          },
+          {
+            "word": "섞이다",
+            "grade": 4,
+            "part_of_speech": "VV",
+            "tokens": [
+              "섞이"
+            ]
+          },
+          {
+            "word": "여부",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "여부"
+            ]
+          },
+          {
+            "word": "움직임",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "움직임"
+            ]
+          },
+          {
+            "word": "입장",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "입장"
+            ]
+          },
+          {
+            "word": "점검",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "점검"
+            ]
+          },
+          {
+            "word": "제한",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "제한"
+            ]
+          },
+          {
+            "word": "특정",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "특정"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "위생",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "위생"
+            ]
+          },
+          {
+            "word": "섞이다",
+            "grade": 4,
+            "part_of_speech": "VV",
+            "tokens": [
+              "섞이"
+            ]
+          },
+          {
+            "word": "움직임",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "움직임"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [],
+        "after_blocked_unknown_tokens": [],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 14->3 감소"
+      },
+      {
+        "round": 2,
+        "before_chars": 271,
+        "after_chars": 299,
+        "before_violations": [
+          {
+            "word": "위생",
+            "grade": 5,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "위생"
+            ]
+          },
+          {
+            "word": "섞이다",
+            "grade": 4,
+            "part_of_speech": "VV",
+            "tokens": [
+              "섞이"
+            ]
+          },
+          {
+            "word": "움직임",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "움직임"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "운영",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "운영"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [],
+        "after_blocked_unknown_tokens": [],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 3->1 감소"
+      }
+    ]
+  }
+}

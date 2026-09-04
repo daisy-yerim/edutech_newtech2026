@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-02",
+  "precedence": [
+    "korean_official_standard",
+    "korean_official_assessment_guidance",
+    "international_comparative_framework",
+    "project_operational_value"
+  ],
+  "sources": [
+    {
+      "id": "MCST-KSC-2020",
+      "title": "한국어 표준 교육과정(문화체육관광부고시 제2020-54호)",
+      "authority": "문화체육관광부·국립국어원",
+      "role": "primary",
+      "applies_to": ["grade_descriptors", "reading", "writing", "teaching_and_assessment"],
+      "local_file": "data/sources/curriculum/korean_standard_curriculum_2020.pdf",
+      "official_url": "https://law.go.kr/admRulLsInfoP.do?admRulSeq=2100000195019",
+      "license": "공공누리 제1유형(출처표시)"
+    },
+    {
+      "id": "NIKL-APPLY-2017",
+      "title": "국제 통용 한국어 표준 교육과정 적용 연구(4단계)",
+      "authority": "국립국어원",
+      "role": "implementation_reference",
+      "applies_to": ["grade_examples", "curriculum_application"],
+      "local_file": "data/sources/curriculum/korean_standard_curriculum_2017.pdf"
+    },
+    {
+      "id": "TOPIK-II-WRITE",
+      "title": "TOPIK II 쓰기 답안 작성 방법 및 공개 채점 영역",
+      "authority": "국립국제교육원 한국어능력시험센터",
+      "role": "assessment_reference",
+      "applies_to": ["writing_domains", "task_specific_scoring"],
+      "local_file": "data/sources/topik/framework/쓰기 답안 작성 방법(2017).pdf",
+      "official_url": "https://www.topik.go.kr"
+    },
+    {
+      "id": "TOPIK1-102-READING",
+      "title": "제102회 한국어능력시험 TOPIK I 읽기 문제지",
+      "authority": "국립국제교육원 한국어능력시험센터",
+      "role": "item_difficulty_anchor",
+      "applies_to": ["grade_1_reading", "grade_2_reading", "prompt_language", "choice_load"],
+      "local_file": "data/sources/topik/sample_tests/102/제102회_문제지_TOPIK1_듣기, 읽기_탑재용.pdf",
+      "mapping_caution": "문항별 공식 급수 라벨이 없으므로 상대적 문항 부담만 추상화하고 문장·선택지는 복제하지 않는다."
+    },
+    {
+      "id": "CEFR-CV-2020",
+      "title": "CEFR Companion Volume 2020",
+      "authority": "Council of Europe",
+      "role": "comparative_only",
+      "applies_to": ["can_do_descriptors", "reading_construct", "writing_construct"],
+      "official_url": "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-companion-volume-and-its-language-versions",
+      "mapping_caution": "한국어 1~6급과 CEFR A1~C2를 검증 없이 일대일 대응하지 않는다."
+    },
+    {
+      "id": "ACTFL-WRITING-2024",
+      "title": "ACTFL Proficiency Guidelines 2024—Writing",
+      "authority": "ACTFL",
+      "role": "comparative_only",
+      "applies_to": ["functions_tasks", "accuracy", "context_content", "text_type"],
+      "official_url": "https://www.actfl.org/uploads/files/general/Resources-Publications/ACTFL_Proficiency_Guidelines_2024.pdf",
+      "mapping_caution": "FACT는 쓰기 구성개념 점검에 사용하되 한국어 등급 환산표로 사용하지 않는다."
+    }
+  ],
+  "operational_values": [
+    {
+      "id": "OPS-LENGTH-BANDS",
+      "items": ["passage_chars", "writing_chars", "paragraphs", "sentence_chars_average_max"],
+      "status": "pilot_pending_validation",
+      "rule": "합격·불합격의 단독 근거로 사용하지 않는다."
+    },
+    {
+      "id": "OPS-WEIGHTS-30-30-40",
+      "items": ["content_task_30", "organization_30", "language_use_40"],
+      "status": "project_scoring_policy_pending_rater_validation",
+      "rule": "TOPIK 또는 한국어 표준 교육과정의 공식 배점이라고 표현하지 않는다."
+    }
+  ]
+}

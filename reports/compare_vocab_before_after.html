@@ -1,0 +1,3292 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>온톨로지·TOPIK 자연스러움 비교</title>
+<style>
+:root{--ink:#172033;--muted:#66758a;--line:#dbe3ec;--bg:#f2f5f9;--blue:#285cc5;--green:#087552;--amber:#985800}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Pretendard,"Noto Sans KR","Malgun Gothic",sans-serif;line-height:1.68}main{max-width:1440px;margin:30px auto;padding:0 18px}header,.guide,.card{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 25px #1b30490b}header{padding:32px;color:#fff;background:linear-gradient(135deg,#18396f,#326cd5)}h1{margin:0 0 8px;font-size:34px}h2,h3{margin:0}.summary{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.metric{padding:10px 14px;border-radius:10px;background:#ffffff18;border:1px solid #ffffff35}.guide{margin:16px 0;padding:20px 24px}.guide ul{margin-bottom:0}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}button{border:1px solid #b8c7dc;background:#fff;border-radius:999px;padding:8px 14px;cursor:pointer}button.active{background:var(--blue);border-color:var(--blue);color:#fff}.card{padding:24px;margin:16px 0}.card-head{margin-bottom:14px}.eyebrow,.diagnostic{font-size:13px;color:var(--muted)}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:14px}.version{border:1px solid var(--line);border-radius:14px;padding:18px;min-width:0}.version.old{background:#fbfcfe}.version.new{background:#f7fbff;border-color:#b9d0f2}.version-head,.metrics{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.metrics{justify-content:flex-start;color:var(--muted);font-size:12px;margin:10px 0}.metrics>span{padding:2px 7px;background:#eef2f7;border-radius:6px}.badge{display:inline-block;padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700}.badge.pass{background:#e4f6ee;color:var(--green)}.badge.review{background:#fff0d6;color:var(--amber)}.passage{white-space:pre-wrap;background:#fff;border:1px solid #e5ebf1;border-radius:10px;padding:16px;min-height:190px}.diagnostic{margin-top:10px}details{margin-top:10px}summary{cursor:pointer;font-weight:700}pre{white-space:pre-wrap;overflow:auto;background:#142033;color:#dce7f7;padding:12px;border-radius:9px;font-size:11px}.hidden{display:none}@media(max-width:900px){.comparison{grid-template-columns:1fr}h1{font-size:28px}}
+</style></head><body><main><header><h1>온톨로지 버전 vs TOPIK 자연스러움 버전</h1><p>같은 원자료와 같은 급수의 지문을 좌우로 비교합니다. 온톨로지는 두 버전 모두 사후 진단이며, 오른쪽 버전은 문장 경제성과 정보 연결을 강화했습니다.</p><div class="summary"><div class="metric">비교 지문 <b>12쌍</b></div><div class="metric">기존 꾸밈 표현 탐지 <b>10건</b></div><div class="metric">새 버전 꾸밈 표현 탐지 <b>6건</b></div></div></header>
+<section class="guide"><h2>실제 TOPIK 자료를 반영한 비교 기준</h2><p><b>급수 어휘 문제 합계: 76개 → 16개</b></p><ul><li>문장마다 주된 정보 관계 하나를 두고, 앞 문장의 핵심 명사를 다음 문장이 구체화합니다.</li><li>분량을 채우는 평가·홍보·일반 전망은 제거하고 문항의 정답 근거가 되는 정보만 남깁니다.</li><li>접속부사는 실제 이유·대조·결과가 있을 때만 쓰며, 추상적인 지시어로 문장을 억지로 잇지 않습니다.</li><li>원자료의 기관·수치·대상·의무·금지 관계는 축약하더라도 방향을 바꾸지 않습니다.</li></ul><div class="filters"><button class="active" data-source="all">전체 주제</button><button data-source="pet_restaurant">반려동물 음식점</button><button data-source="energy_saving">에너지 절약</button><button data-grade="1">1급</button><button data-grade="2">2급</button><button data-grade="3">3급</button><button data-grade="4">4급</button><button data-grade="5">5급</button><button data-grade="6">6급</button></div></section>
+
+    <section class="card" data-source="pet_restaurant" data-grade="1">
+      <div class="card-head"><div><div class="eyebrow">반려동물 동반 음식점</div><h2>1급 · 개인 문자</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>156자</span><span>7문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">민수 씨, 오늘 점심에 저와 같이 식당에 가요. 한국 음식이 아주 맛있습니다. 수업이 끝난 후에 함께 식당에 갑시다. 거기에서 맛있는 음식을 같이 먹읍시다. 우리 지금 기분 좋게 밥을 먹으러 바로 출발합시다. 맛있는 음식을 먹으면 정말 행복할 거예요. 같이 즐겁게 식사하러 가요.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 3개 → 3개 · <b>남은 어휘:</b> 행복, 지금, 정말</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 식당</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-03&quot;,
+      &quot;P-VAL-07&quot;,
+      &quot;P-VAL-09&quot;,
+      &quot;P-VAL-VOCAB&quot;,
+      &quot;P-VAL-TOPIK-I-STRUCTURE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료인 &#x27;식당&#x27;이라는 키워드를 바탕으로 식당에 가서 음식을 먹는 일상적인 장면을 적절히 구현하였습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;자유 개작 모드(beginner_free_adaptation)이며, 원문과의 사실 불일치나 허구의 정책/수치를 단정하는 내용이 없습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;지문이 약 145자로 길이는 적합하나, 문장 수가 7개로 많고 &#x27;기분 좋게&#x27;, &#x27;바로&#x27;, &#x27;정말 행복할 거예요&#x27; 등 감정 표현과 강조 부사가 중복되어 1급 수준보다 정보 밀도가 높습니다. 또한 한 문장에 핵심 정보 하나를 담는 선형 구조보다 수사적 표현이 포함된 문장이 많습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;감정 표현(&#x27;기분 좋게&#x27;, &#x27;정말 행복할 거예요&#x27;)과 중복되는 권유 표현들을 삭제하고, 정보를 직접 전달하는 짧은 문장 위주로 재구성하십시오.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;식당 방문 제안 → 수업 후 시간 설정 → 이동 및 식사라는 상황-행동-결과의 선형 흐름을 따르고 있습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;누가(민수 씨), 언제(수업 끝난 후), 어디서(식당), 무엇을(음식) 하는지에 대한 명시 정보가 충분합니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;편향되거나 민감한 정보 없이 일상적인 대화 내용으로 구성되었습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence\&quot;:\&quot;맛있는 음식\&quot;, \&quot;식당에 가요/갑시다\&quot; 등의 유사 의미나 구조가 반복적으로 나타납니다. 1급 수준에서는 동일한 의도를 가진 문장을 여러 번 나열하기보다 간결하게 한 번만 표현해야 합니다.\&quot;,\&quot;revision_instruction\&quot;:\&quot;중복되는 권유와 감탄사를 제거하고 핵심 정보를 전달하는 단문 위주로 정리하십시오.\&quot;&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완벽하며, 주어와 서술어의 관계가 명확합니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;1~2급은 수사적 표현이나 강조를 위한 부사의 사용을 절제해야 하는데, &#x27;기분 좋게&#x27;, &#x27;정말 행복할&#x27; 등 불필요한 꾸밈말이 포함되어 있습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;불필요한 형용사와 부사를 삭제하여 사실 중심의 담백한 문장으로 수정하십시오.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘식당’ 포함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘식당’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 행복(2급), 지금(미등록 내용어), 정말(미등록 내용어)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;문장 수 7개(허용 3~5개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 156자, 1급 목표 120~180자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;행복(2급), 지금(미등록), 정말(미등록)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 행복(2급), 지금(미등록), 정말(미등록)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>105자</span><span>3문장</span>
+          <span>생성 4회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">민수 씨, 오늘 점심에 저와 같이 식당에 가실래요? 저는 비빔밥을 아주 좋아해서 민수 씨와 함께 비빔밥을 먹으러 가고 싶어요. 우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 1개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 식당</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-VOCAB&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료의 핵심 의미(사람이 식당에 가서 음식을 먹는 일상 장면)를 충실히 반영하고 있습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;추측성 정보나 확인 불가능한 사실을 단정적으로 포함하지 않았습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;1급 수준에 적합한 짧은 문장 구조, 기초 어휘 사용, 그리고 &#x27;개인 문자&#x27;라는 요구된 유형과 목적에 부합하는 구성입니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;식사 제안 → 이유 및 기분 표현 → 행동 촉구로 이어지는 선형적인 흐름을 가지고 있으며, 각 문장이 앞선 상황이나 대상을 자연스럽게 이어받고 있습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;식당 방문 여부, 메뉴(비빔밥), 약속 시간 등 명시적 정보를 바탕으로 질문을 구성하기 충분합니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 문화 편향이나 민감한 정보 없이 보편적인 일상 소재를 다루고 있습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;반복되는 단어나 구조가 학습 방해 요소가 되지 않으며, 쉬운 대체어를 사용하여 난이도를 조절했습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명하고 의미 전달에 모순이 없습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;1~2급 수준에서 허용되는 수식어 범위 내에 있으며, 불필요하게 복잡하거나 중의적인 표현이 없습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아닌 &#x27;점심 식사 제안&#x27;이라는 하나의 중심 주제로 흐름을 묶었으며, 마지막 문장에서 새로운 주제를 도입하지 않습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;한국어 실생활에서 자연스러운 결합(비빔밥을 좋아하다, 기분이 좋다 등)을 사용하였고 사실 관계가 일관됩니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘식당’ 포함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘식당’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 정말(미등록 내용어)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;문장 수 4개(허용 3~5개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-LENGTH&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;공백 포함 105자, 1급 목표 120~180자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 1급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="pet_restaurant" data-grade="2">
+      <div class="card-head"><div><div class="eyebrow">반려동물 동반 음식점</div><h2>2급 · 안내문</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>203자</span><span>6문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">동네에 새로 문을 연 음식점이 있습니다. 이 식당은 특히 점심때에 손님이 많아 인기가 매우 높습니다. 따라서 음식을 빨리 먹으려면 미리 전화로 예약해야 합니다. 만약 예약을 하지 않으면 음식을 받기 위해 기다리는 시간이 길어질 수 있습니다. 맛있는 음식을 편안하게 즐기고 싶다면 꼭 미리 전화로 예약하십시오. 직원들이 모든 손님에게 친절하게 안내해 드릴 것입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 4개 → 4개 · <b>남은 어휘:</b> 시간, 점심때, 따라서, 위하다</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 음식점</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-VOCAB&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;핵심 키워드인 &#x27;음식점&#x27;을 활용하여 일상적인 이용 안내(예약 권장)를 적절히 포함하고 있으며 원문 의미와 부합함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;beginner_free_adaptation 모드에 따라 원천 자료와의 사실 일치 여부를 엄격하게 따지지 않으며, 제시된 내용이 논리적으로 자립적임.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;2급 수준에 적합한 어휘와 문법을 사용하였으며, 한 문장에 핵심 정보 하나를 배치하는 선형 구조를 유지함. 글자 수(공백 포함 약 158자)가 목표 범위(180~260자)보다 다소 짧으나, 필수 정보를 누락 없이 전달하며 불필요한 배경 설명이나 중복 사례를 추가하지 않아 요구사항을 충족함. 또한 &#x27;안내문&#x27;이라는 목적에 맞는 구성임.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;[상황: 신규 음식점] → [문제/원인: 점심시간 혼잡] → [행동: 전화 예약 권장] → [결과: 대기 시간 단축 및 편안한 식사]의 흐름이 명확하며, 각 문장이 앞 문장의 상황과 인과관계를 이어받고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;예약 여부에 따른 결과 차이(대기 시간 발생 등)가 명시되어 있어 읽기 유형에 필요한 충분한 정보를 제공함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 문화적 편향이나 민감 정보 없이 보편적인 서비스 안내 내용을 담고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;어려운 동의어를 사용하지 않았으며, 반복되는 구조를 피하면서도 핵심 의미 전달을 위한 필수 표현들을 적절히 활용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어가 일치하는 완결된 형태이며, 지시 대상이 모호하거나 비약이 없는 자연스러운 한국어 문장임.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;2급 수준에서 허용되는 수식어를 사용하여 가독성을 높였으며, 불필요하게 화려한 꾸밈말이나 중복된 감정 표현은 배제됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘음식점’ 포함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘음식점’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 시간(6급), 점심때(4급), 따라서(3급), 위하다(3급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;문장 수 6개(허용 4~7개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 203자, 2급 목표 180~260자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;시간(6급), 점심때(4급), 따라서(3급), 위하다(3급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 시간(6급), 점심때(4급), 따라서(3급), 위하다(3급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>162자</span><span>6문장</span>
+          <span>생성 4회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">건물 안에 있는 음식점에 가려고 합니다. 그런데 점심에는 손님이 아주 많아서 매우 복잡합니다. 그래서 미리 약속을 하면 기다리지 않고 바로 자리에 앉아 음식을 먹습니다. 알려야 할 말이 있습니다. 이 식당은 월요일에 쉽니다. 그러므로 식당에 가기 전에 다른 날짜를 미리 알아보시기 바랍니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 7개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 음식점</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-SOURCE-KEYWORD&quot;,
+      &quot;P-VAL-VOCAB&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(음식점 이용 안내/경험)와 생성 지문의 내용이 일치함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;추측성 정보나 사실 확인 불가능한 수치를 단정적으로 포함하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;2급 수준에 적합한 어휘를 사용하였으며, 한 문장에 하나의 정보를 담고 &#x27;그래서&#x27;, &#x27;따라서&#x27; 등 쉬운 연결어를 사용하여 논리 구조를 형성함. 글자 수도 200자 내외로 적절함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;상황(복잡함) → 행동(예약 권장) → 결과(대기 없이 식사), 주의사항(휴무일 확인)으로 이어지는 선형적인 흐름을 유지하며 각 문장이 앞 문장의 상황이나 이유를 잘 이어받고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;안내문 형식으로서 예약의 필요성과 휴무일 확인이라는 명시적 정보를 제공하여 읽기 평가가 가능함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 문화나 편향된 정보 없이 보편적인 안내문의 형태를 취하고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;반복되는 표현이 없으며, 어려운 동의어 대신 일상적인 어휘를 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 명확함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;2급 수준에서 허용되는 수식어를 적절히 활용하였으며, 불필요한 감정 표현이나 모호한 꾸밈말을 배제함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아닌 &#x27;예약 권장&#x27;과 &#x27;휴무일 확인&#x27;이라는 핵심 주제로 연결된 흐름을 가짐. 마지막에 새로운 주제를 도입하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;한국어 실생활에서 자연스러운 결합(점심시간, 예약하다, 영업일 등)을 보여주며 원인/결과의 논리적 구조가 정확함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘음식점’ 누락&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘음식점’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 시간(6급), 점(6급), 따라서(3급), 주의(3급), 확인(3급), 매주(미등록 내용어), 영업일(미등록 내용어)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;문장 수 6개(허용 4~7개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-LENGTH&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;공백 포함 162자, 2급 목표 180~260자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 2급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="pet_restaurant" data-grade="3">
+      <div class="card-head"><div><div class="eyebrow">반려동물 동반 음식점</div><h2>3급 · 짧은 기사</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>252자</span><span>5문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">2026년 3월 1일부터 개와 고양이를 동반한 식당 출입이 허용됩니다. 다만 위생 및 안전 관리 기준을 준수하는 식당에서만 가능하며, 입구에 안내문을 게시해야 합니다. 영업장 내에서는 반려동물의 이동을 제한하고, 음식의 이물 혼입 방지와 용품 분리 보관 등의 규칙을 지켜야 합니다. 조리장 등 식품취급시설은 출입이 금지되며, 예방접종을 하지 않은 동물은 출입이 제한됩니다. 향후 관계 기관은 해당 시설의 위생·안전 기준 적합 여부를 점검할 예정입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 14개 → 14개 · <b>남은 어휘:</b> 접종, 준수, 동반, 위생, 적합, 취급, 향후, 다만, 방지, 여부, 점검, 제한, 해당, 허용</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F12)에 포함된 시행일(2026년 3월 1일), 대상 동물(개, 고양이), 필수 조건(위생/안전 관리 준수, 안내문 게시, 이동 제한, 용품 분리 등), 금지 구역 및 예방접종 여부 확인, 향후 점검 계획 등의 핵심 내용이 모두 사실과 일치함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료를 벗어나거나 추측을 기반으로 한 정보 추가 없이 제공된 정보를 바탕으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3급 수준의 어휘와 문법을 사용하였으며, &#x27;사건·원인·결과&#x27;가 연결된 두 문단 내외(한 단락 형태이나 구조적으로 완결성 있음)의 짧은 기사 형식을 취하고 있음. 글자 수 또한 약 240자로 목표 범위(220~300자) 내에 있으며 복잡한 수식어 없이 명확하게 전달됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞 문장의 상황(반려동물 동반 허용)에서 이어지는 세부 규칙들로 논리적으로 전개되며, 주체나 대상의 전환 없이 일관되게 기술됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;제시된 정책 내용과 조건들이 구체적이어서 읽기 평가 시 사실 확인 및 정보 통합이 가능함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 편향이나 민감한 정보를 포함하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;중복되는 표현을 피하면서도 필요한 연결 어휘를 적절히 사용하였으며, 의도적인 난이도를 높이기 위한 어려운 동의어를 배제함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완결되며, 의미 전달에 모순이나 비약이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3급 수준에 부합하게 불필요한 감정적 수식어나 꾸밈말을 억제하고 핵심 정보 전달에 집중함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 접종(6급), 준수(6급), 동반(5급), 위생(5급), 적합(5급), 취급(5급), 향후(5급), 다만(4급), 방지(4급), 여부(4급), 점검(4급), 제한(4급), 해당(4급), 허용(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 252자, 3급 목표 220~300자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 220~300자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;준수(6급), 동반(5급), 위생(5급), 적합(5급), 취급(5급), 향후(5급), 다만(4급), 방지(4급), 여부(4급), 점검(4급), 제한(4급), 해당(4급), 허용(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 3급 이하 등록 표현으로 바꾸세요: 준수(6급), 동반(5급), 위생(5급), 적합(5급), 취급(5급), 향후(5급), 다만(4급), 방지(4급), 여부(4급), 점검(4급), 제한(4급), 해당(4급), 허용(4급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>282자</span><span>6문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">2026년 3월 1일부터 어떤 조건을 맞춘 음식점에서 반려동물(강아지와 고양이)과 함께 들어갈 수 있습니다. 모든 가게가 아니라 위생과 안전 규칙을 잘 지키는 곳에서만 가능합니다. 접종을 하지 않은 동물은 들어올 수 없으며 이 사실을 표시해야 합니다. 매장 안에서 동물이 요리하는 곳이나 재료를 보관하는 창고에 들어가면 안 됩니다. 또한 전용 의자나 케이지 등을 써서 동물의 움직임을 막아야 합니다. 음식에 다른 것이 섞이지 않게 관리해야 하며, 나라 기관은 나중에 위생 기준에 맞는지 확인할 예정입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 14개 → 3개 · <b>남은 어휘:</b> 위생, 섞이다, 움직임</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 반려동물, 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1-F12)의 주요 내용인 시행일(2026.3.1), 대상 동물(개/고양이), 특정 장소 제한(조리장 등), 관리 조치(케이지, 거리 유지), 점검 계획 등이 모두 정확하게 포함됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 정보나 추측성 내용을 단정적으로 기술하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3급 수준에 적합한 어휘와 문법을 사용하였으며, 약 240자로 목표 길이(220~300자)를 충족함. 복잡한 수식어 없이 핵심 정보를 전달하는 구조임.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;문장 간 연결이 자연스러우며, &#x27;다만&#x27;, &#x27;또한&#x27; 등의 담화 표지를 사용하여 앞 문장의 조건을 구체화하거나 추가 정보를 결합하고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;반려동물 동반 가능 조건과 금지 사항이 명확히 제시되어 있어 세부 정보 파악 및 추론이 가능한 충분한 단서를 제공함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 문화적 편향이나 민감한 정보가 포함되지 않은 공공 정책 관련 내용임.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;중복되는 표현이나 불필요하게 어려운 한자어 치환 없이 필요한 용어를 적절히 활용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어의 호응이 정확하며, 지시 대상이 모호하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정보 전달에 방해를 주는 감정적 수식어나 중복된 꾸밈말을 배제하고 사실 관계 중심의 어휘를 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열 방식이 아니라 &#x27;동반 가능 안내 -&gt; 세부 제한 조건 -&gt; 향후 점검 계획&#x27;으로 이어지는 논리적인 흐름을 갖춘 짧은 기사 형식을 취함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원문과 비교 시 날짜(2026년 3월), 대상(개/고양이), 금지 구역 등 핵심 정보가 왜곡 없이 반영되었으며 자연스러운 한국어 표현을 유지함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 접종(6급), 준수(6급), 묘(5급), 위생(5급), 적합(5급), 향후(5급), 갖추다(4급), 다만(4급), 섞이다(4급), 여부(4급), 움직임(4급), 입장(4급), 점검(4급), 제한(4급), 특정(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 282자, 3급 목표 220~300자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 220~300자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;위생(5급), 섞이다(4급), 움직임(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 3급 이하 등록 표현으로 바꾸세요: 위생(5급), 섞이다(4급), 움직임(4급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="pet_restaurant" data-grade="4">
+      <div class="card-head"><div><div class="eyebrow">반려동물 동반 음식점</div><h2>4급 · 사회적 설명문</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>357자</span><span>6문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">2026년 3월 1일부터 개와 고양이를 동반할 수 있는 음식점 운영 규칙이 시행됩니다. 이 정책은 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 적용됩니다.
+
+운영 음식점은 출입구에 안내문을 게시해야 하며, 조리장과 식재료 보관창고 등 식품취급시설에는 반려동물이 들어가지 못하도록 관리해야 합니다. 또한 영업장 안에서는 전용 의자나 케이지 등으로 이동을 제한하고, 식탁 사이의 거리 확보와 음식 덮개 사용으로 이물 혼입을 막아야 합니다. 반려동물 용품도 구분해 보관해야 하며, 예방접종을 하지 않은 동물은 입장을 제한하고 이를 표시해야 합니다. 식약처는 해당 시설들이 안전 기준에 적합한지 방문 점검할 예정입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 7개 → 7개 · <b>남은 어휘:</b> 접종, 준수, 동반, 위생, 적합, 출입구, 취급</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F12)에 포함된 시행일(2026년 3월 1일), 대상 동물(개, 고양이), 해당 업종(음식점 등), 관리 조치(안내문, 시설 구분, 이동 제한, 예방접종 확인 등), 점검 계획 등이 사실과 일치하게 기술됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 주관적인 의견이나 불필요한 배경 설명 없이 제공된 정보만을 바탕으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;4급 수준의 사회적 설명문으로서 적절한 어휘와 문장 구조를 갖춤. 공백 포함 약 250자로 목표 범위(280~400자)에 근접하며, 다문단 구조가 아닌 단락 내에서 논리적으로 연결된 정보를 전달함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;첫 문장에서 정책 개요를 제시하고, 두 번째 문장에서 구체적인 운영 수칙을 나열하며, 마지막에 향후 점검 계획을 언급하는 흐름이 매끄러움. 각 문장이 앞 문장의 &#x27;운영 규칙&#x27;이라는 주제를 유지하며 이어짐.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정책 시행 여부, 대상 업종 확인, 관리 수칙 준수 등 사실 관계 파악 및 세부 정보 통합을 위한 충분한 정보가 포함되어 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 민감한 정보 없이 객관적인 제도 안내 위주로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 표현의 반복을 피하면서도 핵심어(음식점, 반려동물, 시설 등)를 명확하게 사용하였으며, 불필요하게 어려운 동의어를 섞지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어가 명확히 호응하며, 의미 전달에 모순이나 비약이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3~4급 수준에서 감성적이거나 과도한 꾸밈말 없이 필요한 정보를 전달하는 데 집중함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 접종(6급), 준수(6급), 동반(5급), 위생(5급), 적합(5급), 출입구(5급), 취급(5급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 357자, 4급 목표 280~400자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 280~400자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;준수(6급), 동반(5급), 위생(5급), 적합(5급), 출입구(5급), 취급(5급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 4급 이하 등록 표현으로 바꾸세요: 준수(6급), 동반(5급), 위생(5급), 적합(5급), 출입구(5급), 취급(5급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>418자</span><span>8문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">2026년 3월 1일부터 식품위생법 시행규칙(음식점과 음식 안전에 대한 규칙)에 따라 개와 고양이를 데리고 들어갈 수 있는 식당이 늘어납니다. 다만, 사장님이 위생과 안전 약속을 잘 지키고 미리 상담을 받은 일반음식점, 휴게음식점, 제과점에서만 가능합니다. 이런 식당은 입구에 안내문을 붙여야 합니다.
+
+요리하는 곳이나 재료를 보관하는 창고에는 반려동물이 들어갈 수 없습니다. 또한 반려동물 용품은 손님 물건과 따로 나누어 보관해야 합니다. 가게 안에서 전용 의자나 케이지로 동물의 움직임을 제한하고, 식탁 사이 거리를 멀리 하며 음식에 다른 것이 들어가지 않도록 해야 합니다. 접종을 하지 않은 동물은 들어올 수 없다는 사실을 표시해야 합니다. 식약처와 지자체는 앞으로 홍보 매체를 포함하여 위생과 안전 기준에 맞는지 방문해서 확인할 예정입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 6개 → 1개 · <b>남은 어휘:</b> 위생</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 반려동물, 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F12)의 주요 내용(시행일자, 대상 동물, 업종 제한, 안내문 게시 의무, 시설 관리 규칙, 이동 제한 조치, 식약처/지자체 점검 계획 등)이 누락 없이 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 주관적인 감상이나 외부 정보(예: 반려동물 동반의 장점 등)를 추가하지 않고 사실 관계 위주로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;4급 수준에 적합한 사회적 설명문 형식이며, 문장 길이가 약 350자로 목표 범위(280~400자) 내에 있음. 전문 용어 대신 &#x27;식품취급시설&#x27;, &#x27;방문 점검&#x27; 등 주제에 필요한 어휘를 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;첫 번째 문단에서 제도 도입과 기본 요건을 제시하고, 두 번째 문단에서 세부 준수 사항 및 향후 계획으로 이어지는 구조가 명확함. 지시어와 연결 표현이 자연스러움.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;제도 시행 조건(날짜, 대상), 의무 사항(안내문, 관리 규칙), 향후 조치(점검) 등이 포함되어 있어 읽기 이해도를 평가하기에 충분한 정보를 제공함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 민감한 정보 없이 공공 정책의 변화를 객관적으로 전달함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 단어나 문장 구조가 불필요하게 반복되지 않으며, 핵심 내용을 전달하는 데 적절한 어휘를 선택함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어-서술어 관계가 분명하며, 앞뒤 문장의 논리적 연결이 매끄러움.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;불필요한 감정 표현이나 분위기를 조성하는 수식어가 배제되었으며, 명확한 사실 전달을 위한 필수적인 형용사/부사만 사용됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원문 자료를 단순 나열하지 않고 &#x27;정책 도입 → 세부 규정 → 향후 점검&#x27;이라는 하나의 흐름으로 구성하였으며 마지막 문장에서 새로운 주제로 전환되지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;날짜(2026년 3월 1일), 대상(개, 고양이), 장소(조리장 등) 등의 조건과 의무 사항의 결합이 원천 자료와 일치하며 번역투나 어색한 표현이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 접종(6급), 준수(6급), 동반(5급), 위생(5급), 적합(5급), 취급(5급), 향후(5급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-LENGTH&quot;,
+      &quot;O-VAL-GRADE-RESOURCE&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;공백 포함 418자, 4급 목표 280~400자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 280~400자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;위생(5급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 4급 이하 등록 표현으로 바꾸세요: 위생(5급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="pet_restaurant" data-grade="5">
+      <div class="card-head"><div><div class="eyebrow">반려동물 동반 음식점</div><h2>5급 · 보고서</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>475자</span><span>9문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">2026년 3월 1일부터 개와 고양이를 동반할 수 있는 음식점이 운영됩니다. 이 제도는 식약처가 약 2년간의 시범사업을 거쳐 추진되었습니다. 모든 가게가 대상이 아니라 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 가능합니다.
+
+영업자는 체크리스트를 작성하여 지자체에 알리고 사전 컨설팅을 받아야 하며, 출입구에 안내문을 게시해야 합니다. 또한 예방접종을 하지 않은 반려동물은 출입을 제한하고 그 사실을 표시해야 합니다. 향후 식약처와 지자체는 실제 매장과 온라인 광고 내용이 위생·안전 기준에 맞는지 점검할 예정입니다.
+
+매장 내에서는 조리장과 재료 창고 등 식품취급시설에 동물이 들어가지 못하게 관리해야 합니다. 영업장 안에서는 전용 의자나 케이지 등으로 이동을 제한해야 하며, 식탁 사이를 멀리 두고 음식에 덮개를 사용해 이물 혼입을 막아야 합니다. 아울러 반려동물용 용품은 손님용과 구분하여 보관하고 사용해야 합니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 2개 → 2개 · <b>남은 어휘:</b> 접종, 준수</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F12)에 제시된 시행일(2026년 3월 1일), 대상 동물(개, 고양이), 특정 업종(음식점 등), 관리 조치(안내문 게시, 예방접종 확인, 시설 분리, 이동 제한 등)와 생성 지문의 내용이 정확히 일치함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 정보나 추측성 사실을 포함하지 않고 제공된 데이터 내에서만 정보를 구성함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;5급 수준에 부합하는 다문단 구조를 갖추고 있으며, &#x27;보고서&#x27; 유형에 적합한 객관적이고 정제된 문체를 사용함. 글자 수는 공백 포함 약 400자로 목표 범위(380~520자) 내에 있으며, 전문적인 정책 안내의 성격을 잘 유지하고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 논리적으로 연결되어 있으며, 첫 단락은 제도 개요, 두 번째는 행정 절차 및 의무 사항, 세 번째는 구체적인 현장 관리 수칙으로 구분되어 체계적으로 전개됨. 주어 생략이나 명칭 변경 없이 정보가 응집력 있게 전달됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정책 시행 배경, 대상 조건, 준수해야 할 구체적 규정들이 상세히 기술되어 있어 독자가 핵심 내용과 요구사항을 파악하기에 충분한 정보를 제공함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단을 차별하거나 편향된 표현 없이 중립적인 어조로 법령/규칙 기반의 정보를 전달함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 종결형이나 구조를 기계적으로 반복하지 않으며, &#x27;또한&#x27;, &#x27;아울러&#x27; 등의 접속어를 적절히 활용하여 문단 간 관계를 매끄럽게 연결함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완벽하며, 주어와 서술어의 호응이 정확하고 의미상의 비약이나 모순이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;불필요한 감정적 수식어나 장식적 표현을 배제하고 정보 전달이라는 목적에 부합하는 기능적 형용사 및 부사만을 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 접종(6급), 준수(6급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 475자, 5급 목표 380~520자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;준수(6급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 5급 이하 등록 표현으로 바꾸세요: 준수(6급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>509자</span><span>10문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">식품의약품안전처(식약처)는 2023년 4월부터 약 2년 동안 시험 사업을 하고 2026년 3월 1일부터 반려동물 동반 출입 음식점 관련 식품위생법 시행규칙을 시작합니다. 대상은 개와 고양이입니다. 깨끗하고 안전하게 관리하는 기준을 잘 지키는 일반음식점과 휴게음식점, 제과점에서만 운영할 수 있습니다.
+
+운영하는 식당은 입구에 안내문을 붙여야 합니다. 음식을 만드는 곳이나 재료를 보관하는 창고 등 식품취급시설에는 반려동물이 들어가지 못하게 막아야 합니다. 가게 안에서는 전용 의자나 케이지 등을 써서 반려동물의 움직임을 제한해야 합니다. 또한 다른 물건이 음식에 들어가는 것을 막기 위해 음식 위에 덮개를 써야 합니다. 반려동물 용품은 손님용과 따로 나누어 보관해야 하며, 접종을 하지 않은 동물은 들어올 수 없다는 사실을 표시해야 합니다. 영업자는 체크리스트를 쓰고 지자체에서 미리 상담을 받아야 합니다. 앞으로 식약처와 지자체는 방문 점검을 통해 해당 가게들이 위생과 안전 기준에 맞는지 확인할 예정입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 2개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 반려동물, 식품위생법, 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F12)에 명시된 날짜(2023.4월, 2026.3.1.), 대상(개, 고양이), 장소(일반/휴게음식점 등), 의무 사항(안내문 게시, 시설 분리, 이동 제한, 덮개 사용, 사전컨설팅 등)이 모두 정확하게 일치함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료의 내용을 바탕으로 구성되었으며, 외부 정보나 추측성 사실을 임의로 추가하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;5급 수준에 적합한 다문단 구조와 전문적인 문체를 갖춤. 공백 포함 약 400자 내외로 목표 길이(380~520자)를 충족하며, 사회 분야의 정책 관련 정보를 체계적으로 전달하고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞 문장의 내용과 논리적으로 연결됨. &#x27;운영 음식점&#x27;이라는 주체와 그에 따른 구체적 수칙들이 유기적으로 배치되어 있으며 지시어의 대상이 명확함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정책 시행 배경, 세부 준수 사항, 향후 점검 계획 등 정보가 상세히 기술되어 있어 읽기 및 이해 평가를 위한 충분한 단서가 제공됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 민감한 표현 없이 객관적인 제도 안내 형식으로 작성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 종결형이나 구조의 반복을 피하면서도 전문적인 어휘를 적절히 활용하였으며, 불필요하게 어려운 동의어로 대체하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완벽하며, 주어와 서술어의 호응이 정확하고 의미 전달에 모순이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;장식적인 수식어나 감정적 표현을 배제하고 정책 설명에 필요한 핵심 정보를 중심으로 간결하게 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아니라 &#x27;시행 배경 및 대상 -&gt; 세부 운영 규칙 -&gt; 향후 점검 계획&#x27;이라는 논리적 흐름(배경·핵심 내용→근거·방법→전망)을 따르고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원문과 비교 시 기관명, 날짜, 조건 등의 관계가 왜곡 없이 유지되었으며, 5급 수준에서 중요한 예외 사항이나 필수 조건이 마지막에 갑자기 추가되지 않고 적절한 위치에 배치됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 업소(6급), 접종(6급), 준수(6급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 509자, 5급 목표 380~520자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 5급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="pet_restaurant" data-grade="6">
+      <div class="card-head"><div><div class="eyebrow">반려동물 동반 음식점</div><h2>6급 · 전문 자료</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>580자</span><span>8문장</span>
+          <span>생성 1회</span>
+          <span class="badge pass">온톨로지 통과</span>
+        </div>
+        <div class="passage">식약처는 2023년 4월부터 약 2년간 진행한 규제샌드박스 시범사업 결과를 바탕으로, 2026년 3월 1일부터 반려동물 동반 출입 가능 음식점 관련 식품위생법 시행규칙을 시행한다. 이번 정책에 따라 동반 가능한 반려동물은 개와 고양이에 한정되며, 운영자가 위생 및 안전관리 기준 준수를 희망하는 일반음식점, 휴게음식점, 제과점에서만 허용된다.
+
+동반 출입을 허용하는 영업자는 출입구에 안내문을 게시해야 하며, 체크리스트를 작성해 관할 지자체에 알리고 사전 컨설팅을 받은 후 운영해야 한다. 특히 조리장이나 식재료 보관 창고 등 식품 취급 시설에는 반려동물의 출입이 금지되며, 반려동물용 용품은 손님용 물품과 구분하여 관리해야 한다. 또한 영업장 내에서는 전용 의자나 케이지, 목줄 고정 장치 등을 사용하여 반려동물의 이동을 제한해야 한다. 이물질 혼입 방지를 위해 식탁 사이의 거리를 충분히 두고 음식에는 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한되며 그 사실을 표시해야 한다. 향후 식약처와 지자체는 온라인 홍보 및 광고 포함 모든 영업장을 대상으로 위생·안전 기준 적합 여부를 방문 점검할 예정이다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 0개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F12)에 포함된 시행일자, 대상 동물, 업종 제한, 관리 의무(안내문, 체크리스트), 시설별 규정, 예방접종 확인, 점검 계획 등 모든 주요 사실관계가 원문과 일치함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 내용이나 주관적인 해석을 추가하지 않고 제공된 정보만을 바탕으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;6급 수준의 &#x27;전문 자료&#x27; 유형에 부합하는 정책/규제 관련 소재를 다루고 있으며, 문단 구조와 어휘의 밀도가 고난도임을 반영함. 분량은 공백 포함 약 450자로 목표 범위(500~700자)에 매우 근접하며, 전문 용어와 복잡한 문장 구조를 적절히 활용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정보 전개가 논리적이며, 각 문장이 앞선 문장의 상황이나 요구 사항을 이어받아 구체화되는 구조임. 지시 대상이 명확하고 중복되는 표현 없이 매끄럽게 연결됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정책 시행 배경, 세부 준수 사항, 향후 점검 계획 등 다양한 정보를 포함하고 있어 비판적 평가나 정보 재구성을 위한 충분한 단서를 제공함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 차별적인 표현 없이 객관적인 법령 안내 형식으로 작성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 종결형이나 문장 구조의 기계적 반복을 피했으며, 핵심 의미를 훼손하는 과도한 동의어 치환 없이 전문적인 어휘를 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확함. 내용상 모순이나 논리적 비약이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;불필요한 감정적 수식어나 장식적 표현을 배제하고 정책 전달이라는 목적에 부합하는 기능적 어휘 위주로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 580자, 6급 목표 500~700자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 6급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>687자</span><span>11문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">2026년 3월 1일부터 반려동물 동반 출입이 가능한 음식점 관련 식품위생법 시행규칙이 시행된다. 이 제도는 식약처가 2023년 4월부터 약 2년간 규제샌드박스 시범사업을 운영한 결과에 따라 추진되었다. 해당 정책의 대상은 개와 고양이에 한정되며, 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 허용된다.
+
+동반 출입을 희망하는 영업자는 관할 지자체에 체크리스트를 제출하고 사전 컨설팅을 받아야 한다. 또한 영업자는 반드시 출입구에 안내문을 게시해야 하며, 온라인으로 홍보나 광고를 하는 경우에도 동일한 위생 및 안전 기준을 충족해야 한다.
+
+영업장 내에서는 엄격한 관리 체계가 요구된다. 조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물의 출입을 금지해야 하며, 반려동물용 용품은 손님용 물품과 구분하여 보관하고 사용해야 한다. 매장 내부에서는 전용 의자, 케이지, 전용 공간 또는 목줄 고정 장치 등을 활용해 반려동물의 이동을 제한해야 한다.
+
+공중위생 확보를 위해 식탁 사이의 거리를 충분히 유지하고, 음식에 이물질이 섞이는 것을 방지하기 위해 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한됨을 명시하고 이를 표시해야 한다. 향후 식약처와 지자체는 운영 음식점과 온라인 홍보·광고 업소를 대상으로 방문 점검을 실시하여 관련 기준 준수 여부를 확인할 예정이다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 0개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 반려동물, 식품위생법, 접종</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F12)에 명시된 날짜(2026.3.1.), 대상(개, 고양이), 장소(일반/휴게/제과점), 의무 사항(안내문 게시, 시설 분리, 이동 제한 등), 향후 계획(방문 점검) 등이 누락 없이 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 주관적인 감상이나 배경 설명, 허구의 수치 등을 임의로 추가하지 않고 사실 관계를 충실히 기술함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;6급 수준에 부합하는 전문성 있는 어휘(규제샌드박스, 식품취급시설, 이물질 방지 등)와 정교한 문장 구조를 갖춤. 글자 수가 약 540자로 목표 범위(500~700자) 내에 있으며, 다문단 구조가 논리적으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞선 내용의 구체화나 조건 제시로 이어짐. &#x27;또한&#x27;, &#x27;그 외&#x27; 등의 연결어 대신 문맥적 흐름을 통해 정보가 유기적으로 결합되어 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정책 도입 배경, 세부 운영 규칙, 향후 점검 계획 등이 포함되어 있어 정책의 목적과 절차를 파악하고 정보를 재구성하기에 충분한 단서가 제공됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 차별적인 표현 없이 공공 정책 안내라는 객관적 성격을 유지함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 종결형이나 어휘의 불필요한 반복이 없으며, 전문성을 확보하면서도 가독성을 해치지 않는 적절한 어휘 선택이 이루어짐.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어 관계가 명확하며, 지시 대상이 모호하거나 논리적 비약이 없는 완성도 높은 문장들로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;수식어가 정보 전달(예: &#x27;엄격한 관리 체계&#x27;, &#x27;충분히&#x27;)을 위해 필요한 범위 내에서만 사용되었으며, 의미 없는 감성적 수식어나 중복된 꾸밈말이 배제됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열 방식이 아니라 [배경 및 개요] → [운영자 의무/조건] → [내부 관리 세칙] → [향후 점검 계획]으로 이어지는 정교한 담화 구조를 갖춤. 마지막 문장에서 새로운 주제를 도입하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;even_source_check&quot;: &quot;원문과 비교 시 날짜, 대상, 필수 조건 등이 정확하게 매칭되며, 6급 수준에 걸맞게 핵심 제약 사항들이 뒤늦게 추가되지 않고 적절한 위치에 배치됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 687자, 6급 목표 500~700자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 6급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="energy_saving" data-grade="1">
+      <div class="card-head"><div><div class="eyebrow">에너지 절약</div><h2>1급 · 개인 문자</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>86자</span><span>6문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">민수 씨, 오늘 회사에 가요? 저는 집으로 가요. 사무실에 불이 켜져 있어요. 방에 사람이 없으면 불을 꺼 주세요. 내일 아침에 다시 올게요. 고맙습니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 0개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 불</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-TOPIK-I-STRUCTURE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;핵심어 &#x27;불&#x27;을 화재 상황이 아닌 사무실 전등(꺼 주세요) 상황으로 적절하게 활용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료의 범위를 벗어나지 않는 일상적인 대화로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;1급 수준에 맞는 짧은 문장, 기초 어휘 사용, 단일 장면(사무실 퇴근 및 부탁) 구성으로 목표 등급에 부합함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;[민수 씨/오늘/회사 가요?] -&gt; [나/집/가요] -&gt; [사무실/불/켜져 있음] -&gt; [사람 없으면/끄기] 순서로 정보가 선형적으로 연결되며 하나의 장면 내에서 행동과 이유를 명확히 전달함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;문자 메시지 형식에 맞게 핵심 정보(퇴근 여부 확인, 불 꺼달라는 요청)가 명시적으로 포함되어 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;편향되거나 민감한 내용이 없는 일반적인 직장 동료 간의 소통 상황임.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;어려운 동의어를 피하고 기본 표현을 사용하여 난이도를 조절함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어가 분명하며, 앞뒤 문맥이 논리적으로 이어짐.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;1~2급 수준에서 허용되는 수식어 범위 내이며, 과도한 감정 표현이나 꾸밈말 없이 필요한 정보만 전달됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘불’ 포함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;문장 수 6개(허용 3~5개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-LENGTH&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;공백 포함 86자, 1급 목표 120~180자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 1급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>111자</span><span>6문장</span>
+          <span>생성 4회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">민수 씨, 오늘 사무실에 일찍 왔습니까? 다른 사람도 없고 사람이 없어요. 그러니까 사무실 불을 다 꺼 주세요. 불을 끄면 전기를 아껴요. 일을 다 하고 나중에 저에게 꼭 전화해 주세요. 기다릴게요.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 7개 → 2개 · <b>남은 어휘:</b> 아끼다, 전기</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 불</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-VOCAB&quot;,
+      &quot;P-VAL-TOPIK-I-STRUCTURE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료의 핵심 의미(사무실/방의 불을 끄는 상황)를 정확하게 반영하였으며, 화재와 같은 오해의 소지가 없는 일상적인 맥락으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;추측성 정보나 외부 사실을 단정적으로 포함하지 않고, 제공된 핵심어의 범위 내에서 필요한 정보를 기술함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;1급 수준에 적합한 짧은 문장 구조와 기초 어휘를 사용함. &#x27;전기&#x27;, &#x27;아끼다&#x27; 등 필수 주제 관련 어휘가 적절하며 복잡한 관형절이나 나열이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;[상황: 아무도 없음] → [행동: 불을 꺼라] → [결과/이유: 전기를 아낀다] → [후속 행동: 전화해라]로 이어지는 선형적 흐름이 명확함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;사무실 상황에서 수행해야 할 구체적인 동작(불 끄기)과 이후 행동(전화하기)이 명시되어 있어 읽기 기능을 수행하기 충분함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 문화나 편향된 정보 없이 보편적인 사무 공간의 일상을 다룸.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;반복되는 표현이나 어려운 동의어 대신 쉬운 단어를 사용하였으며, 문장 구조가 단순하여 학습 부담이 낮음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어가 분명하며, 앞뒤 문장의 연결 관계에 모순이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;1~2급 수준에서 허용되는 수식어 범위 내이며, 불필요한 감정적/문학적 꾸밈말을 배제하고 기능 중심의 어휘를 선택함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아니라 &#x27;상황 설명 - 행동 지시 - 이유 제시&#x27;로 이어지는 하나의 장면(Scene)으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;&#x27;불을 끄다&#x27;, &#x27;전기를 아끼다&#x27; 등 실제 한국어에서 자연스러운 결합을 사용했으며 원문의 의도를 왜곡 없이 반영함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘불’ 포함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 그러다(3급), 아끼다(3급), 끝내다(2급), 모든(2급), 전기(2급), 지금(미등록 내용어), 아무(미등록 내용어)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;문장 수 6개(허용 3~5개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-LENGTH&quot;,
+      &quot;O-VAL-GRADE-RESOURCE&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;공백 포함 111자, 1급 목표 120~180자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;아끼다(3급), 전기(2급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 전기(2급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="energy_saving" data-grade="2">
+      <div class="card-head"><div><div class="eyebrow">에너지 절약</div><h2>2급 · 안내문</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>235자</span><span>9문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">[전기를 아껴요]
+
+우리 회사는 전기를 적게 써야 합니다. 전기는 우리 생활에 아주 중요합니다. 전기를 적게 쓰면 자연이 좋아집니다. 그래서 모든 직원은 잘 들어 주세요. 먼저 사무실을 나갈 때 불을 꺼 주세요. 그리고 쓰지 않는 전기 물건도 다 꺼 주세요. 작은 행동으로 소중한 전기를 함께 아끼고 또 아낍시다. 우리 모두가 같이 노력해서 전기를 조금씩 적게 쓰는 것이 좋습니다. 우리 모두 힘을 내서 같이 해 주세요.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 2개 → 2개 · <b>남은 어휘:</b> 아끼다, 먼저</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 전기</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-VOCAB&quot;,
+      &quot;P-VAL-TOPIK-I-STRUCTURE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료의 핵심 의미인 &#x27;전기를 아끼는 행동&#x27;을 충실히 반영하고 있으며, 정전이나 고장 등의 부차적인 상황으로 변질되지 않았습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공공 정책이나 특정 법령 등 외부 사실을 단정적으로 포함하지 않고 일상적인 안내문의 형식을 취하고 있습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;2급 수준에 적합한 어휘(중요하다, 소중하다, 노력하다)를 사용하였으며, 문장 구조가 단순하고 명확합니다. 공백 포함 약 195자로 목표 범위(180~260자) 내에 있으며 안내문이라는 목적에 맞는 구성입니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;[상황: 전기의 중요성] → [이유/결과: 자연 보호 및 절약 필요성] → [행동: 불 끄기, 물건 끄기]로 이어지는 선형적 흐름이 분명하며, 주어와 대상의 전환 없이 일관되게 유지됩니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;&#x27;불을 꺼 주세요&#x27;, &#x27;물건도 다 꺼 주세요&#x27; 등 구체적인 행동 지침이 포함되어 있어 정보 파악 및 세부 내용 파악이 가능한 구조입니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 문화나 편향된 시각 없이 보편적인 환경 보호 메시지를 전달하고 있습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;반복되는 문장 구조를 최소화하였으며, 어려운 동의어를 사용하지 않고 쉬운 표현으로 의미를 전달했습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완벽하며, 앞뒤 문장의 연결 관계가 논리적이고 명확합니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;2급 수준에서 허용되는 수식어(소중한, 모두)를 적절히 활용하였으며, 불필요하게 화려하거나 모호한 꾸밈말은 배제되었습니다.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘전기’ 포함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 아끼다(3급), 먼저(미등록 내용어)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;문장 수 9개(허용 4~7개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 235자, 2급 목표 180~260자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;아끼다(3급), 먼저(미등록)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 먼저(미등록)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge review">AI 검토</span></div>
+        <div class="metrics">
+          <span>187자</span><span>6문장</span>
+          <span>생성 4회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">우리 회사는 매달 아주 많은 양의 전기를 사용하고 있습니다. 그래서 모든 직원은 평소에 전기를 아껴야 합니다. 먼저 직원들은 사무실을 나갈 때마다 반드시 불을 꺼야 합니다. 그리고 점심시간에는 쓰는 컴퓨터도 꼭 꺼야 합니다. 이렇게 하면 사무실에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 함께 노력하면 전기 절약이 잘 됩니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 표시 표현 없음</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 10개 → 5개 · <b>남은 어휘:</b> 아끼다, 양, 절약, 매달, 먼저</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 전기</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;P-VAL-VOCAB&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;핵심어 &#x27;전기&#x27;를 활용하여 전기를 아끼는 행동(불 끄기, 컴퓨터 끄기)을 올바르게 기술하였으며, 정전/고장 등의 부차적 상황으로 변질되지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료의 허용 범위 내에서 일상적인 절약 행동만을 다루었으며, 근거 없는 사실을 단정적으로 포함하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;2급 수준에 적합한 어휘와 문법을 사용함. 한 문장에 핵심 정보 하나를 배치하고, 복잡한 관형절이나 나열을 피하며 안내문 형식을 취함. 글자 수 또한 목표 범위 내임.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;[상황: 많은 전기 사용] → [행동: 불/컴퓨터 끄기] → [결과: 절약 가능]의 선형 구조가 명확하며, 각 문장이 앞선 내용의 구체화나 결과로 자연스럽게 연결됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;안내문의 성격이 분명하여 &#x27;무엇을 해야 하는지&#x27;에 대한 정보를 파악하기 용이함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 문화적 편향이나 민감한 정보 없이 보편적인 공공 서비스(사무실 에티켓) 상황을 다룸.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;반복되는 표현이나 어려운 동의어 대신 쉬운 대용 표현을 사용하여 난이도를 조절함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확하고 지시 대상이 모호하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;1~2급 범위 내에서 허용되는 수식어를 사용하였으며, 불필요하게 화려하거나 의미 없는 꾸밈말은 배제됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아니라 &#x27;전기 절약&#x27;이라는 하나의 주제를 향해 내용이 유기적으로 흐르며 마지막에 새로운 주제로 튀지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;한국어 어휘 결합이 자연스러우며(예: 전기를 아끼다, 꺼야 합니다), 원문 의도인 &#x27;아끼는 행동&#x27;과 일치함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-SOURCE-KEYWORD&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;필수 원문 핵심어 ‘전기’ 포함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 실천(4급), 가능(3급), 따라서(3급), 또한(3급), 아끼다(3급), 양(3급), 절약(3급), 효과(3급), 매달(미등록 내용어), 한마음(미등록 내용어)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-TOPIK-I-STRUCTURE&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;문장 수 6개(허용 4~7개)&quot;,
+        &quot;revision_instruction&quot;: &quot;TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 187자, 2급 목표 180~260자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;아끼다(3급), 양(3급), 절약(3급), 매달(미등록), 먼저(미등록)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 양(3급), 절약(3급), 매달(미등록), 먼저(미등록)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="energy_saving" data-grade="3">
+      <div class="card-head"><div><div class="eyebrow">에너지 절약</div><h2>3급 · 짧은 기사</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>294자</span><span>6문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">많은 회사와 경제 단체들이 에너지를 아끼기 위해 노력하고 있습니다. 특히 석유와 화학 분야의 큰 회사들은 올해부터 석유 사용량을 줄이겠다는 계획을 세웠습니다. 이러한 활동은 환경을 보호하고 에너지를 절약하기 위한 것입니다.
+
+나라에서는 에너지 절약에 잘 참여하는 회사에 시설 설치 비용을 먼저 지원할 예정입니다. 또한 많은 직원은 점심시간에 전등을 끄거나 계단을 이용하고 자전거를 타는 등 일상생활에서 다양한 노력을 하고 있습니다. 앞으로도 나라는 우리 사회에 이런 에너지 절약 문화가 더 많이 퍼질 수 있도록 도울 것입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 다양한, 이러한, 노력하고 있</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 8개 → 8개 · <b>남은 어휘:</b> 전등, 화학, 분야, 설치, 에너지, 참여, 퍼지다, 환경</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 포함된 기업들의 에너지 절약 노력, 석유 사용량 감축 계획, 정부 지원 방침, 임직원의 실천 사례 등이 사실에 부합하게 기술됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 내용(예: 특정 지역명이나 허구의 통계 등)을 단정적으로 추가하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3급 수준에 적합한 어휘와 문법을 사용하였으며, 2문단 구성으로 사건과 결과가 연결된 구조임. 글자 수 또한 약 240자로 목표 범위(220~300자) 내에 있으며 &#x27;짧은 기사&#x27; 형식을 취하고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞 문장의 주체(기업/나라)나 목적(에너지 절약)을 이어받으며 논리적 흐름이 매끄러움. 지시어와 주어의 일관성이 유지됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;기사의 핵심 정보(누가 무엇을 하는지, 어떤 지원이 있는지)가 명확하여 세부 정보 파악 및 추론이 가능함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 편향이나 민감한 정보 없이 공공 정책과 기업 활동이라는 중립적인 주제를 다룸.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 단어나 표현이 불필요하게 반복되지 않으며, 학습용으로 적절한 수준의 어휘를 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완결되며, 의미 전달에 모순이나 비약이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3급 수준에서 허용되는 범위 내의 수식어를 사용하였으며, 정보 없이 분위기만 조성하는 과도한 꾸밈말은 배제됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 전등(5급), 화학(5급), 분야(4급), 설치(4급), 에너지(4급), 참여(4급), 퍼지다(4급), 환경(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 294자, 3급 목표 220~300자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 220~300자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;전등(5급), 화학(5급), 분야(4급), 설치(4급), 참여(4급), 퍼지다(4급), 환경(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 3급 이하 등록 표현으로 바꾸세요: 전등(5급), 화학(5급), 분야(4급), 설치(4급), 참여(4급), 퍼지다(4급), 환경(4급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>246자</span><span>4문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">최근 많은 회사와 경제단체가 에너지 절약을 위해 스스로 승용차(개인 차) 5부제를 하고 있습니다. 특히 시멘트, 정유, 석유화학 관련 기업 50개사는 올해 석유 사용량을 줄이는 계획을 내놓았습니다. 관계 기관은 약속을 잘 지킨 기업에 에너지 절약 시설을 만드는 돈을 먼저 도와주기로 했습니다. 또한 직원들은 점심시간에 불을 끄거나 자전거를 타며 에너지 절약에 함께하고 있으며, 관련 기관은 이러한 노력이 더 많이 퍼지도록 노력할 계획입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 이러한, 노력할 계획</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 15개 → 4개 · <b>남은 어휘:</b> 화학, 내놓다, 시멘트, 퍼지다</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 승용차, 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 명시된 민간 기업/경제단체의 참여, 특정 업종(시멘트, 정유, 석유화학), 지원 방침, 임직원 실천 사례 등 주요 수치와 사실 관계가 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 정보나 추측성 내용 없이 제공된 정보를 바탕으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3급 수준의 어휘 및 문법을 사용하였으며, 약 240자로 목표 길이(220~300자)를 충족함. &#x27;특히&#x27;, &#x27;또한&#x27; 등의 연결어 활용과 사건-결과 구조가 적절히 배치됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞 문장의 주체(민간 기업/단체 → 정부 → 임직원) 또는 주제(에너지 절약 노력)를 논리적으로 이어받고 있으며 지시 대상이 명확함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;기업들의 참여 현황, 구체적 계획, 보상 체계, 개별 행동 실천 등 세부 정보가 포함되어 있어 읽기 유형인 &#x27;짧은 기사&#x27;로서 충분한 단서가 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 편향이나 민감한 정보 없이 공공 정책 관련 사실 위주로 기술됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 표현의 반복을 피하고 핵심 내용을 전달하기 위한 필수적인 어휘와 연결어를 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완결되며, 주어와 서술어 관계가 명확하게 성립함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3급 수준에서 허용되는 범위 내의 수식어를 사용하였으며, 의미 없는 감정적/분위기 조성용 꾸밈말이 과도하게 중복되지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아니라 &#x27;현황 → 구체적 계획 및 지원 → 개별 실천&#x27;으로 이어지는 일관된 흐름을 가지고 있으며 마지막에 새로운 주제를 도입하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원문과 지문의 기관(민간 기업, 정부), 대상(시멘트 등 50개사), 행동(절약 노력) 간의 상관관계가 왜곡 없이 유지됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 동참(6급), 민간(6급), 방침(6급), 업종(6급), 자율(6급), 자금(5급), 화학(5급), 달성(4급), 설치(4급), 승용차(4급), 시멘트(4급), 실시(4급), 실천(4급), 에너지(4급), 정부(4급), 조명(4급), 확산(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 246자, 3급 목표 220~300자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 220~300자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;화학(5급), 내놓다(4급), 시멘트(4급), 퍼지다(4급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 3급 이하 등록 표현으로 바꾸세요: 화학(5급), 내놓다(4급), 시멘트(4급), 퍼지다(4급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="energy_saving" data-grade="4">
+      <div class="card-head"><div><div class="eyebrow">에너지 절약</div><h2>4급 · 사회적 설명문</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>349자</span><span>6문장</span>
+          <span>생성 2회</span>
+          <span class="badge pass">온톨로지 통과</span>
+        </div>
+        <div class="passage">최근 많은 기업이 에너지를 아끼기 위해 스스로 노력하고 있습니다. 대기업과 금융사, 경제단체들은 승용차 5부제를 자발적으로 실천하고 있으며, 시멘트와 석유 관련 업체들도 올해부터 석유 사용량을 줄이기 위한 계획을 세웠습니다. 이들 기업은 단순히 기름을 아끼는 것뿐만 아니라 시설 운영 방식 개선 등 여러 방법을 제시했습니다.
+
+정부는 이렇게 에너지 절약 목표를 달성한 기업에 설치 비용을 지원할 예정입니다. 또한 회사 직원들도 점심시간에 불을 끄거나 계단을 이용하고, 자전거를 타는 등 환경 보호를 위해 함께 참여하고 있습니다. 기후에너지환경부는 앞으로도 이러한 노력이 더 많이 퍼질 수 있도록 노력할 계획이라고 밝혔습니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 이러한, 노력하고 있, 노력할 계획</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 0개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 포함된 기업들의 자발적 참여, 석유 사용량 감축 계획, 정부 지원 방침, 임직원의 실천 사례 및 기후에너지환경부의 향후 계획 등 주요 사실관계가 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 내용이나 추측성 정보를 추가하지 않고 제공된 데이터 범위 내에서 내용을 구성함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;4급 수준에 적합한 사회적 설명문 구조를 갖춤. 공백 포함 약 250자 내외로 목표 길이(280~400자)에 근접하며, 문장 길이가 적절하고 어휘와 문법이 중급 수준에 부합함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;첫 번째 문단은 기업의 노력과 구체적 수단을, 두 번째 문단은 정부의 대응과 직원의 행동을 연결하여 정보 전개가 논리적임. 각 문장은 앞 문장의 주체나 상황을 자연스럽게 이어받으며 응집성이 높음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정부 지원 정책, 임직원의 실천 사례 등 비교 및 정보 통합을 위한 충분한 단서가 포함되어 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 편향이나 민감한 정보 없이 객관적인 사실 위주의 사회적 설명을 제공함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 표현이나 구조를 불필요하게 반복하지 않으며, 핵심어를 억지로 어렵게 변형하지 않고 명확하게 전달함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 문법적으로 완결되며, 주어와 서술어 관계가 명확하고 의미상의 비약이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;3~4급 수준에서 요구되는 수식어가 적절히 사용되었으며, 정보 없이 분위기만 조성하는 과도한 꾸밈말이나 모호한 수식어구가 배제됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 349자, 4급 목표 280~400자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 280~400자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 4급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>388자</span><span>8문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">많은 회사가 에너지 절약을 위해 스스로 참여하고 있습니다. 기후에너지환경부에 따르면 현재 큰 회사와 돈을 빌려주는 곳, 경제단체 등 50개 넘는 곳이 승용차 5부제를 하고 있습니다. 또한 시멘트, 기름(정유), 석유화학 분야의 대표 기업 50곳은 올해 석유 사용량을 작년보다 약 3.3% 줄이겠다는 계획을 내놓았습니다.
+
+회사들은 기계 작동 제한이나 남은 열 쓰기, 물건 만드는 과정 개선 등의 방법으로 에너지를 아끼고 있습니다. 이와 더불어 직원들은 점심시간에 불 끄기, 계단 오르기, 실내 온도 조절 등을 직접 하고 있습니다. 정부는 이러한 노력을 통해 에너지 절약이 널리 퍼질 수 있도록 도울 예정입니다. 특히 목표를 달성한 회사에는 에너지 절약 시설 설치 비용을 먼저 도와줄 생각입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 이러한</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 7개 → 1개 · <b>남은 어휘:</b> 화학</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 승용차, 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 포함된 민간 기업 참여, 수치(3.3%, 50개사), 세부 실천 방안(설비 가동 제한 등), 정부 지원 정책 등이 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 내용(기후 변화 효과나 특정 지역 언급 등)을 임의로 추가하거나 단정적으로 기술하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;4급 수준에 적합한 사회적 설명문 구조를 갖춤. 문장 길이가 약 380자로 목표 범위(280~400자) 내에 있으며, 전문 용어를 피하면서도 공적인 정보를 전달하는 어휘와 문법을 사용함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 &#x27;기업의 노력&#x27; → &#x27;구체적 방법&#x27; → &#x27;정부의 대응/지원&#x27;으로 논리적으로 연결되며, 지시어(&#x27;이러한&#x27;)가 앞선 구체적 행동들을 명확히 받고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;민간 기업과 정부의 상호작용, 구체적인 실천 방안 및 지원 조건 등이 포함되어 있어 정보 통합 및 추론이 가능한 충분한 단서가 제공됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 민감한 정보 없이 객관적인 정책 및 참여 현황을 기술함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 표현이나 구조를 반복하지 않으며, 핵심 의미를 왜곡하거나 불필요하게 어려운 동의어로 대체하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어 관계가 분명하며, 비약이나 모순 없이 매끄럽게 이어짐.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;&#x27;특히&#x27;, &#x27;또한&#x27; 등 연결어는 기능적으로 사용되었으며, 내용 없이 분위기만 조성하는 과도한 수식어나 감정적 형용사의 나열이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;사실을 단순 나열하지 않고 &#x27;기업의 자발적 노력과 정부의 지원&#x27;이라는 하나의 흐름으로 묶었으며, 마지막 문장에서 새로운 주제를 도입하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원문과의 수치(3.3%, 50개사) 및 대상(시멘트, 정유 등), 조건(목표 달성 시 우선 지원) 등의 사실 관계가 정확히 유지됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 가동(6급), 공정(6급), 민간(6급), 방침(6급), 설비(6급), 자금(5급), 화학(5급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-GRADE-RESOURCE&quot;,
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 388자, 4급 목표 280~400자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 280~400자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;화학(5급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 4급 이하 등록 표현으로 바꾸세요: 화학(5급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="energy_saving" data-grade="5">
+      <div class="card-head"><div><div class="eyebrow">에너지 절약</div><h2>5급 · 보고서</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>370자</span><span>7문장</span>
+          <span>생성 3회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">최근 많은 민간 기업과 경제단체 등이 자발적으로 승용차 5부제를 시행하며 에너지 절약에 참여하고 있습니다. 2026년 4월 3일 기준 총 50여 개 기관이 이 활동에 동참하고 있습니다. 특히 시멘트, 정유, 석유화학 업종 대표기업 50개사는 올해 석유 사용량을 작년 대비 3.3%인 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 제출했습니다.
+
+이를 위해 해당 기업들은 설비 가동 제한, 폐열 활용, 생산공정 합리화 등의 수단을 실행하고 있습니다. 기후에너지환경부는 목표를 달성한 기업에 에너지 절약시설 설치자금을 우선 지원할 방침입니다. 또한 임직원들이 실천하는 조명 끄기, 카풀 등 일상 속 에너지 절약 문화가 확산될 수 있도록 노력할 계획입니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 노력할 계획, 확산될 수 있도록 노력</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 7개 → 7개 · <b>남은 어휘:</b> 가동, 공정, 동참, 민간, 방침, 설비, 업종</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 포함된 민간 기업 및 경제단체의 참여 사실, 특정 업종별 감축량(13만toe), 세부 실천 방안(설비 가동 제한 등), 지원 정책 등이 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 주관적인 해석이나 외부 정보를 추가하지 않고 제공된 데이터 내에서 내용을 구성함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;5급 수준에 부합하는 다문단 구조를 갖추고 있으며, &#x27;보고서&#x27; 유형의 목적에 맞는 정보 전달 중심의 문체를 사용함. 분량 또한 약 400자 내외로 목표 범위(380~520자)에 적절히 들어옴.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞 문장의 대상(기업/기관)과 행동을 논리적으로 이어받으며, 문단 간 연결이 매끄럽고 지시어와 명칭이 일관되게 유지됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정부의 지원 계획, 기업의 구체적 수치 및 실천 방안 등 독자가 보고서를 읽고 핵심 정보를 파악하거나 정책 의도를 이해할 수 있는 충분한 단서가 포함됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 민감한 정보 없이 공공 정책 관련 사실 위주로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 종결형이나 구조의 반복을 피하며 전문적인 어휘를 활용함. 불필요하게 어려운 동의어로 대체하여 난이도만 높이는 행위가 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어-서술어 관계가 명확하며, 앞뒤 문장 간 논리적 비약이나 모순 없이 자연스럽게 연결됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;화려한 수식어나 감정 표현 대신 &#x27;구체적인&#x27;, &#x27;실행하고 있습니다&#x27;와 같은 기능적이고 정확한 표현을 사용하여 정보 전달에 집중함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-LENGTH&quot;,
+      &quot;O-VAL-GRADE-RESOURCE&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;공백 포함 370자, 5급 목표 380~520자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 5급 이하 등록 표현으로 바꾸세요: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)&quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>467자</span><span>7문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">기후에너지환경부에 따르면 큰 회사와 은행, 경제단체 등 여러 곳이 스스로 승용차 5부제(자동차를 나누어 타는 약속)에 참여하고 있습니다. 2026년 4월 3일 기준으로 총 50개의 회사가 이 정책에 함께하고 있는 것으로 알았습니다.
+
+특히 시멘트, 기름, 석유 관련 일을 하는 대표 기업 50개사는 올해 석유 사용량을 작년보다 약 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 내놓았습니다. 이것은 원전을 약 한 달 동안 돌려야 얻을 수 있는 양입니다. 이를 위해 해당 기업들은 기계 작동 제한, 남은 열 쓰기, 만드는 과정 효율 높이기 등의 방법을 제시했습니다.
+
+기후에너지환경부는 목표를 달성한 기업에 에너지 절약 시설 설치 비용을 먼저 도와줄 예정입니다. 또한 직원들이 실천하는 조명 끄기, 계단 오르기, 카풀 및 자전거 타기 등을 권하며 승용차 부제와 에너지 절약 문화가 퍼질 수 있도록 노력할 계획이라고 밝혔습니다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 노력할 계획</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 7개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 승용차, 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 명시된 민간 기업 참여 사실, 수치(50여 개, 13만toe, 610GWh), 실천 방안(설비 가동 제한 등), 지원 정책 및 향후 계획 등이 누락 없이 정확하게 포함됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 내용(기후 변화 효과나 주관적 감상 등)을 임의로 추가하거나 단정적으로 기술하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 약 400자 내외로 목표 길이(380~520자)를 충족하며, 전문적인 문체를 사용한 다문단 구조임. 사회 분야의 공적 보고서 성격이 잘 드러남.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞 문장의 대상이나 내용을 구체화하며 연결됨. &#x27;특히&#x27;와 같은 접속어를 통해 정보의 범위를 좁히고 상세 정보를 제시하는 흐름이 매끄러움.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정책의 배경, 실행 수단, 보상 체계가 명확히 제시되어 있어 정책의 목적과 지원 방안 등을 추론하고 파악하기에 충분한 정보가 제공됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단을 차별하거나 편향된 시각을 담지 않고 객관적인 사실 위주로 기술됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 종결형이나 단어의 불필요한 반복 없이 적절하게 변주되었으며, 어려운 어휘를 피하기 위한 모호한 표현도 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어-서술어 관계가 명확하며, 지시 대상이 분명함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;장식적 수식어나 감정적 호소 없이 정보 전달에 필요한 핵심 내용 중심으로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아니라 &#x27;현황(참여 기업) -&gt; 구체적 실천 방안 및 목표 → 지원 정책과 향후 전망&#x27;으로 이어지는 논리적 흐름을 갖춤. 마지막 문장에서 새로운 주제를 도입하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원문과의 수치/기관/조건 일치가 완벽하며, 5급 수준에서 요구하는 전문적인 문체와 구조적 정합성을 유지하고 있음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-VOCAB-ADVISORY&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 설비(6급), 업종(6급), 장려(6급)&quot;,
+        &quot;revision_instruction&quot;: &quot;표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요.&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 467자, 5급 목표 380~520자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 5급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+    <section class="card" data-source="energy_saving" data-grade="6">
+      <div class="card-head"><div><div class="eyebrow">에너지 절약</div><h2>6급 · 전문 자료</h2></div></div>
+      <div class="comparison">
+        
+      <article class="version old">
+        <div class="version-head"><h3>기존 온톨로지 루프 적용본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>673자</span><span>11문장</span>
+          <span>생성 1회</span>
+          <span class="badge pass">온톨로지 통과</span>
+        </div>
+        <div class="passage">최근 기후 위기에 대응하기 위해 민간 기업들이 에너지 절약에 자발적으로 동참하는 움직임이 확산되고 있다. 기후에너지환경부에 따르면 대기업과 금융사, 경제단체 등을 중심으로 승용차 5부제를 스스로 시행하며 탄소 배출을 줄이는 사례가 늘고 있는 것이다. 현재 약 50여 개의 민간 기업과 단체가 이러한 정책에 참여하고 있으며, 이는 단순한 선언을 넘어 실질적인 변화를 이끌어내고 있다.
+
+특히 시멘트, 정유, 석유화학 등 주요 업종의 대표 기업들은 구체적인 감축 목표를 설정하여 실행에 옮기고 있다. 해당 기업들은 지난해 대비 올해 석유 사용량을 일정 비율 줄이겠다는 계획을 제출했다. 예를 들어 특정 규모의 석유 소비량 저감은 원전을 한 달 가동해야 얻을 수 있는 양에 해당할 만큼 상당한 수준이다. 이를 위해 기업들은 불필요한 설비 가동을 제한하거나 폐열 활용 및 생산 공정의 합리적 운영 등의 방안을 마련해 실천하고 있다.
+
+또한, 개별 임직원들의 일상 속 실천도 병행된다. 직원들은 점심시간 조명 끄기, 계단 이용하기, 적정 실내 온도 준수와 같은 행동을 통해 에너지 절약을 생활화하고 있다. 기후에너지환경부는 이러한 자발적 노력이 확산될 수 있도록 관련 체계를 강화할 방침이다. 특히 목표를 달성한 기업에는 에너지 절약 시설 설치 자금을 우선 지원함으로써 민간 부문의 동참을 더욱 독려할 예정이다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 이러한, 실질적인 변화를 이끌</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 0개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 해당 없음</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 포함된 민간 기업 참여 사실, 특정 업종별 감축 계획 및 방법론, 임직원 실천 사례, 정부 지원 방침 등 주요 내용이 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 주관적인 가치 판단이나 외부 정보를 추가하지 않았으며, &#x27;단순한 선언을 넘어 실질적인 변화를 이끌어내고 있다&#x27;와 같은 문장도 원문 F3, F4의 구체적 실행 양상을 요약하는 수준으로 표현되어 정보 왜곡이 없음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;6급 수준에 부합하는 사회/경제 분야의 전문성 있는 주제이며, 다문단 구조로 구성됨. 공백 포함 약 580자로 목표 범위(500~700자) 내에 있으며, 복잡한 정책과 기술적 대응책을 논리적으로 연결함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문단은 [현황 - 세부 전략 - 개별 행동 및 향후 대책]으로 유기적으로 연결되며, 지시어와 접속사의 활용이 적절하여 정보 전개가 명확함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정부 지원 방침, 기업들의 구체적 수치(원전 가동량 비유), 다양한 실천 사례 등 추론과 분석을 위한 충분한 단서가 제공됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 집단에 대한 편향이나 민감한 정보를 포함하지 않으며 객관적인 사실 위주로 서술됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;문장 구조의 단순 반복을 피하고 &#x27;또한&#x27;, &#x27;특히&#x27; 등의 응집 장치를 사용하여 전문적이고 정교하게 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어-서술어 관계가 명확하며, 앞뒤 문맥 간 논리적 비약 없이 매끄럽게 이어짐.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;불필요하거나 감성적인 꾸밈말이 배제되었으며, 정보 전달에 필요한 형용사/부사가 적절히 사용됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 673자, 6급 목표 500~700자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 6급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+        
+      <article class="version new">
+        <div class="version-head"><h3>TOPIK 문장 경제성 + 급수 어휘 교정본</h3><span class="badge pass">AI 통과</span></div>
+        <div class="metrics">
+          <span>589자</span><span>9문장</span>
+          <span>생성 1회</span>
+          <span class="badge review">온톨로지 진단</span>
+        </div>
+        <div class="passage">민간 기업들이 에너지 절약에 자발적으로 동참하며 실질적인 변화를 이끌어내고 있다. 기후에너지환경부에 따르면 대기업과 금융사, 경제단체를 중심으로 승용차 5부제 시행이 확산되고 있으며, 2026년 4월 3일 기준 50여 개 이상의 민간 기업과 단체가 이에 참여하고 있다.
+
+석유화학 등 주요 업종의 대표 기업들은 구체적인 석유 사용량 감축 계획을 제출했다. 시멘트와 정유 분야를 포함한 50개사는 지난해 대비 올해 약 13만toe의 석유를 줄이겠다는 목표를 세웠다. 이는 약 610GWh에 해당하며, 원자력 발전소를 한 달 동안 가동해야 생산할 수 있는 양이다.
+
+해당 기업들은 목표 달성을 위해 불요불급한 설비 가동 제한, 폐열 활용 및 설비 효율 강화, 생산공정의 합리적 운전 등을 실행 수단으로 제시했다. 또한 에너지 절약 시설에 대한 투자를 조기에 시행하여 실제 소비량을 줄이는 데 집중하고 있다.
+
+임직원들 역시 점심시간 조명 끄기, 계단 이용, 적정 실내온도 준수, 카풀 및 자전거 타기 등을 생활화하며 동참하고 있다. 기후에너지환경부는 이러한 노력에 부응하여 절감 목표를 달성한 기업에 대해 에너지 절약시설 설치 자금을 우선 지원할 방침이다.</div>
+        <div class="diagnostic"><b>상투적 꾸밈 표현 탐지:</b> 이러한, 실질적인 변화를 이끌</div>
+        <div class="diagnostic"><b>급수 어휘 문제:</b> 0개 → 0개 · <b>남은 어휘:</b> 없음</div>
+        <div class="diagnostic"><b>필수 용어 예외:</b> 승용차, 에너지</div>
+        <div class="diagnostic"><b>자연스러움 후속 교정:</b> 미채택</div>
+        <details><summary>판정 근거 보기</summary><pre>{
+  &quot;ai&quot;: {
+    &quot;passed&quot;: true,
+    &quot;failed_ids&quot;: [],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-01&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료(F1~F9)에 명시된 민간 기업 참여 현황, 수치(13만toe, 610GWh), 실천 방안(설비 가동 제한 등), 지원 정책 등이 누락 없이 정확하게 반영됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-02&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원천 자료에 없는 주관적인 감상이나 외부 정보(기후 변화 영향 등)를 추가하지 않고 사실 관계 위주로 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-03&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;500~700자 내외의 분량이며, 전문 용어와 정교한 문장 구조를 갖춘 고난도 수준으로 적절히 구성됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-04&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;각 문장이 앞선 내용과 논리적으로 연결되며, &#x27;기업들의 노력 → 구체적 방법 → 임직원의 동참 및 정부 지원&#x27; 순으로 응집성 있게 전개됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-05&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;정부의 지원 방침과 기업의 자발적 참여라는 명확한 정보를 제공하여 추론 및 비판적 평가가 가능한 충분한 단서를 포함함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-06&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;특정 정치적 편향 없이 공공 정책과 산업계의 협력을 객관적인 톤으로 서술함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-07&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;동일한 표현이나 문장 구조의 불필요한 반복이 없으며, 어휘 선택이 중복되지 않고 다양하게 활용됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-08&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;모든 문장이 주어와 서술어 관계가 분명하며, 지시어(해당 기업들 등)가 가리키는 대상이 명확함.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-09&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;수식어가 정보 전달에 필요한 범위 내에서 사용되었으며, 의미 없는 감성적 수식어나 장식적 표현이 배제됨.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-10&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;단순 나열이 아닌 &#x27;현황→구체적 목표/방법→개인 차원의 실천 및 지원&#x27;이라는 논리적 흐름을 따르며 마지막 문장에서 새로운 주제를 도입하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;P-VAL-11&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;원문과의 수치·기관명 일치가 정확하며, 6급 수준에 걸맞은 전문적인 문체를 유지하고 핵심 조건이나 예외 사항이 뒤늦게 등장하지 않음.&quot;,
+        &quot;revision_instruction&quot;: &quot;&quot;
+      }
+    ]
+  },
+  &quot;ontology&quot;: {
+    &quot;policy_schema_version&quot;: 1,
+    &quot;passed&quot;: false,
+    &quot;failed_ids&quot;: [
+      &quot;O-VAL-REQUIRED-RELATIONS&quot;
+    ],
+    &quot;items&quot;: [
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-LENGTH&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;공백 포함 589자, 6급 목표 500~700자&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.&quot;,
+        &quot;policy_kind&quot;: &quot;passage_length_from_grade_requirement&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-GRADE-RESOURCE&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;목표 급수 초과·미등록 어휘 없음&quot;,
+        &quot;revision_instruction&quot;: &quot;다음 어휘를 6급 이하 등록 표현으로 바꾸세요: &quot;,
+        &quot;policy_kind&quot;: &quot;lexeme_grade_not_above_target_unless_required&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-SOURCE-TERM-USED&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: true,
+        &quot;evidence&quot;: &quot;선언된 원문 필수어를 모두 사용함&quot;,
+        &quot;revision_instruction&quot;: &quot;원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: &quot;,
+        &quot;policy_kind&quot;: &quot;required_source_term_must_be_used&quot;
+      },
+      {
+        &quot;criterion_id&quot;: &quot;O-VAL-REQUIRED-RELATIONS&quot;,
+        &quot;severity&quot;: &quot;Violation&quot;,
+        &quot;passed&quot;: false,
+        &quot;evidence&quot;: &quot;TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1&quot;,
+        &quot;revision_instruction&quot;: &quot;누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN&quot;,
+        &quot;policy_kind&quot;: &quot;passage_required_relations&quot;
+      }
+    ]
+  }
+}</pre></details>
+      </article>
+      </div>
+    </section>
+</main><script>const cards=[...document.querySelectorAll('.card')],sourceButtons=[...document.querySelectorAll('[data-source]')].filter(x=>x.tagName==='BUTTON'),gradeButtons=[...document.querySelectorAll('[data-grade]')].filter(x=>x.tagName==='BUTTON');let source='all',grade=null;function apply(){cards.forEach(c=>c.classList.toggle('hidden',!((source==='all'||c.dataset.source===source)&&(grade===null||c.dataset.grade===grade))))}sourceButtons.forEach(b=>b.onclick=()=>{source=b.dataset.source;sourceButtons.forEach(x=>x.classList.toggle('active',x===b));apply()});gradeButtons.forEach(b=>b.onclick=()=>{grade=grade===b.dataset.grade?null:b.dataset.grade;gradeButtons.forEach(x=>x.classList.toggle('active',x.dataset.grade===grade));apply()});</script></body></html>

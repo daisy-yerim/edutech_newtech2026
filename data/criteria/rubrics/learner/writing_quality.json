@@ -1,0 +1,17 @@
+{
+  "id": "learner_organization_v2",
+  "source_ids": ["MCST-KSC-2020", "TOPIK-II-WRITE", "CEFR-CV-2020", "ACTFL-WRITING-2024"],
+  "weight_policy_id": "OPS-WEIGHTS-30-30-40",
+  "version": 2,
+  "status": "provisional_pending_expert_review",
+  "label": "글의 전개 구조",
+  "purpose": "중심 생각, 논리 전개, 응집성과 요구된 담화 기능을 평가",
+  "max_score": 30,
+  "criteria": [
+    {"key":"central_idea","label":"중심 생각","weight":7,"description":"글의 중심 생각이나 결론이 명확한가","bands":{"high":"6~7: 중심 생각이 분명","mid":"3~5: 대체로 파악 가능","low":"0~2: 중심 생각이 불명확"}},
+    {"key":"logical_progression","label":"논리적 전개","weight":8,"description":"내용이 도입·근거·결론 또는 과제에 맞는 순서로 전개되는가","bands":{"high":"7~8: 전개가 명확하고 논리적","mid":"3~6: 일부 비약이나 순서 문제","low":"0~2: 전개를 파악하기 어려움"}},
+    {"key":"cohesion","label":"연결과 응집성","weight":6,"description":"문장과 문단이 담화 표지와 지시 표현으로 자연스럽게 연결되는가","bands":{"high":"5~6: 연결이 자연스러움","mid":"2~4: 일부 단절 또는 반복","low":"0~1: 연결이 거의 없음"}},
+    {"key":"task_function","label":"요구 기능 수행","weight":6,"description":"과제에서 요구한 설명·비교·주장·제안 등 실제 의사소통 기능을 수행하는가","bands":{"high":"5~6: 요구 기능을 명확히 수행","mid":"2~4: 부분적으로 수행","low":"0~1: 요구 기능을 수행하지 못함"}},
+    {"key":"completeness","label":"글의 완결성","weight":3,"description":"글이 중단되지 않고 하나의 완결된 답안으로 마무리되는가","bands":{"high":"3: 완결됨","mid":"1~2: 마무리가 약함","low":"0: 미완성"}}
+  ]
+}

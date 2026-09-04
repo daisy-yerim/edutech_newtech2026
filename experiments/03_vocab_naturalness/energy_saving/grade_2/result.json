@@ -1,0 +1,1910 @@
+{
+  "schema_version": 1,
+  "experiment": "topik_economy_grade_vocabulary_repair",
+  "ontology_mode": "diagnostic",
+  "source_key": "energy_saving",
+  "grade": 2,
+  "text_type": "안내문",
+  "essential_lexemes": [],
+  "required_keyword": "전기",
+  "source_terms": [
+    "전기"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "passage_status": "NEEDS_HUMAN_REVIEW",
+  "question_status": "NEEDS_REGENERATION",
+  "rounds_used": 4,
+  "generated_passage": "우리 회사는 매달 아주 많은 양의 전기를 사용하고 있습니다. 그래서 모든 직원은 평소에 전기를 아껴야 합니다. 먼저 직원들은 사무실을 나갈 때마다 반드시 불을 꺼야 합니다. 그리고 점심시간에는 쓰는 컴퓨터도 꼭 꺼야 합니다. 이렇게 하면 사무실에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 함께 노력하면 전기 절약이 잘 됩니다.",
+  "final_ai_validation": {
+    "passed": false,
+    "failed_ids": [
+      "P-VAL-VOCAB"
+    ],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "핵심어 '전기'를 활용하여 전기를 아끼는 행동(불 끄기, 컴퓨터 끄기)을 올바르게 기술하였으며, 정전/고장 등의 부차적 상황으로 변질되지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료의 허용 범위 내에서 일상적인 절약 행동만을 다루었으며, 근거 없는 사실을 단정적으로 포함하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "2급 수준에 적합한 어휘와 문법을 사용함. 한 문장에 핵심 정보 하나를 배치하고, 복잡한 관형절이나 나열을 피하며 안내문 형식을 취함. 글자 수 또한 목표 범위 내임.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "[상황: 많은 전기 사용] → [행동: 불/컴퓨터 끄기] → [결과: 절약 가능]의 선형 구조가 명확하며, 각 문장이 앞선 내용의 구체화나 결과로 자연스럽게 연결됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "안내문의 성격이 분명하여 '무엇을 해야 하는지'에 대한 정보를 파악하기 용이함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 문화적 편향이나 민감한 정보 없이 보편적인 공공 서비스(사무실 에티켓) 상황을 다룸.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "반복되는 표현이나 어려운 동의어 대신 쉬운 대용 표현을 사용하여 난이도를 조절함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확하고 지시 대상이 모호하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "1~2급 범위 내에서 허용되는 수식어를 사용하였으며, 불필요하게 화려하거나 의미 없는 꾸밈말은 배제됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-10",
+        "passed": true,
+        "evidence": "단순 나열이 아니라 '전기 절약'이라는 하나의 주제를 향해 내용이 유기적으로 흐르며 마지막에 새로운 주제로 튀지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-11",
+        "passed": true,
+        "evidence": "한국어 어휘 결합이 자연스러우며(예: 전기를 아끼다, 꺼야 합니다), 원문 의도인 '아끼는 행동'과 일치함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-SOURCE-KEYWORD",
+        "passed": true,
+        "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+        "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB",
+        "passed": false,
+        "evidence": "등급 검토 참고 어휘: 실천(4급), 가능(3급), 따라서(3급), 또한(3급), 아끼다(3급), 양(3급), 절약(3급), 효과(3급), 매달(미등록 내용어), 한마음(미등록 내용어)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      },
+      {
+        "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+        "passed": true,
+        "evidence": "문장 수 6개(허용 4~7개)",
+        "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-GRADE-RESOURCE",
+      "O-VAL-REQUIRED-RELATIONS"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "공백 포함 187자, 2급 목표 180~260자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "아끼다(3급), 양(3급), 절약(3급), 매달(미등록), 먼저(미등록)",
+        "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 양(3급), 절약(3급), 매달(미등록), 먼저(미등록)",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "reading_items": [
+    {
+      "question_type": "main_idea",
+      "question": "이 글의 중심 생각으로 가장 알맞은 것은 무엇입니까?",
+      "choices": [
+        "사무실에서 전기를 아끼기 위해 모두가 노력해야 한다.",
+        "점심시간에는 컴퓨터를 꺼야 하는 이유를 설명한다.",
+        "전기 요금이 많이 나올 때 대처하는 방법을 알려준다.",
+        "직원들이 사무실을 나갈 때 주의할 점을 말한다."
+      ],
+      "answer": "사무실에서 전기를 아끼기 위해 모두가 노력해야 한다.",
+      "explanation": "지문의 마지막 문장에서 '우리 모두가 한마음으로 함께 노력한다면 효과적인 전기 절약이 가능해질 것입니다'라고 언급하며 공동의 노력을 강조하고 있습니다."
+    },
+    {
+      "question_type": "content_match",
+      "question": "글의 내용과 같은 것은 무엇입니까?",
+      "choices": [
+        "점심시간에도 컴퓨터를 계속 켜 두어야 합니다.",
+        "사무실을 나갈 때 불을 끄는 것이 중요합니다.",
+        "회사는 매달 적은 양의 전기를 사용하고 있습니다.",
+        "전기는 가끔씩만 아껴도 충분히 절약할 수 있습니다."
+      ],
+      "answer": "사무실을 나갈 때 불을 끄는 것이 중요합니다.",
+      "explanation": "지문에서 '우선 직원들은 사무실을 나갈 때마다 반드시 불을 꺼야 합니다.'라고 명시되어 있습니다."
+    }
+  ],
+  "question_checks": [
+    {
+      "question_type": "main_idea",
+      "passed": true,
+      "failed_ids": []
+    },
+    {
+      "question_type": "content_match",
+      "passed": true,
+      "failed_ids": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "우리 건물에서는 전기를 절약하기 위해 몇 가지 약속을 꼭 지켜야 합니다. 먼저 아무도 없는 빈 방에 불이 켜져 있으면 바로 꺼 주세요. 그리고 사용하지 않는 가전제품의 전선도 뽑아 주시기 바랍니다. 낮에는 창문을 활짝 열어서 햇빛을 충분히 받으세요. 이렇게 하면 우리 건물의 전체적인 전기 사용량을 줄일 수 있습니다. 우리 모두가 힘을 합쳐 매일 전기 절약을 실천해 주세요.",
+      "chars": 209,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "실천",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "실천"
+            ]
+          },
+          {
+            "word": "가전제품",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가전제품"
+            ]
+          },
+          {
+            "word": "위하다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "위하"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          },
+          {
+            "word": "충분히",
+            "grade": 3,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "충분히"
+            ]
+          },
+          {
+            "word": "합치다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "합치"
+            ]
+          },
+          {
+            "word": "활짝",
+            "grade": 3,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "활짝"
+            ]
+          }
+        ],
+        "violation_count": 7,
+        "known_token_count": 33,
+        "unknown_tokens": [
+          "몇",
+          "먼저",
+          "아무",
+          "전선",
+          "사용량"
+        ],
+        "unknown_token_count": 5,
+        "unknown_items": [
+          {
+            "word": "몇",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "전선",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "몇",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "전선",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 5,
+        "blocked_unknown_nouns": [
+          {
+            "word": "몇",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "전선",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 5,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미(전기 절약 행동)를 정확히 반영하고 있으며, 정전이나 고장이 아닌 일상적인 실천 사항으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 외부 사실을 단정적으로 포함하지 않고 안내문의 목적에 부합하는 내용만 기술함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 짧은 문장 구조를 사용하며, 한 문장에 하나의 정보를 담아 가독성이 높음. 글자 수 또한 목표 범위 내임.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "'우리 건물'이라는 공간에서 '절약을 위한 약속'이라는 상황이 제시되고, 구체적인 방법들(불 끄기, 전선 뽑기, 창문 열기)과 그 결과로 이어지는 선형적 흐름이 명확함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문 형식으로서 무엇을 해야 하는지(행동 지침)가 명시되어 있어 읽기 유형의 의도를 파악하기 충분함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화 편향이나 민감한 정보 없이 공공성 있는 안내문을 구성함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현 없이 다양한 행동 양식을 나열하였으며, 어려운 동의어 대신 쉬운 대용 표현을 활용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어와 서술어 관계가 분명하며, 앞뒤 문장의 연결이 자연스러움.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "2급 수준에서 허용되는 수식어를 사용했으며, 불필요하게 화려하거나 모호한 꾸밈말은 배제됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순히 항목을 나열하는 것이 아니라 '절약 약속'이라는 주제 아래 방법과 결과를 논리적으로 묶어서 전달하고 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 실생활에서 흔히 쓰이는 결합(전선 뽑기, 창문 열기 등)을 사용하여 어색함이 없으며 원문의 핵심 의미를 왜곡 없이 반영함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 실천(4급), 가전제품(3급), 위하다(3급), 절약(3급), 충분히(3급), 합치다(3급), 활짝(3급), 몇(미등록 내용어), 먼저(미등록 내용어), 아무(미등록 내용어), 전선(미등록 내용어), 사용량(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 6개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 209자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "실천(4급), 가전제품(3급), 위하다(3급), 절약(3급), 충분히(3급), 합치다(3급), 활짝(3급), 몇(미등록), 먼저(미등록), 아무(미등록), 전선(미등록), 사용량(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 실천(4급), 가전제품(3급), 위하다(3급), 절약(3급), 충분히(3급), 합치다(3급), 활짝(3급), 몇(미등록), 먼저(미등록), 아무(미등록), 전선(미등록), 사용량(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 2,
+      "passage": "우리 회사는 환경을 보호하기 위해서 전기를 아껴야 합니다. 전기를 적게 쓰면 매달 내는 전기 요금을 줄일 수 있기 때문입니다. 따라서 모든 직원은 퇴근할 때 반드시 불을 꺼야 합니다. 또한 사람이 없는 빈 방에 있는 에어컨도 꼭 꺼야 합니다. 우리 모두가 한마음으로 함께 노력하여 회사에서 전기를 절약합시다. 우리의 작은 실천이 소중한 환경을 지키고 비용을 줄이는 데 큰 도움이 됩니다.",
+      "chars": 216,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "실천",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "실천"
+            ]
+          },
+          {
+            "word": "환경",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "환경"
+            ]
+          },
+          {
+            "word": "따라서",
+            "grade": 3,
+            "part_of_speech": "MAJ",
+            "tokens": [
+              "따라서"
+            ]
+          },
+          {
+            "word": "또한",
+            "grade": 3,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "또한"
+            ]
+          },
+          {
+            "word": "보호",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "보호"
+            ]
+          },
+          {
+            "word": "비용",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "비용"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "위하다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "위하"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "violation_count": 9,
+        "known_token_count": 42,
+        "unknown_tokens": [
+          "매달",
+          "한마음"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "한마음",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "한마음",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "한마음",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '전기'를 활용하여 전기를 아끼고 절약하는 행동(환경 보호, 비용 절감)을 주제로 일관되게 서술함. 정전이나 고장 등의 부차적인 상황으로 변질되지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료의 허용 범위 내에서 환경 보호와 비용 절감을 위한 전기 절약이라는 사실만을 다루고 있으며, 근거 없는 외부 정보나 수치를 단정적으로 포함하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 문법을 사용함. 한 문장에 핵심 정보를 하나씩 배치하였으며, 복잡한 관형절이나 명사절 중첩이 없음. 안내문 형식에 맞는 내용 구성임.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "상황(환경/비용) → 이유(요금 감소) → 구체적 행동(불 끄기, 에어컨 끄기) → 결론(협조 요청)으로 이어지는 선형 구조가 명확하며, 각 문장이 앞 문장의 인과관계나 목적을 자연스럽게 이어받음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문의 성격상 '전기를 아껴야 하는지', '무엇을 꺼야 하는지' 등 읽기 목표를 달성하기 위한 명시적인 정보들이 충분히 제공됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향된 시각 없이 공공의 이익(환경 보호, 비용 절감)이라는 보편적인 주제를 다룸.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현이나 불필요한 동의어를 사용하지 않았으며, 쉬운 단어로 의미를 전달함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명함. 지시 대상이 모호하거나 비약이 없는 매끄러운 흐름임.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 범위 내에서 허용되는 수식어를 적절히 활용하였으며, 과도한 감정적 호소나 복잡한 꾸밈말은 배제됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '전기 절약'이라는 하나의 중심 내용을 바탕으로 이유와 구체적 행동을 연결하여 구성함. 마지막 문장에서 새로운 주제로 전환되지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 실생활에서 자연스러운 어휘 결합(불을 끄다, 에어컨을 끄다 등)을 사용하며, 원문 의도인 '아끼는 행위'를 정확하게 반영함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 실천(4급), 환경(4급), 따라서(3급), 또한(3급), 보호(3급), 비용(3급), 아끼다(3급), 위하다(3급), 절약(3급), 매달(미등록 내용어), 한마음(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 6개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 216자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "실천(4급), 환경(4급), 따라서(3급), 또한(3급), 보호(3급), 비용(3급), 아끼다(3급), 위하다(3급), 절약(3급), 매달(미등록), 한마음(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 실천(4급), 환경(4급), 따라서(3급), 또한(3급), 보호(3급), 비용(3급), 아끼다(3급), 위하다(3급), 절약(3급), 매달(미등록), 한마음(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 3,
+      "passage": "우리 회사는 소중한 에너지를 보호하고 전기를 아끼기 위해 노력합니다. 그래서 모든 직원은 매일 점심시간에 사무실 불을 꼭 꺼야 합니다. 또한 저녁에 퇴근할 때도 사용하던 전기 물건들을 모두 꺼야 합니다. 이렇게 생활 속에서 작은 행동을 실천하면 회사에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 약속을 잘 지켜서 함께 에너지를 절약합시다.",
+      "chars": 193,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "실천",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "실천"
+            ]
+          },
+          {
+            "word": "에너지",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "에너지"
+            ]
+          },
+          {
+            "word": "또한",
+            "grade": 3,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "또한"
+            ]
+          },
+          {
+            "word": "보호",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "보호"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "위하다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "위하"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "violation_count": 7,
+        "known_token_count": 40,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미(전기를 아끼는 행동)를 정확히 반영하였으며, 정전이나 고장 등의 부차적인 상황을 포함하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료의 범위를 벗어난 사실을 단정하거나 허구의 수치를 제시하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 짧은 문장 구조를 사용함. 안내문 형식으로 구성되었으며 정보 밀도가 낮고 명확함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "상황(에너지 보호/절약 목표) → 행동(점심/퇴근 시 불 끄기) → 결과(전력 절감 및 약속 실천)로 이어지는 선형 흐름이 분명하며, 대명사와 연결어가 자연스럽게 앞 문장을 받아줌.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문의 목적과 구체적인 행동 지침이 명시되어 있어 읽기 기능을 수행하기 충분함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향된 내용 없이 보편적인 공공 서비스/사무실 에티켓 상황을 다룸.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현이나 어려운 동의어 대신 '꺼야 합니다', '아끼기 위해' 등 쉬운 어휘와 구조를 사용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어-서술어 관계가 명확하며, 의미 전달에 모순이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 범위 내에서 허용되는 수식어를 사용하여 문장의 완성도를 높였으며 불필요한 꾸밈말은 배제됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 하나의 목적(전기 절약) 아래 행동과 결과를 논리적으로 연결하여 구성함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 실생활에서 자연스러운 결합(점심시간, 퇴근할 때, 약속을 지키다 등)을 활용하였으며 원문 의도와 일치함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 실천(4급), 에너지(4급), 또한(3급), 보호(3급), 아끼다(3급), 위하다(3급), 절약(3급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 5개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 193자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "실천(4급), 에너지(4급), 또한(3급), 보호(3급), 아끼다(3급), 위하다(3급), 절약(3급)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 실천(4급), 에너지(4급), 또한(3급), 보호(3급), 아끼다(3급), 위하다(3급), 절약(3급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 4,
+      "passage": "우리 회사는 매달 아주 많은 양의 전기를 사용하고 있습니다. 따라서 모든 직원은 평소에 전기를 아껴야 합니다. 우선 직원들은 사무실을 나갈 때마다 반드시 불을 꺼야 합니다. 또한 점심시간에는 사용하는 컴퓨터도 꼭 꺼야 합니다. 이렇게 실천하면 사무실에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 한마음으로 함께 노력한다면 효과적인 전기 절약이 가능해질 것입니다.",
+      "chars": 206,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "실천",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "실천"
+            ]
+          },
+          {
+            "word": "가능",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가능"
+            ]
+          },
+          {
+            "word": "따라서",
+            "grade": 3,
+            "part_of_speech": "MAJ",
+            "tokens": [
+              "따라서"
+            ]
+          },
+          {
+            "word": "또한",
+            "grade": 3,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "또한"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          },
+          {
+            "word": "효과",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "효과"
+            ]
+          }
+        ],
+        "violation_count": 8,
+        "known_token_count": 38,
+        "unknown_tokens": [
+          "매달",
+          "한마음"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "한마음",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "한마음",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "한마음",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '전기'를 활용하여 전기를 아끼는 행동(불 끄기, 컴퓨터 끄기)을 올바르게 기술하였으며, 정전/고장 등의 부차적 상황으로 변질되지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료의 허용 범위 내에서 일상적인 절약 행동만을 다루었으며, 근거 없는 사실을 단정적으로 포함하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 문법을 사용함. 한 문장에 핵심 정보 하나를 배치하고, 복잡한 관형절이나 나열을 피하며 안내문 형식을 취함. 글자 수 또한 목표 범위 내임.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[상황: 많은 전기 사용] → [행동: 불/컴퓨터 끄기] → [결과: 절약 가능]의 선형 구조가 명확하며, 각 문장이 앞선 내용의 구체화나 결과로 자연스럽게 연결됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문의 성격이 분명하여 '무엇을 해야 하는지'에 대한 정보를 파악하기 용이함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보 없이 보편적인 공공 서비스(사무실 에티켓) 상황을 다룸.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현이나 어려운 동의어 대신 쉬운 대용 표현을 사용하여 난이도를 조절함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확하고 지시 대상이 모호하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 범위 내에서 허용되는 수식어를 사용하였으며, 불필요하게 화려하거나 의미 없는 꾸밈말은 배제됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '전기 절약'이라는 하나의 주제를 향해 내용이 유기적으로 흐르며 마지막에 새로운 주제로 튀지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 어휘 결합이 자연스러우며(예: 전기를 아끼다, 꺼야 합니다), 원문 의도인 '아끼는 행동'과 일치함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 실천(4급), 가능(3급), 따라서(3급), 또한(3급), 아끼다(3급), 양(3급), 절약(3급), 효과(3급), 매달(미등록 내용어), 한마음(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 6개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 206자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "실천(4급), 가능(3급), 따라서(3급), 또한(3급), 아끼다(3급), 양(3급), 절약(3급), 효과(3급), 매달(미등록), 한마음(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 실천(4급), 가능(3급), 따라서(3급), 또한(3급), 아끼다(3급), 양(3급), 절약(3급), 효과(3급), 매달(미등록), 한마음(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    }
+  ],
+  "generated_at": "2026-08-27T01:01:18.865060+00:00",
+  "vocabulary_repair": {
+    "before_passage": "우리 회사는 매달 아주 많은 양의 전기를 사용하고 있습니다. 따라서 모든 직원은 평소에 전기를 아껴야 합니다. 우선 직원들은 사무실을 나갈 때마다 반드시 불을 꺼야 합니다. 또한 점심시간에는 사용하는 컴퓨터도 꼭 꺼야 합니다. 이렇게 실천하면 사무실에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 한마음으로 함께 노력한다면 효과적인 전기 절약이 가능해질 것입니다.",
+    "after_passage": "우리 회사는 매달 아주 많은 양의 전기를 사용하고 있습니다. 그래서 모든 직원은 평소에 전기를 아껴야 합니다. 먼저 직원들은 사무실을 나갈 때마다 반드시 불을 꺼야 합니다. 그리고 점심시간에는 쓰는 컴퓨터도 꼭 꺼야 합니다. 이렇게 하면 사무실에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 함께 노력하면 전기 절약이 잘 됩니다.",
+    "before_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 2,
+      "violations": [
+        {
+          "word": "실천",
+          "grade": 4,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "실천"
+          ]
+        },
+        {
+          "word": "가능",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "가능"
+          ]
+        },
+        {
+          "word": "따라서",
+          "grade": 3,
+          "part_of_speech": "MAJ",
+          "tokens": [
+            "따라서"
+          ]
+        },
+        {
+          "word": "또한",
+          "grade": 3,
+          "part_of_speech": "MAG",
+          "tokens": [
+            "또한"
+          ]
+        },
+        {
+          "word": "아끼다",
+          "grade": 3,
+          "part_of_speech": "VV",
+          "tokens": [
+            "아끼"
+          ]
+        },
+        {
+          "word": "양",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "양"
+          ]
+        },
+        {
+          "word": "절약",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "절약"
+          ]
+        },
+        {
+          "word": "효과",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "효과"
+          ]
+        }
+      ],
+      "violation_count": 8,
+      "known_token_count": 34,
+      "unknown_tokens": [
+        "매달",
+        "한마음"
+      ],
+      "unknown_token_count": 2,
+      "unknown_items": [
+        {
+          "word": "매달",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "한마음",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_tokens": [
+        {
+          "word": "매달",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "한마음",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_token_count": 2,
+      "blocked_unknown_nouns": [
+        {
+          "word": "매달",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "한마음",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_noun_count": 2,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "after_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 2,
+      "violations": [
+        {
+          "word": "아끼다",
+          "grade": 3,
+          "part_of_speech": "VV",
+          "tokens": [
+            "아끼"
+          ]
+        },
+        {
+          "word": "양",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "양"
+          ]
+        },
+        {
+          "word": "절약",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "절약"
+          ]
+        }
+      ],
+      "violation_count": 3,
+      "known_token_count": 33,
+      "unknown_tokens": [
+        "매달",
+        "먼저"
+      ],
+      "unknown_token_count": 2,
+      "unknown_items": [
+        {
+          "word": "매달",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "먼저",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_tokens": [
+        {
+          "word": "매달",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "먼저",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_token_count": 2,
+      "blocked_unknown_nouns": [
+        {
+          "word": "매달",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "먼저",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_noun_count": 2,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "history": [
+      {
+        "round": 1,
+        "before_chars": 206,
+        "after_chars": 187,
+        "before_violations": [
+          {
+            "word": "실천",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "실천"
+            ]
+          },
+          {
+            "word": "가능",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가능"
+            ]
+          },
+          {
+            "word": "따라서",
+            "grade": 3,
+            "part_of_speech": "MAJ",
+            "tokens": [
+              "따라서"
+            ]
+          },
+          {
+            "word": "또한",
+            "grade": 3,
+            "part_of_speech": "MAG",
+            "tokens": [
+              "또한"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          },
+          {
+            "word": "효과",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "효과"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "한마음",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "after_blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 10->5 감소"
+      },
+      {
+        "round": 2,
+        "before_chars": 187,
+        "after_chars": 371,
+        "before_violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "교정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "교정"
+            ]
+          },
+          {
+            "word": "지문",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "지문"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "after_blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "매월",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "accepted": false,
+        "acceptance_reason": "어휘 문제 미감소(5->8)"
+      },
+      {
+        "round": 3,
+        "before_chars": 187,
+        "after_chars": 376,
+        "before_violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "교정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "교정"
+            ]
+          },
+          {
+            "word": "지문",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "지문"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "after_blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "accepted": false,
+        "acceptance_reason": "어휘 문제 미감소(5->7)"
+      }
+    ],
+    "naturalness_revision": {
+      "attempted": true,
+      "accepted": false,
+      "reason": "등급 초과 어휘 수가 교정 전보다 증가함",
+      "before_passage": "우리 회사는 매달 아주 많은 양의 전기를 사용하고 있습니다. 그래서 모든 직원은 평소에 전기를 아껴야 합니다. 먼저 직원들은 사무실을 나갈 때마다 반드시 불을 꺼야 합니다. 그리고 점심시간에는 쓰는 컴퓨터도 꼭 꺼야 합니다. 이렇게 하면 사무실에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 함께 노력하면 전기 절약이 잘 됩니다.",
+      "candidate_passage": "우리 회사는 매달 많은 양의 전기를 사용합니다. 그래서 모든 직원은 평소에 전기를 아껴야 합니다. 먼저 직원들은 사무실을 나갈 때 반드시 불을 꺼야 합니다. 그리고 점심시간에는 사용하는 컴퓨터도 모두 꺼야 합니다. 이렇게 하면 사무실에서 전기를 훨씬 적게 쓸 수 있습니다. 우리 모두가 함께 노력해서 전기 절약에 참여합시다.",
+      "content_anchor_overlap": 0.957,
+      "before_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "violation_count": 3,
+        "known_token_count": 33,
+        "unknown_tokens": [
+          "매달",
+          "먼저"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "candidate_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "참여",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "참여"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "양",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "양"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          }
+        ],
+        "violation_count": 4,
+        "known_token_count": 30,
+        "unknown_tokens": [
+          "매달",
+          "먼저"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "매달",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      }
+    },
+    "naturalness_accepted": false
+  }
+}

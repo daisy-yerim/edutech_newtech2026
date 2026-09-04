@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "experiment": "ontology_in_validation_loop",
+  "source_key": "energy_saving",
+  "grade": 6,
+  "text_type": "전문 자료",
+  "essential_lexemes": [
+    "에너지"
+  ],
+  "required_keyword": "",
+  "source_terms": [
+    "에너지"
+  ],
+  "status": "PASS",
+  "rounds_used": 1,
+  "generated_passage": "최근 기후 위기에 대응하기 위해 민간 기업들이 에너지 절약에 자발적으로 동참하는 움직임이 확산되고 있다. 기후에너지환경부에 따르면 대기업과 금융사, 경제단체 등을 중심으로 승용차 5부제를 스스로 시행하며 탄소 배출을 줄이는 사례가 늘고 있는 것이다. 현재 약 50여 개의 민간 기업과 단체가 이러한 정책에 참여하고 있으며, 이는 단순한 선언을 넘어 실질적인 변화를 이끌어내고 있다.\n\n특히 시멘트, 정유, 석유화학 등 주요 업종의 대표 기업들은 구체적인 감축 목표를 설정하여 실행에 옮기고 있다. 해당 기업들은 지난해 대비 올해 석유 사용량을 일정 비율 줄이겠다는 계획을 제출했다. 예를 들어 특정 규모의 석유 소비량 저감은 원전을 한 달 가동해야 얻을 수 있는 양에 해당할 만큼 상당한 수준이다. 이를 위해 기업들은 불필요한 설비 가동을 제한하거나 폐열 활용 및 생산 공정의 합리적 운영 등의 방안을 마련해 실천하고 있다.\n\n또한, 개별 임직원들의 일상 속 실천도 병행된다. 직원들은 점심시간 조명 끄기, 계단 이용하기, 적정 실내 온도 준수와 같은 행동을 통해 에너지 절약을 생활화하고 있다. 기후에너지환경부는 이러한 자발적 노력이 확산될 수 있도록 관련 체계를 강화할 방침이다. 특히 목표를 달성한 기업에는 에너지 절약 시설 설치 자금을 우선 지원함으로써 민간 부문의 동참을 더욱 독려할 예정이다.",
+  "final_ai_validation": {
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료(F1~F9)에 포함된 민간 기업 참여 사실, 특정 업종별 감축 계획 및 방법론, 임직원 실천 사례, 정부 지원 방침 등 주요 내용이 정확하게 반영됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료에 없는 주관적인 가치 판단이나 외부 정보를 추가하지 않았으며, '단순한 선언을 넘어 실질적인 변화를 이끌어내고 있다'와 같은 문장도 원문 F3, F4의 구체적 실행 양상을 요약하는 수준으로 표현되어 정보 왜곡이 없음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "6급 수준에 부합하는 사회/경제 분야의 전문성 있는 주제이며, 다문단 구조로 구성됨. 공백 포함 약 580자로 목표 범위(500~700자) 내에 있으며, 복잡한 정책과 기술적 대응책을 논리적으로 연결함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "각 문단은 [현황 - 세부 전략 - 개별 행동 및 향후 대책]으로 유기적으로 연결되며, 지시어와 접속사의 활용이 적절하여 정보 전개가 명확함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "정부 지원 방침, 기업들의 구체적 수치(원전 가동량 비유), 다양한 실천 사례 등 추론과 분석을 위한 충분한 단서가 제공됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 집단에 대한 편향이나 민감한 정보를 포함하지 않으며 객관적인 사실 위주로 서술됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "문장 구조의 단순 반복을 피하고 '또한', '특히' 등의 응집 장치를 사용하여 전문적이고 정교하게 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 주어-서술어 관계가 명확하며, 앞뒤 문맥 간 논리적 비약 없이 매끄럽게 이어짐.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "불필요하거나 감성적인 꾸밈말이 배제되었으며, 정보 전달에 필요한 형용사/부사가 적절히 사용됨.",
+        "revision_instruction": ""
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "공백 포함 673자, 6급 목표 500~700자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "목표 급수 초과·미등록 어휘 없음",
+        "revision_instruction": "다음 어휘를 6급 이하 등록 표현으로 바꾸세요: ",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "최근 기후 위기에 대응하기 위해 민간 기업들이 에너지 절약에 자발적으로 동참하는 움직임이 확산되고 있다. 기후에너지환경부에 따르면 대기업과 금융사, 경제단체 등을 중심으로 승용차 5부제를 스스로 시행하며 탄소 배출을 줄이는 사례가 늘고 있는 것이다. 현재 약 50여 개의 민간 기업과 단체가 이러한 정책에 참여하고 있으며, 이는 단순한 선언을 넘어 실질적인 변화를 이끌어내고 있다.\n\n특히 시멘트, 정유, 석유화학 등 주요 업종의 대표 기업들은 구체적인 감축 목표를 설정하여 실행에 옮기고 있다. 해당 기업들은 지난해 대비 올해 석유 사용량을 일정 비율 줄이겠다는 계획을 제출했다. 예를 들어 특정 규모의 석유 소비량 저감은 원전을 한 달 가동해야 얻을 수 있는 양에 해당할 만큼 상당한 수준이다. 이를 위해 기업들은 불필요한 설비 가동을 제한하거나 폐열 활용 및 생산 공정의 합리적 운영 등의 방안을 마련해 실천하고 있다.\n\n또한, 개별 임직원들의 일상 속 실천도 병행된다. 직원들은 점심시간 조명 끄기, 계단 이용하기, 적정 실내 온도 준수와 같은 행동을 통해 에너지 절약을 생활화하고 있다. 기후에너지환경부는 이러한 자발적 노력이 확산될 수 있도록 관련 체계를 강화할 방침이다. 특히 목표를 달성한 기업에는 에너지 절약 시설 설치 자금을 우선 지원함으로써 민간 부문의 동참을 더욱 독려할 예정이다.",
+      "chars": 673,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 6,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 130,
+        "unknown_tokens": [
+          "자발",
+          "환경부",
+          "금융사",
+          "부제",
+          "스스로",
+          "탄소",
+          "현재",
+          "이러",
+          "정유",
+          "구체",
+          "사용량",
+          "저감",
+          "원전",
+          "있다",
+          "마련",
+          "임직원",
+          "독려"
+        ],
+        "unknown_token_count": 17,
+        "unknown_items": [
+          {
+            "word": "자발",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "환경부",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "금융사",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "부제",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "스스로",
+            "part_of_speech": "MAG",
+            "policy": "record_only"
+          },
+          {
+            "word": "탄소",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "현재",
+            "part_of_speech": "MAG",
+            "policy": "record_only"
+          },
+          {
+            "word": "이러",
+            "part_of_speech": "XR",
+            "policy": "record_only"
+          },
+          {
+            "word": "정유",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "구체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "저감",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "원전",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "마련",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "임직원",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "독려",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1~F9)에 포함된 민간 기업 참여 사실, 특정 업종별 감축 계획 및 방법론, 임직원 실천 사례, 정부 지원 방침 등 주요 내용이 정확하게 반영됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 주관적인 가치 판단이나 외부 정보를 추가하지 않았으며, '단순한 선언을 넘어 실질적인 변화를 이끌어내고 있다'와 같은 문장도 원문 F3, F4의 구체적 실행 양상을 요약하는 수준으로 표현되어 정보 왜곡이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "6급 수준에 부합하는 사회/경제 분야의 전문성 있는 주제이며, 다문단 구조로 구성됨. 공백 포함 약 580자로 목표 범위(500~700자) 내에 있으며, 복잡한 정책과 기술적 대응책을 논리적으로 연결함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "각 문단은 [현황 - 세부 전략 - 개별 행동 및 향후 대책]으로 유기적으로 연결되며, 지시어와 접속사의 활용이 적절하여 정보 전개가 명확함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "정부 지원 방침, 기업들의 구체적 수치(원전 가동량 비유), 다양한 실천 사례 등 추론과 분석을 위한 충분한 단서가 제공됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 집단에 대한 편향이나 민감한 정보를 포함하지 않으며 객관적인 사실 위주로 서술됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "문장 구조의 단순 반복을 피하고 '또한', '특히' 등의 응집 장치를 사용하여 전문적이고 정교하게 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어-서술어 관계가 명확하며, 앞뒤 문맥 간 논리적 비약 없이 매끄럽게 이어짐.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "불필요하거나 감성적인 꾸밈말이 배제되었으며, 정보 전달에 필요한 형용사/부사가 적절히 사용됨.",
+            "revision_instruction": ""
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 673자, 6급 목표 500~700자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "목표 급수 초과·미등록 어휘 없음",
+            "revision_instruction": "다음 어휘를 6급 이하 등록 표현으로 바꾸세요: ",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-08-12T02:34:05.659377+00:00"
+}

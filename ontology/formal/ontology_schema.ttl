@@ -1,0 +1,72 @@
+@prefix kl: <https://example.org/korean-learning/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kl:KoreanLearningOntology a owl:Ontology ; rdfs:label "한국어 교육·평가 온톨로지"@ko .
+
+kl:EducationalEntity a owl:Class ; rdfs:subClassOf owl:Thing .
+kl:CurriculumEntity a owl:Class ; rdfs:subClassOf kl:EducationalEntity .
+kl:Grade a owl:Class ; rdfs:subClassOf kl:CurriculumEntity .
+kl:Requirement a owl:Class ; rdfs:subClassOf kl:CurriculumEntity .
+kl:ReadingFocus a owl:Class ; rdfs:subClassOf kl:CurriculumEntity .
+kl:Topic a owl:Class ; rdfs:subClassOf kl:CurriculumEntity .
+kl:TextType a owl:Class ; rdfs:subClassOf kl:CurriculumEntity .
+kl:LanguageFunction a owl:Class ; rdfs:subClassOf kl:CurriculumEntity .
+kl:LanguageResource a owl:Class ; rdfs:subClassOf kl:EducationalEntity .
+kl:LexicalResource a owl:Class ; rdfs:subClassOf kl:LanguageResource .
+kl:Vocabulary a owl:Class ; rdfs:subClassOf kl:LexicalResource .
+kl:Lexeme a owl:Class ; rdfs:subClassOf kl:LexicalResource .
+kl:Grammar a owl:Class ; rdfs:subClassOf kl:LanguageResource .
+kl:LearningResource a owl:Class ; rdfs:subClassOf kl:EducationalEntity .
+kl:Passage a owl:Class ; rdfs:subClassOf kl:LearningResource .
+kl:PublishedTask a owl:Class ; rdfs:subClassOf kl:LearningResource .
+kl:AssessmentEntity a owl:Class ; rdfs:subClassOf kl:EducationalEntity .
+kl:ReadingItem a owl:Class ; rdfs:subClassOf kl:AssessmentEntity .
+kl:QuestionType a owl:Class ; rdfs:subClassOf kl:AssessmentEntity .
+kl:RubricCriterion a owl:Class ; rdfs:subClassOf kl:AssessmentEntity .
+kl:EvidenceEntity a owl:Class ; rdfs:subClassOf kl:EducationalEntity .
+kl:EvidenceSource a owl:Class ; rdfs:subClassOf kl:EvidenceEntity .
+kl:SourceDocument a owl:Class ; rdfs:subClassOf kl:EvidenceEntity .
+kl:EvidenceArea a owl:Class ; rdfs:subClassOf kl:EvidenceEntity .
+
+kl:REGISTERED_AT_GRADE a owl:ObjectProperty ; rdfs:domain kl:LanguageResource ; rdfs:range kl:Grade ; owl:inverseOf kl:HAS_REGISTERED_RESOURCE .
+kl:HAS_REGISTERED_RESOURCE a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:LanguageResource ; owl:inverseOf kl:REGISTERED_AT_GRADE .
+kl:TARGETS_GRADE a owl:ObjectProperty ; rdfs:domain kl:LearningResource ; rdfs:range kl:Grade ; owl:inverseOf kl:IS_TARGET_OF .
+kl:IS_TARGET_OF a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:LearningResource ; owl:inverseOf kl:TARGETS_GRADE .
+kl:HAS_REQUIREMENT a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:Requirement ; owl:inverseOf kl:REQUIREMENT_OF .
+kl:REQUIREMENT_OF a owl:ObjectProperty ; rdfs:domain kl:Requirement ; rdfs:range kl:Grade ; owl:inverseOf kl:HAS_REQUIREMENT .
+kl:HAS_READING_FOCUS a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:ReadingFocus ; owl:inverseOf kl:READING_FOCUS_OF .
+kl:READING_FOCUS_OF a owl:ObjectProperty ; rdfs:domain kl:ReadingFocus ; rdfs:range kl:Grade ; owl:inverseOf kl:HAS_READING_FOCUS .
+kl:RECOMMENDS_TOPIC a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:Topic ; owl:inverseOf kl:RECOMMENDED_BY_GRADE .
+kl:RECOMMENDED_BY_GRADE a owl:ObjectProperty ; rdfs:domain kl:Topic ; rdfs:range kl:Grade ; owl:inverseOf kl:RECOMMENDS_TOPIC .
+kl:SUPPORTS_TEXT_TYPE a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:TextType ; owl:inverseOf kl:SUPPORTED_BY_GRADE .
+kl:SUPPORTED_BY_GRADE a owl:ObjectProperty ; rdfs:domain kl:TextType ; rdfs:range kl:Grade ; owl:inverseOf kl:SUPPORTS_TEXT_TYPE .
+kl:SUPPORTS_FUNCTION a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:LanguageFunction ; owl:inverseOf kl:SUPPORTED_BY_GRADE_FUNCTION .
+kl:SUPPORTED_BY_GRADE_FUNCTION a owl:ObjectProperty ; rdfs:domain kl:LanguageFunction ; rdfs:range kl:Grade ; owl:inverseOf kl:SUPPORTS_FUNCTION .
+kl:USES_REGISTERED_LEXEME a owl:ObjectProperty ; rdfs:domain kl:Passage ; rdfs:range kl:Lexeme ; owl:inverseOf kl:USED_BY_PASSAGE .
+kl:USED_BY_PASSAGE a owl:ObjectProperty ; rdfs:domain kl:Lexeme ; rdfs:range kl:Passage ; owl:inverseOf kl:USES_REGISTERED_LEXEME .
+kl:HAS_ABOVE_GRADE_LEXEME a owl:ObjectProperty ; rdfs:domain kl:Passage ; rdfs:range kl:Lexeme ; owl:inverseOf kl:ABOVE_GRADE_IN_PASSAGE .
+kl:ABOVE_GRADE_IN_PASSAGE a owl:ObjectProperty ; rdfs:domain kl:Lexeme ; rdfs:range kl:Passage ; owl:inverseOf kl:HAS_ABOVE_GRADE_LEXEME .
+kl:HAS_READING_ITEM a owl:ObjectProperty ; rdfs:domain kl:PublishedTask ; rdfs:range kl:ReadingItem ; owl:inverseOf kl:PART_OF_TASK .
+kl:PART_OF_TASK a owl:ObjectProperty ; rdfs:domain kl:ReadingItem ; rdfs:range kl:PublishedTask ; owl:inverseOf kl:HAS_READING_ITEM .
+kl:HAS_QUESTION_TYPE a owl:ObjectProperty ; rdfs:domain kl:ReadingItem ; rdfs:range kl:QuestionType ; owl:inverseOf kl:TYPE_OF_ITEM .
+kl:TYPE_OF_ITEM a owl:ObjectProperty ; rdfs:domain kl:QuestionType ; rdfs:range kl:ReadingItem ; owl:inverseOf kl:HAS_QUESTION_TYPE .
+kl:APPLIES_TO a owl:ObjectProperty ; rdfs:domain kl:EvidenceSource ; rdfs:range kl:EvidenceArea ; owl:inverseOf kl:HAS_EVIDENCE_SOURCE .
+kl:HAS_EVIDENCE_SOURCE a owl:ObjectProperty ; rdfs:domain kl:EvidenceArea ; rdfs:range kl:EvidenceSource ; owl:inverseOf kl:APPLIES_TO .
+kl:NEXT_GRADE a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:Grade ; owl:inverseOf kl:PREVIOUS_GRADE .
+kl:PREVIOUS_GRADE a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:Grade ; owl:inverseOf kl:NEXT_GRADE .
+kl:HIGHER_THAN a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:Grade ; owl:inverseOf kl:LOWER_THAN .
+kl:LOWER_THAN a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:Grade ; owl:inverseOf kl:HIGHER_THAN .
+kl:ALLOWS_RESOURCE a owl:ObjectProperty ; rdfs:domain kl:Grade ; rdfs:range kl:LanguageResource ; owl:inverseOf kl:ALLOWED_AT_GRADE .
+kl:ALLOWED_AT_GRADE a owl:ObjectProperty ; rdfs:domain kl:LanguageResource ; rdfs:range kl:Grade ; owl:inverseOf kl:ALLOWS_RESOURCE .
+kl:HAS_AT_OR_BELOW_GRADE_LEXEME a owl:ObjectProperty ; rdfs:domain kl:Passage ; rdfs:range kl:Lexeme ; owl:inverseOf kl:COMPLIANT_IN_PASSAGE .
+kl:COMPLIANT_IN_PASSAGE a owl:ObjectProperty ; rdfs:domain kl:Lexeme ; rdfs:range kl:Passage ; owl:inverseOf kl:HAS_AT_OR_BELOW_GRADE_LEXEME .
+kl:REQUIRES_SOURCE_TERM a owl:ObjectProperty ; rdfs:domain kl:Passage ; rdfs:range kl:Lexeme ; owl:inverseOf kl:REQUIRED_BY_PASSAGE .
+kl:REQUIRED_BY_PASSAGE a owl:ObjectProperty ; rdfs:domain kl:Lexeme ; rdfs:range kl:Passage ; owl:inverseOf kl:REQUIRES_SOURCE_TERM .
+kl:GROUNDED_IN a owl:ObjectProperty ; rdfs:domain kl:Passage ; rdfs:range kl:SourceDocument ; owl:inverseOf kl:GROUNDS_PASSAGE .
+kl:GROUNDS_PASSAGE a owl:ObjectProperty ; rdfs:domain kl:SourceDocument ; rdfs:range kl:Passage ; owl:inverseOf kl:GROUNDED_IN .
+kl:REALIZES_TEXT_TYPE a owl:ObjectProperty ; rdfs:domain kl:Passage ; rdfs:range kl:TextType ; owl:inverseOf kl:REALIZED_BY_PASSAGE .
+kl:REALIZED_BY_PASSAGE a owl:ObjectProperty ; rdfs:domain kl:TextType ; rdfs:range kl:Passage ; owl:inverseOf kl:REALIZES_TEXT_TYPE .
+
+kl:HIGHER_THAN a owl:TransitiveProperty .
+kl:LOWER_THAN a owl:TransitiveProperty .

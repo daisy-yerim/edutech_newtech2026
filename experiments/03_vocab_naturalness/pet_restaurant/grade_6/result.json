@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "experiment": "topik_economy_grade_vocabulary_repair",
+  "ontology_mode": "diagnostic",
+  "source_key": "pet_restaurant",
+  "grade": 6,
+  "text_type": "전문 자료",
+  "essential_lexemes": [
+    "접종"
+  ],
+  "required_keyword": "",
+  "source_terms": [
+    "반려동물",
+    "식품위생법",
+    "접종"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "passage_status": "PASS",
+  "question_status": "NEEDS_REGENERATION",
+  "rounds_used": 1,
+  "generated_passage": "2026년 3월 1일부터 반려동물 동반 출입이 가능한 음식점 관련 식품위생법 시행규칙이 시행된다. 이 제도는 식약처가 2023년 4월부터 약 2년간 규제샌드박스 시범사업을 운영한 결과에 따라 추진되었다. 해당 정책의 대상은 개와 고양이에 한정되며, 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 허용된다.\n\n동반 출입을 희망하는 영업자는 관할 지자체에 체크리스트를 제출하고 사전 컨설팅을 받아야 한다. 또한 영업자는 반드시 출입구에 안내문을 게시해야 하며, 온라인으로 홍보나 광고를 하는 경우에도 동일한 위생 및 안전 기준을 충족해야 한다.\n\n영업장 내에서는 엄격한 관리 체계가 요구된다. 조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물의 출입을 금지해야 하며, 반려동물용 용품은 손님용 물품과 구분하여 보관하고 사용해야 한다. 매장 내부에서는 전용 의자, 케이지, 전용 공간 또는 목줄 고정 장치 등을 활용해 반려동물의 이동을 제한해야 한다.\n\n공중위생 확보를 위해 식탁 사이의 거리를 충분히 유지하고, 음식에 이물질이 섞이는 것을 방지하기 위해 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한됨을 명시하고 이를 표시해야 한다. 향후 식약처와 지자체는 운영 음식점과 온라인 홍보·광고 업소를 대상으로 방문 점검을 실시하여 관련 기준 준수 여부를 확인할 예정이다.",
+  "final_ai_validation": {
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료(F1~F12)에 명시된 날짜(2026.3.1.), 대상(개, 고양이), 장소(일반/휴게/제과점), 의무 사항(안내문 게시, 시설 분리, 이동 제한 등), 향후 계획(방문 점검) 등이 누락 없이 정확하게 반영됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료에 없는 주관적인 감상이나 배경 설명, 허구의 수치 등을 임의로 추가하지 않고 사실 관계를 충실히 기술함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "6급 수준에 부합하는 전문성 있는 어휘(규제샌드박스, 식품취급시설, 이물질 방지 등)와 정교한 문장 구조를 갖춤. 글자 수가 약 540자로 목표 범위(500~700자) 내에 있으며, 다문단 구조가 논리적으로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "각 문장이 앞선 내용의 구체화나 조건 제시로 이어짐. '또한', '그 외' 등의 연결어 대신 문맥적 흐름을 통해 정보가 유기적으로 결합되어 있음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "정책 도입 배경, 세부 운영 규칙, 향후 점검 계획 등이 포함되어 있어 정책의 목적과 절차를 파악하고 정보를 재구성하기에 충분한 단서가 제공됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 집단에 대한 편향이나 차별적인 표현 없이 공공 정책 안내라는 객관적 성격을 유지함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "동일한 종결형이나 어휘의 불필요한 반복이 없으며, 전문성을 확보하면서도 가독성을 해치지 않는 적절한 어휘 선택이 이루어짐.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 주어와 서술어 관계가 명확하며, 지시 대상이 모호하거나 논리적 비약이 없는 완성도 높은 문장들로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "수식어가 정보 전달(예: '엄격한 관리 체계', '충분히')을 위해 필요한 범위 내에서만 사용되었으며, 의미 없는 감성적 수식어나 중복된 꾸밈말이 배제됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-10",
+        "passed": true,
+        "evidence": "단순 나열 방식이 아니라 [배경 및 개요] → [운영자 의무/조건] → [내부 관리 세칙] → [향후 점검 계획]으로 이어지는 정교한 담화 구조를 갖춤. 마지막 문장에서 새로운 주제를 도입하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-11",
+        "passed": true,
+        "even_source_check": "원문과 비교 시 날짜, 대상, 필수 조건 등이 정확하게 매칭되며, 6급 수준에 걸맞게 핵심 제약 사항들이 뒤늦게 추가되지 않고 적절한 위치에 배치됨.",
+        "revision_instruction": ""
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-REQUIRED-RELATIONS"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "공백 포함 687자, 6급 목표 500~700자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "목표 급수 초과·미등록 어휘 없음",
+        "revision_instruction": "다음 어휘를 6급 이하 등록 표현으로 바꾸세요: ",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "reading_items": [
+    {
+      "question_type": "main_idea",
+      "question": "이 글의 중심 내용으로 가장 알맞은 것은 무엇입니까?",
+      "choices": [
+        "반려동물 동반 출입 가능 음식점 운영에 관한 새로운 규정 안내",
+        "식약처가 추진하는 반려동물 보호 및 복지 정책 소개",
+        "음식점 내 위생 관리를 위한 식재료 보관법 설명",
+        "온라인 광고 시 주의해야 할 식품위생법 관련 사항"
+      ],
+      "answer": "반려동물 동반 출입 가능 음식점 운영에 관한 새로운 규정 안내",
+      "explanation": "지문 전체는 2026년 3월부터 시행되는 반려동물 동반 출입 허용과 관련된 구체적인 조건, 영업자의 의무, 매장 내 관리 수칙 등을 다루고 있습니다."
+    },
+    {
+      "question_type": "content_match",
+      "question": "지문의 내용과 일치하는 것은 무엇입니까?",
+      "choices": [
+        "모든 종류의 동물은 모든 음식점에서 함께 들어올 수 있다.",
+        "영업자는 온라인 홍보를 할 때 별도의 위생 기준을 따르지 않아도 된다.",
+        "조리장이나 식재료 보관창고에는 반려동물이 들어갈 수 없다.",
+        "예방접종을 하지 않은 반려동물이라도 입장이 가능하다."
+      ],
+      "answer": "조리장이나 식재료 보관창고에는 반려동물이 들어갈 수 없다.",
+      "explanation": "지문에 '조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물이 들어갈 수 없도록 통제해야 하며'라고 명시되어 있습니다. (1번은 개와 고양이에 한정됨, 2번은 동일한 위생 및 안전 기준 충족 필요, 4번은 입장 제한됨이 명시되어야 함)"
+    }
+  ],
+  "question_checks": [
+    {
+      "question_type": "main_idea",
+      "passed": true,
+      "failed_ids": []
+    },
+    {
+      "question_type": "content_match",
+      "passed": true,
+      "failed_ids": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "2026년 3월 1일부터 반려동물 동반 출입이 가능한 음식점 관련 식품위생법 시행규칙이 시행된다. 이 제도는 식약처가 2023년 4월부터 약 2년간 규제샌드박스 시범사업을 운영한 결과에 따라 추진되었다. 해당 정책은 개와 고양이에 한정하여 입장을 허용하며, 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 운영할 수 있다.\n\n동반 출입을 희망하는 영업자는 체크리스트를 작성해 관할 지자체에 알리고 사전컨설팅을 받아야 한다. 또한 영업자는 반드시 출입구에 안내문을 게시해야 하며, 온라인으로 홍보나 광고를 하는 경우에도 동일한 위생 및 안전 기준을 충족해야 한다.\n\n영업장 내에서는 엄격한 관리 체계가 요구된다. 조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물이 들어갈 수 없도록 통제해야 하며, 반려동물용 용품은 손님용 물품과 구분하여 보관하고 사용해야 한다. 매장 내부에서는 전용 의자, 케이지, 전용 공간 또는 목줄 고정 장치 등을 활용해 반려동물의 이동을 제한해야 한다.\n\n공중위생 확보를 위해 식탁 사이의 거리를 충분히 유지하고, 음식에 이물질이 섞이는 것을 방지하기 위해 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한됨을 명시하고 이를 표시해야 한다. 향후 식약처와 지자체는 운영 음식점과 온라인 홍보·광고 업소를 대상으로 방문 점검을 실시할 예정이다.",
+      "chars": 686,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 6,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 122,
+        "unknown_tokens": [
+          "반려동물",
+          "위생법",
+          "식약처",
+          "규제샌드박스",
+          "휴게",
+          "있다",
+          "영업자",
+          "리스트",
+          "관할",
+          "지자체",
+          "컨설팅",
+          "영업장",
+          "식재료",
+          "목줄",
+          "이물질",
+          "덮개",
+          "명시"
+        ],
+        "unknown_token_count": 17,
+        "unknown_items": [
+          {
+            "word": "반려동물",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "위생법",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "식약처",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "규제샌드박스",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "휴게",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업자",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "리스트",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "관할",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "지자체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "컨설팅",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업장",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "식재료",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "목줄",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "이물질",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "덮개",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "명시",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1~F12)에 명시된 날짜(2026.3.1.), 대상(개, 고양이), 장소(일반/휴게/제과점), 의무 사항(안내문 게시, 시설 분리, 이동 제한 등), 향후 계획(방문 점검) 등이 누락 없이 정확하게 반영됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 주관적인 감상이나 배경 설명, 허구의 수치 등을 임의로 추가하지 않고 사실 관계를 충실히 기술함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "6급 수준에 부합하는 전문성 있는 어휘(규제샌드박스, 식품취급시설, 이물질 방지 등)와 정교한 문장 구조를 갖춤. 글자 수가 약 540자로 목표 범위(500~700자) 내에 있으며, 다문단 구조가 논리적으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "각 문장이 앞선 내용의 구체화나 조건 제시로 이어짐. '또한', '그 외' 등의 연결어 대신 문맥적 흐름을 통해 정보가 유기적으로 결합되어 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "정책 도입 배경, 세부 운영 규칙, 향후 점검 계획 등이 포함되어 있어 정책의 목적과 절차를 파악하고 정보를 재구성하기에 충분한 단서가 제공됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 집단에 대한 편향이나 차별적인 표현 없이 공공 정책 안내라는 객관적 성격을 유지함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 종결형이나 어휘의 불필요한 반복이 없으며, 전문성을 확보하면서도 가독성을 해치지 않는 적절한 어휘 선택이 이루어짐.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어와 서술어 관계가 명확하며, 지시 대상이 모호하거나 논리적 비약이 없는 완성도 높은 문장들로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "수식어가 정보 전달(예: '엄격한 관리 체계', '충분히')을 위해 필요한 범위 내에서만 사용되었으며, 의미 없는 감성적 수식어나 중복된 꾸밈말이 배제됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열 방식이 아니라 [배경 및 개요] → [운영자 의무/조건] → [내부 관리 세칙] → [향후 점검 계획]으로 이어지는 정교한 담화 구조를 갖춤. 마지막 문장에서 새로운 주제를 도입하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "even_source_check": "원문과 비교 시 날짜, 대상, 필수 조건 등이 정확하게 매칭되며, 6급 수준에 걸맞게 핵심 제약 사항들이 뒤늦게 추가되지 않고 적절한 위치에 배치됨.",
+            "revision_instruction": ""
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 686자, 6급 목표 500~700자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "목표 급수 초과·미등록 어휘 없음",
+            "revision_instruction": "다음 어휘를 6급 이하 등록 표현으로 바꾸세요: ",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-08-27T00:30:23.007760+00:00",
+  "vocabulary_repair": {
+    "before_passage": "2026년 3월 1일부터 반려동물 동반 출입이 가능한 음식점 관련 식품위생법 시행규칙이 시행된다. 이 제도는 식약처가 2023년 4월부터 약 2년간 규제샌드박스 시범사업을 운영한 결과에 따라 추진되었다. 해당 정책은 개와 고양이에 한정하여 입장을 허용하며, 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 운영할 수 있다.\n\n동반 출입을 희망하는 영업자는 체크리스트를 작성해 관할 지자체에 알리고 사전컨설팅을 받아야 한다. 또한 영업자는 반드시 출입구에 안내문을 게시해야 하며, 온라인으로 홍보나 광고를 하는 경우에도 동일한 위생 및 안전 기준을 충족해야 한다.\n\n영업장 내에서는 엄격한 관리 체계가 요구된다. 조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물이 들어갈 수 없도록 통제해야 하며, 반려동물용 용품은 손님용 물품과 구분하여 보관하고 사용해야 한다. 매장 내부에서는 전용 의자, 케이지, 전용 공간 또는 목줄 고정 장치 등을 활용해 반려동물의 이동을 제한해야 한다.\n\n공중위생 확보를 위해 식탁 사이의 거리를 충분히 유지하고, 음식에 이물질이 섞이는 것을 방지하기 위해 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한됨을 명시하고 이를 표시해야 한다. 향후 식약처와 지자체는 운영 음식점과 온라인 홍보·광고 업소를 대상으로 방문 점검을 실시할 예정이다.",
+    "after_passage": "2026년 3월 1일부터 반려동물 동반 출입이 가능한 음식점 관련 식품위생법 시행규칙이 시행된다. 이 제도는 식약처가 2023년 4월부터 약 2년간 규제샌드박스 시범사업을 운영한 결과에 따라 추진되었다. 해당 정책의 대상은 개와 고양이에 한정되며, 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 허용된다.\n\n동반 출입을 희망하는 영업자는 관할 지자체에 체크리스트를 제출하고 사전 컨설팅을 받아야 한다. 또한 영업자는 반드시 출입구에 안내문을 게시해야 하며, 온라인으로 홍보나 광고를 하는 경우에도 동일한 위생 및 안전 기준을 충족해야 한다.\n\n영업장 내에서는 엄격한 관리 체계가 요구된다. 조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물의 출입을 금지해야 하며, 반려동물용 용품은 손님용 물품과 구분하여 보관하고 사용해야 한다. 매장 내부에서는 전용 의자, 케이지, 전용 공간 또는 목줄 고정 장치 등을 활용해 반려동물의 이동을 제한해야 한다.\n\n공중위생 확보를 위해 식탁 사이의 거리를 충분히 유지하고, 음식에 이물질이 섞이는 것을 방지하기 위해 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한됨을 명시하고 이를 표시해야 한다. 향후 식약처와 지자체는 운영 음식점과 온라인 홍보·광고 업소를 대상으로 방문 점검을 실시하여 관련 기준 준수 여부를 확인할 예정이다.",
+    "before_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 6,
+      "violations": [],
+      "violation_count": 0,
+      "known_token_count": 120,
+      "unknown_tokens": [
+        "식약처",
+        "규제샌드박스",
+        "휴게",
+        "있다",
+        "영업자",
+        "리스트",
+        "관할",
+        "지자체",
+        "컨설팅",
+        "영업장",
+        "식재료",
+        "목줄",
+        "이물질",
+        "덮개",
+        "명시"
+      ],
+      "unknown_token_count": 15,
+      "unknown_items": [
+        {
+          "word": "식약처",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "규제샌드박스",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "휴게",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "있다",
+          "part_of_speech": "VA",
+          "policy": "record_only"
+        },
+        {
+          "word": "영업자",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "리스트",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "관할",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "지자체",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "컨설팅",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "영업장",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "식재료",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "목줄",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "이물질",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "덮개",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "명시",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        }
+      ],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "after_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 6,
+      "violations": [],
+      "violation_count": 0,
+      "known_token_count": 122,
+      "unknown_tokens": [
+        "식약처",
+        "규제샌드박스",
+        "휴게",
+        "영업자",
+        "관할",
+        "지자체",
+        "리스트",
+        "컨설팅",
+        "영업장",
+        "식재료",
+        "목줄",
+        "이물질",
+        "덮개",
+        "명시"
+      ],
+      "unknown_token_count": 14,
+      "unknown_items": [
+        {
+          "word": "식약처",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "규제샌드박스",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "휴게",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "영업자",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "관할",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "지자체",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "리스트",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "컨설팅",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "영업장",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "식재료",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "목줄",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "이물질",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "덮개",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "명시",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        }
+      ],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "history": [],
+    "naturalness_revision": {
+      "attempted": true,
+      "accepted": true,
+      "reason": "통과",
+      "before_passage": "2026년 3월 1일부터 반려동물 동반 출입이 가능한 음식점 관련 식품위생법 시행규칙이 시행된다. 이 제도는 식약처가 2023년 4월부터 약 2년간 규제샌드박스 시범사업을 운영한 결과에 따라 추진되었다. 해당 정책은 개와 고양이에 한정하여 입장을 허용하며, 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 운영할 수 있다.\n\n동반 출입을 희망하는 영업자는 체크리스트를 작성해 관할 지자체에 알리고 사전컨설팅을 받아야 한다. 또한 영업자는 반드시 출입구에 안내문을 게시해야 하며, 온라인으로 홍보나 광고를 하는 경우에도 동일한 위생 및 안전 기준을 충족해야 한다.\n\n영업장 내에서는 엄격한 관리 체계가 요구된다. 조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물이 들어갈 수 없도록 통제해야 하며, 반려동물용 용품은 손님용 물품과 구분하여 보관하고 사용해야 한다. 매장 내부에서는 전용 의자, 케이지, 전용 공간 또는 목줄 고정 장치 등을 활용해 반려동물의 이동을 제한해야 한다.\n\n공중위생 확보를 위해 식탁 사이의 거리를 충분히 유지하고, 음식에 이물질이 섞이는 것을 방지하기 위해 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한됨을 명시하고 이를 표시해야 한다. 향후 식약처와 지자체는 운영 음식점과 온라인 홍보·광고 업소를 대상으로 방문 점검을 실시할 예정이다.",
+      "candidate_passage": "2026년 3월 1일부터 반려동물 동반 출입이 가능한 음식점 관련 식품위생법 시행규칙이 시행된다. 이 제도는 식약처가 2023년 4월부터 약 2년간 규제샌드박스 시범사업을 운영한 결과에 따라 추진되었다. 해당 정책의 대상은 개와 고양이에 한정되며, 위생 및 안전관리 기준을 준수하는 일반음식점, 휴게음식점, 제과점에서만 허용된다.\n\n동반 출입을 희망하는 영업자는 관할 지자체에 체크리스트를 제출하고 사전 컨설팅을 받아야 한다. 또한 영업자는 반드시 출입구에 안내문을 게시해야 하며, 온라인으로 홍보나 광고를 하는 경우에도 동일한 위생 및 안전 기준을 충족해야 한다.\n\n영업장 내에서는 엄격한 관리 체계가 요구된다. 조리장이나 식재료 보관창고 등 식품 취급 시설에는 반려동물의 출입을 금지해야 하며, 반려동물용 용품은 손님용 물품과 구분하여 보관하고 사용해야 한다. 매장 내부에서는 전용 의자, 케이지, 전용 공간 또는 목줄 고정 장치 등을 활용해 반려동물의 이동을 제한해야 한다.\n\n공중위생 확보를 위해 식탁 사이의 거리를 충분히 유지하고, 음식에 이물질이 섞이는 것을 방지하기 위해 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한됨을 명시하고 이를 표시해야 한다. 향후 식약처와 지자체는 운영 음식점과 온라인 홍보·광고 업소를 대상으로 방문 점검을 실시하여 관련 기준 준수 여부를 확인할 예정이다.",
+      "content_anchor_overlap": 0.963,
+      "before_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 6,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 120,
+        "unknown_tokens": [
+          "식약처",
+          "규제샌드박스",
+          "휴게",
+          "있다",
+          "영업자",
+          "리스트",
+          "관할",
+          "지자체",
+          "컨설팅",
+          "영업장",
+          "식재료",
+          "목줄",
+          "이물질",
+          "덮개",
+          "명시"
+        ],
+        "unknown_token_count": 15,
+        "unknown_items": [
+          {
+            "word": "식약처",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "규제샌드박스",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "휴게",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업자",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "리스트",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "관할",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "지자체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "컨설팅",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업장",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "식재료",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "목줄",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "이물질",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "덮개",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "명시",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "candidate_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 6,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 122,
+        "unknown_tokens": [
+          "식약처",
+          "규제샌드박스",
+          "휴게",
+          "영업자",
+          "관할",
+          "지자체",
+          "리스트",
+          "컨설팅",
+          "영업장",
+          "식재료",
+          "목줄",
+          "이물질",
+          "덮개",
+          "명시"
+        ],
+        "unknown_token_count": 14,
+        "unknown_items": [
+          {
+            "word": "식약처",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "규제샌드박스",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "휴게",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업자",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "관할",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "지자체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "리스트",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "컨설팅",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업장",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "식재료",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "목줄",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "이물질",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "덮개",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "명시",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      }
+    },
+    "naturalness_accepted": true
+  }
+}

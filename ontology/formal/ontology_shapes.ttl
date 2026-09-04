@@ -1,0 +1,69 @@
+@prefix kl: <https://example.org/korean-learning/ontology/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kl:LearningResourceTargetGradeShape a sh:NodeShape ;
+  sh:targetClass kl:Passage ;
+  sh:property [ sh:path kl:TARGETS_GRADE ; sh:class kl:Grade ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+kl:PassageGroundingShape a sh:NodeShape ;
+  sh:targetClass kl:Passage ;
+  sh:property [ sh:path kl:GROUNDED_IN ; sh:class kl:SourceDocument ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path kl:REALIZES_TEXT_TYPE ; sh:class kl:TextType ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+kl:VocabularyGradeShape a sh:NodeShape ;
+  sh:targetClass kl:Vocabulary ;
+  sh:property [ sh:path kl:REGISTERED_AT_GRADE ; sh:class kl:Grade ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+kl:GrammarGradeShape a sh:NodeShape ;
+  sh:targetClass kl:Grammar ;
+  sh:property [ sh:path kl:REGISTERED_AT_GRADE ; sh:class kl:Grade ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+kl:ReadingItemTypeShape a sh:NodeShape ;
+  sh:targetClass kl:ReadingItem ;
+  sh:property [ sh:path kl:HAS_QUESTION_TYPE ; sh:class kl:QuestionType ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+kl:PassageLengthShape a sh:NodeShape ;
+  sh:targetClass kl:Passage ;
+  sh:sparql [
+    a sh:SPARQLConstraint ;
+    sh:message "지문 글자 수가 목표 급수 범위를 벗어났습니다."@ko ;
+    sh:select '''
+      SELECT $this WHERE {
+        $this kl:chars ?chars ; kl:TARGETS_GRADE ?grade .
+        ?grade kl:HAS_REQUIREMENT ?req .
+        ?req kl:requirement_key "passage_chars" ;
+             kl:min_value ?min ; kl:max_value ?max .
+        FILTER (?chars < ?min || ?chars > ?max)
+      }
+    '''
+  ] .
+
+kl:AboveGradeLexemeShape a sh:NodeShape ;
+  sh:targetClass kl:Passage ;
+  sh:sparql [
+    a sh:SPARQLConstraint ;
+    sh:message "원문 필수어가 아닌 목표 급수 초과 표제어가 있습니다."@ko ;
+    sh:select '''
+      SELECT $this WHERE {
+        $this kl:TARGETS_GRADE ?grade ; kl:USES_REGISTERED_LEXEME ?lexeme .
+        ?grade kl:grade_number ?targetGrade .
+        ?lexeme kl:minimum_grade ?lexemeGrade .
+        FILTER (?lexemeGrade > ?targetGrade)
+        FILTER NOT EXISTS { $this kl:REQUIRES_SOURCE_TERM ?lexeme }
+      }
+    '''
+  ] .
+
+kl:RequiredSourceTermUsedShape a sh:NodeShape ;
+  sh:targetClass kl:Passage ;
+  sh:sparql [
+    a sh:SPARQLConstraint ;
+    sh:message "선언된 원문 필수어가 지문에 실제 사용되지 않았습니다."@ko ;
+    sh:select '''
+      SELECT $this WHERE {
+        $this kl:REQUIRES_SOURCE_TERM ?term .
+        FILTER NOT EXISTS { $this kl:USES_REGISTERED_LEXEME ?term }
+      }
+    '''
+  ] .

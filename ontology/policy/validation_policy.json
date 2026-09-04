@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "ontology_namespace": "https://example.org/korean-learning/ontology/",
+  "decision_policy": "모든 Violation 규칙을 통과해야 온톨로지 PASS이며 Warning은 기록만 한다.",
+  "rules": [
+    {
+      "id": "O-VAL-LENGTH",
+      "kind": "passage_length_from_grade_requirement",
+      "severity": "Violation",
+      "requires": ["TARGETS_GRADE", "HAS_REQUIREMENT"],
+      "message": "지문 글자 수는 목표 급수의 passage_chars 범위 안이어야 한다."
+    },
+    {
+      "id": "O-VAL-GRADE-RESOURCE",
+      "kind": "lexeme_grade_not_above_target_unless_required",
+      "severity": "Violation",
+      "requires": ["USES_REGISTERED_LEXEME", "REGISTERED_AT_GRADE", "REQUIRES_SOURCE_TERM"],
+      "message": "사용 표제어는 목표 급수 이하여야 하며 원문 필수어만 예외다."
+    },
+    {
+      "id": "O-VAL-SOURCE-TERM-USED",
+      "kind": "required_source_term_must_be_used",
+      "severity": "Violation",
+      "requires": ["REQUIRES_SOURCE_TERM", "USES_REGISTERED_LEXEME"],
+      "message": "선언된 원문 필수어는 지문에 실제 사용되어야 한다."
+    },
+    {
+      "id": "O-VAL-REQUIRED-RELATIONS",
+      "kind": "passage_required_relations",
+      "severity": "Violation",
+      "min_count": {
+        "TARGETS_GRADE": 1,
+        "GROUNDED_IN": 1,
+        "REALIZES_TEXT_TYPE": 1
+      },
+      "max_count": {
+        "TARGETS_GRADE": 1,
+        "GROUNDED_IN": 1,
+        "REALIZES_TEXT_TYPE": 1
+      },
+      "message": "지문은 원문·목표 급수·텍스트 유형과 각각 정확히 하나씩 연결되어야 한다."
+    }
+  ]
+}

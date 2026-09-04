@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "policy_id": "TOPIK-CONSTRUCT-2012-SOURCE-ONLY",
+  "status": "active",
+  "source": {
+    "id": "TOPIK-CONSTRUCT-2012",
+    "title": "한국어능력시험 구인 분석 연구 최종보고서",
+    "local_file": "data/sources/research/한국어능력시험구인분석연구 최종보고서(120210).pdf",
+    "publication_date": "2012-02-10"
+  },
+  "purpose": "보고서에 명시된 내용만으로 초급·중급·고급 문항 제작 원리와 검증 기준을 구조화한다. 지문·답안 길이는 기존 프로젝트 기준을 유지하며 이 정책의 추출 대상에서 제외한다.",
+  "hard_rules": [
+    "보고서에 없는 기준·설명·예시·급수 대응·배점·문항 수를 임의로 추가하지 않는다.",
+    "모든 구조화 항목은 원문 페이지와 장·절을 가져야 한다.",
+    "OCR 결과만으로 확정하지 않고 원본 페이지 이미지와 대조한 항목만 active 기준으로 승격한다.",
+    "원문 표현을 요약할 때 의미 범위를 넓히거나 교육적으로 재해석하지 않는다.",
+    "둘 이상의 원문을 종합한 기준은 모든 근거 페이지를 기록하고 synthesis라고 표시한다.",
+    "보고서가 구분하지 않은 초급·중급·고급 경계는 새로 만들지 않는다.",
+    "근거가 없거나 OCR 판독이 불확실한 값은 null과 unsupported 또는 needs_review로 기록한다.",
+    "보고서의 예시 문항·지문·선택지를 생성 결과에 그대로 복제하지 않는다.",
+    "기존 프로젝트 운영값과 이 보고서 기반 기준을 한 필드에 섞지 않는다.",
+    "지문·답안 길이는 data/criteria/standards/grade_requirements.json의 현재 값을 그대로 사용하고 보고서 근거로 재해석하지 않는다."
+  ],
+  "allowed_evidence_statuses": [
+    "ocr_unverified",
+    "needs_review",
+    "source_verified",
+    "synthesis",
+    "unsupported"
+  ],
+  "activation_rule": "source_verified 또는 모든 구성 근거가 source_verified인 synthesis 항목만 생성·검증 로직에 사용한다.",
+  "required_fields": [
+    "criterion_id",
+    "level_band",
+    "skill",
+    "construct",
+    "rule",
+    "source_pages",
+    "source_section",
+    "evidence_status"
+  ],
+  "level_policy": {
+    "beginner": "보고서가 초급으로 명시한 내용만 포함",
+    "intermediate": "보고서가 중급으로 명시한 내용만 포함",
+    "advanced": "보고서가 고급으로 명시한 내용만 포함",
+    "cross_level": "보고서가 수준 공통으로 제시한 내용만 포함"
+  },
+  "out_of_scope": {
+    "length": {
+      "policy": "keep_existing",
+      "source_file": "data/criteria/standards/grade_requirements.json",
+      "fields": ["passage_chars", "writing_chars", "paragraphs", "sentence_chars_average_max"],
+      "note": "현재 프로젝트 운영값을 유지하며 이번 보고서 구조화 작업에서 변경하지 않는다."
+    }
+  },
+  "failure_behavior": {
+    "missing_source_page": "criterion_rejected",
+    "uncertain_ocr": "needs_review",
+    "unsupported_level_mapping": "unsupported",
+    "conflict_between_sections": "do_not_activate_and_request_human_review"
+  }
+}

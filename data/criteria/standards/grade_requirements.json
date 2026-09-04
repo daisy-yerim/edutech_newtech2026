@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "primary_source_id": "MCST-KSC-2020",
+  "source_registry": "data/criteria/source_registry.json",
+  "topik1_adaptation_profile": "data/criteria/standards/topik1_adaptation_profile.json",
+  "quantitative_fields_status": "pilot_pending_validation_not_official_cut_scores",
+  "status": "provisional_pending_expert_review",
+  "description": "등급별 생성·실험 부담을 분리하기 위한 조작적 기준. 공식 점수 환산표가 아니며 전문가 검증 전 연구용이다.",
+  "grades": {
+    "1": {"passage_chars":[120,180],"paragraphs":[1,1],"sentence_chars_average_max":28,"explicit_information_ratio_min":0.9,"reading_item_count":3,"reading_focus":["화제","명시 정보","기초 어휘"],"writing_chars":[40,70],"writing_genres":["짧은 메모","간단한 안내","한두 문장 설명"],"required_structure":"단문 중심, 시간·장소·행동이 직접 드러나는 선형 구조","scoring_expectation":"기초 어휘와 정형 표현으로 핵심 정보를 전달하면 인정하고, 복잡한 문단 구성은 요구하지 않는다."},
+    "2": {"passage_chars":[180,260],"paragraphs":[1,2],"sentence_chars_average_max":34,"explicit_information_ratio_min":0.8,"reading_item_count":4,"reading_focus":["화제","세부 정보","순서","간단한 이유"],"writing_chars":[70,110],"writing_genres":["이메일","일기","생활 안내"],"required_structure":"쉬운 연결어로 두세 사건이나 정보를 순서대로 연결","scoring_expectation":"간단한 연결 표현과 이유 설명을 기대하되 일부 형태 오류가 의미 전달을 막지 않으면 허용한다."},
+    "3": {"passage_chars":[220,300],"paragraphs":[2,2],"sentence_chars_average_max":42,"explicit_information_ratio_min":0.7,"reading_item_count":4,"reading_focus":["중심 생각","세부 정보","원인·결과","기초 추론"],"writing_chars":[120,180],"writing_genres":["경험 서술","후기","간단한 제안"],"required_structure":"사건·근거를 연결한 두 문단 내외의 완결된 구조","scoring_expectation":"중심 내용과 기본적인 문단 연결을 평가하며 제한적인 반복이나 국지적 오류를 허용한다."},
+    "4": {"passage_chars":[280,400],"paragraphs":[2,3],"sentence_chars_average_max":50,"explicit_information_ratio_min":0.6,"reading_item_count":5,"reading_focus":["중심 생각","비교","필자의 태도","추론","정보 통합"],"writing_chars":[180,260],"writing_genres":["건의문","공적 이메일","찬반 의견"],"required_structure":"주장과 근거 또는 비교 대상이 분명한 다문단 구조","scoring_expectation":"목적에 맞는 격식, 근거의 연결, 다양한 중급 문법 사용을 함께 평가한다."},
+    "5": {"passage_chars":[380,520],"paragraphs":[3,4],"sentence_chars_average_max":60,"explicit_information_ratio_min":0.5,"reading_item_count":5,"reading_focus":["논지","함축","근거 평가","문단 관계","필자 관점"],"writing_chars":[280,400],"writing_genres":["보고서","논설문","정책 제안"],"required_structure":"문제 제기·근거·대안 또는 반론을 갖춘 논리적 다문단 구조","scoring_expectation":"논지의 일관성, 근거의 타당성, 문체 통제와 폭넓은 어휘·문법을 평가한다."},
+    "6": {"passage_chars":[500,700],"paragraphs":[4,6],"sentence_chars_average_max":70,"explicit_information_ratio_min":0.4,"reading_item_count":6,"reading_focus":["복합 논증","전제·함의","관점 비교","비판적 평가","정보 재구성"],"writing_chars":[450,650],"writing_genres":["학술적 논증","전문 보고서","비평문"],"required_structure":"복수 관점·반론·재반박 또는 자료 해석을 조직한 정교한 논증 구조","scoring_expectation":"개념적 정확성, 논증의 정교함, 응집 장치와 전문적 문체를 엄격하게 평가한다."}
+  }
+}
+

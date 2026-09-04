@@ -1,0 +1,21 @@
+{
+  "id": "learner_content_task_v2",
+  "source_ids": ["MCST-KSC-2020", "TOPIK-II-WRITE"],
+  "weight_policy_id": "OPS-WEIGHTS-30-30-40",
+  "version": 2,
+  "status": "provisional_pending_expert_review",
+  "label": "내용 및 과제 수행",
+  "purpose": "문제에서 요구한 내용을 지문 근거에 따라 충실하게 수행했는지 평가",
+  "max_score": 30,
+  "principles": [
+    "예시답안은 유일한 정답이 아니며 표현 유사도를 점수로 사용하지 않는다.",
+    "필수 내용 요소를 다른 표현과 관점으로 타당하게 수행한 답안도 인정한다.",
+    "지문에 없는 사실을 단정하거나 지문과 모순되는 내용은 감점 근거가 된다."
+  ],
+  "criteria": [
+    {"key":"task_completion","label":"과제 수행","weight":10,"description":"질문과 작성 조건에서 요구한 과제를 빠짐없이 수행했는가","bands":{"high":"8~10: 모든 과제를 충실히 수행","mid":"4~7: 일부 과제가 불충분","low":"0~3: 핵심 과제를 대부분 수행하지 못함"}},
+    {"key":"required_content","label":"필수 내용","weight":8,"description":"교수자 승인 필수 내용 요소를 의미상 포함했는가","bands":{"high":"7~8: 핵심 요소를 정확히 포함","mid":"3~6: 일부 누락 또는 불명확","low":"0~2: 핵심 요소가 거의 없음"}},
+    {"key":"evidence_relevance","label":"지문 근거와 관련성","weight":7,"description":"주장·설명·추론이 지문의 정보와 관련되고 근거가 타당한가","bands":{"high":"6~7: 근거가 명확하고 타당","mid":"3~5: 근거가 약하거나 부분적","low":"0~2: 무관하거나 근거 없음"}},
+    {"key":"content_development","label":"내용 구체성","weight":5,"description":"이유·설명·예시가 과제에 필요한 만큼 구체적인가","bands":{"high":"4~5: 구체적이고 충분","mid":"2~3: 다소 단순하거나 반복","low":"0~1: 지나치게 빈약"}}
+  ]
+}

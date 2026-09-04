@@ -1,0 +1,18 @@
+{
+  "schema_version":2,"version":"2.0-provisional","status":"pending_expert_review","rubric_type":"approval",
+  "approval_policy":{"required":"모든 필수 항목 승인","rejection":"미승인 항목과 구체적 사유를 저장하고 해당 범위만 재생성","override":"AI 주요 경고 1개를 승인하려면 교수자 판단 근거 기록","publication":"지문과 모든 문항이 승인된 경우에만 공개"},
+  "passage":[
+    {"id":"P-APR-01","label":"수업 목표 정렬","question":"이 지문이 수업 목표와 선택한 읽기·쓰기 능력을 평가합니까?","required":true},
+    {"id":"P-APR-02","label":"학습자 수준 적합성","question":"목표 등급 학습자가 과도한 배경지식 없이 이해할 수 있습니까?","required":true},
+    {"id":"P-APR-03","label":"내용 정확성과 안전성","question":"원천 자료와 일치하며 편향·오해·부적절한 표현이 없습니까?","required":true},
+    {"id":"P-APR-04","label":"구조와 자연스러움","question":"중심 내용, 문장 연결과 전체 구조가 자연스럽습니까?","required":true},
+    {"id":"P-APR-05","label":"문항 제작 가능성","question":"읽기 정답 근거와 쓰기 추론 단서가 충분합니까?","required":true}
+  ],
+  "assessment":[
+    {"id":"A-APR-01","label":"평가 목표 정렬","question":"문항이 의도한 읽기 또는 쓰기 능력을 실제로 평가합니까?","required":true},
+    {"id":"A-APR-02","label":"정답·해설 타당성","question":"읽기 정답이 유일하고 해설을 지문 근거로 설명할 수 있습니까?","required":true},
+    {"id":"A-APR-03","label":"난이도 적합성","question":"질문, 선택지, 쓰기 분량과 인지 부담이 목표 등급에 적합합니까?","required":true},
+    {"id":"A-APR-04","label":"쓰기 채점 가능성","question":"scoring_guide를 근거로 다양한 타당 답안과 내용·문법 교차 시나리오를 30/30/40 기준으로 일관되게 평가할 수 있습니까?","required":true},
+    {"id":"A-APR-05","label":"수업 공개 가능성","question":"수정 없이 학습자에게 공개해도 됩니까?","required":true}
+  ]
+}

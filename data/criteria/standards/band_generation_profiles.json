@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "status": "structured_synthesis_of_existing_project_criteria",
+  "policy": "새 기준을 추가하지 않고 기존 SKA·급수 요구사항·TOPIK I 개작 프로필·생성 및 검증 루브릭을 세 구간으로 구조화한다.",
+  "bands": {
+    "beginner": {
+      "label": "초급",
+      "grades": [1, 2],
+      "content_scope": "개인·가정·학교·일상생활·여가·쇼핑·공공 서비스처럼 구체적이고 예측 가능한 생활 상황",
+      "text_design": [
+        "1급은 매우 짧고 단순한 문장과 선형 구조로 시간·장소·사람·행동을 직접 제시",
+        "2급은 쉬운 연결어로 두세 사건이나 정보를 순서·간단한 이유·결과로 연결",
+        "한 문장에 핵심 정보 하나를 우선하고 긴 관형절·명사절 중첩과 여러 조건 나열을 피함"
+      ],
+      "reading_load": [
+        "1급은 화제·명시 정보·기초 어휘와 직접 제시된 내용 일치 중심",
+        "2급은 세부 정보·시간 순서·간단한 이유·결과·목적과 근거리 정보 통합까지 허용",
+        "지문 밖 배경지식, 복수 관점 비교, 근거 평가, 함축적 태도는 요구하지 않음"
+      ],
+      "vocabulary_and_style": [
+        "조사·어미를 제외한 내용어는 목표 급수 이하 등록 어휘만 사용",
+        "1~2급의 목표 급수 이하 등록 관형어·형용사·부사는 모두 허용",
+        "낯선 동의어보다 쉬운 대용 표현을 사용하고 설명되지 않은 전문 용어를 피함"
+      ],
+      "validation_focus": [
+        "대상과 행동의 직접성",
+        "지시 대상의 명확성",
+        "단문 또는 쉬운 연결의 완결성",
+        "등록 어휘 준수",
+        "TOPIK I 정보 부담 준수"
+      ],
+      "source_refs": [
+        "data/criteria/standards/ska_generation.json#/grades/1",
+        "data/criteria/standards/ska_generation.json#/grades/2",
+        "data/criteria/standards/grade_requirements.json#/grades/1",
+        "data/criteria/standards/grade_requirements.json#/grades/2",
+        "data/criteria/standards/topik1_adaptation_profile.json#/grade_profiles"
+      ]
+    },
+    "intermediate": {
+      "label": "중급",
+      "grades": [3, 4],
+      "content_scope": "대인 관계·여행·직장 생활에서 취업·건강·교육·친숙한 사회 주제로 확장",
+      "text_design": [
+        "3급은 사건·원인·결과를 연결한 짧은 두 문단 내외의 완결된 구조",
+        "4급은 주장과 근거 또는 비교 대상이 분명한 비교적 긴 다문단 구조",
+        "담화 표지와 응집 장치를 사용하되 불필요한 복잡성과 같은 구조의 반복을 피함"
+      ],
+      "reading_load": [
+        "3급은 중심 생각·세부 정보·원인 결과·기초 추론 중심",
+        "4급은 비교·필자의 태도·추론·정보 통합까지 확장",
+        "사건 이해·추측·권유·조언에서 동의·반대·의도·불만 이해로 확장"
+      ],
+      "vocabulary_and_style": [
+        "목표 급수 이하 어휘·문법을 사용하면서 문장과 연결 표현을 점진적으로 다양화",
+        "정보 없이 분위기만 꾸미는 평가·감정 수식어와 같은 꾸밈말의 반복을 억제",
+        "격식은 4급의 공적 이메일·건의문·사회적 설명문에서 목적에 맞게 조절"
+      ],
+      "validation_focus": [
+        "중심 내용과 문단 연결",
+        "원인·결과 또는 비교 관계",
+        "제한적 추론 단서",
+        "담화 표지와 응집성",
+        "불필요한 수식과 반복 억제"
+      ],
+      "source_refs": [
+        "data/criteria/standards/ska_generation.json#/grades/3",
+        "data/criteria/standards/ska_generation.json#/grades/4",
+        "data/criteria/standards/grade_requirements.json#/grades/3",
+        "data/criteria/standards/grade_requirements.json#/grades/4",
+        "data/criteria/rubrics/generation/teacher_generation.json#/passage",
+        "data/criteria/rubrics/validation/ai_validation.json#/passage"
+      ]
+    },
+    "advanced": {
+      "label": "고급",
+      "grades": [5, 6],
+      "content_scope": "사회·교육·정치·경제·예술과 친숙한 전문 분야에서 사회문화적 특수 주제·인문학·과학·낯선 전문 분야로 확장",
+      "text_design": [
+        "5급은 문제 제기·근거·대안 또는 반론을 갖춘 조직적인 다문단 구조",
+        "6급은 복수 관점·반론·재반박 또는 자료 해석을 조직한 정교하고 긴 논증 구조",
+        "응집 장치와 전문적 문체를 사용하되 개념과 논증에 기여하지 않는 장식적 표현은 억제"
+      ],
+      "reading_load": [
+        "5급은 논지·함축·근거 평가·문단 관계·필자 관점 중심",
+        "6급은 복합 논증·전제와 함의·관점 비교·비판적 평가·정보 재구성까지 요구",
+        "주장과 설득 및 사회문화 지식을 활용한 추론을 포함"
+      ],
+      "vocabulary_and_style": [
+        "폭넓은 목표 급수 어휘·문법과 응집 장치를 정확하게 사용",
+        "수식어의 양보다 개념적 정확성·근거의 타당성·논증의 정교함을 우선",
+        "같은 내용어·연결어·종결형과 동일 문장 구조의 불필요한 연속 반복을 피함"
+      ],
+      "validation_focus": [
+        "논지의 일관성과 근거 타당성",
+        "문단 관계와 관점 비교",
+        "반론·재반박 또는 자료 해석의 조직",
+        "개념적 정확성과 전문적 문체",
+        "장식적 수식보다 정보와 논증의 기여도"
+      ],
+      "source_refs": [
+        "data/criteria/standards/ska_generation.json#/grades/5",
+        "data/criteria/standards/ska_generation.json#/grades/6",
+        "data/criteria/standards/grade_requirements.json#/grades/5",
+        "data/criteria/standards/grade_requirements.json#/grades/6",
+        "data/criteria/rubrics/generation/teacher_generation.json#/passage",
+        "data/criteria/rubrics/validation/ai_validation.json#/passage"
+      ]
+    }
+  }
+}

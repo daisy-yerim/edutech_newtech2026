@@ -1,0 +1,79 @@
+{
+  "id": "learner_cross_domain_scenarios_v1",
+  "version": 1,
+  "status": "provisional_pending_expert_review",
+  "purpose": "내용 정확성과 언어 정확성이 서로 다른 답안을 영역별로 독립 판정하기 위한 대조 시나리오",
+  "independence_rules": [
+    "내용의 정확성·충실성은 내용 및 과제 수행 영역에서 판정하고, 같은 오류를 문법 정확성에서 다시 감점하지 않는다.",
+    "문법·맞춤법 오류는 언어 사용 영역에서 판정하고, 의미를 합리적으로 확인할 수 있다면 그 오류만으로 내용 점수를 낮추지 않는다.",
+    "문법 또는 어휘 오류 때문에 의미가 달라지거나 확인할 수 없을 때에만 영향을 받은 내용 기준에도 반영하며, 근거에 중복 영향 여부를 설명한다.",
+    "문법적으로 자연스러운 문장이라도 지문과 모순되거나 필수 내용을 누락하면 내용 점수를 낮춘다.",
+    "총점의 인상을 먼저 정한 뒤 영역 점수를 맞추지 말고 각 영역을 독립적으로 판정한 후 합산한다."
+  ],
+  "scenarios": [
+    {
+      "id": "S1",
+      "label": "내용 정확·문법 정확",
+      "content_state": "accurate",
+      "language_state": "accurate",
+      "expected_pattern": "내용 및 과제 수행과 언어 사용 모두 높은 점수대",
+      "caution": "분량, 전개 구조, 요구 기능은 별도로 판정"
+    },
+    {
+      "id": "S2",
+      "label": "내용 정확·문법 오류",
+      "content_state": "accurate",
+      "language_state": "error",
+      "expected_pattern": "내용 점수는 보존하고 오류의 빈도·심각도에 따라 언어 점수를 감점",
+      "caution": "문법 오류가 의미를 바꾸지 않았다면 내용에서 중복 감점하지 않음"
+    },
+    {
+      "id": "S3",
+      "label": "내용 오류·문법 정확",
+      "content_state": "error",
+      "language_state": "accurate",
+      "expected_pattern": "언어 점수는 보존하고 지문 모순·근거 부족·필수 내용 누락에 따라 내용 점수를 감점",
+      "caution": "자연스러운 표현을 사실 정확성의 근거로 오인하지 않음"
+    },
+    {
+      "id": "S4",
+      "label": "내용 오류·문법 오류",
+      "content_state": "error",
+      "language_state": "error",
+      "expected_pattern": "서로 다른 근거로 내용과 언어 영역을 각각 감점",
+      "caution": "하나의 오류를 기계적으로 두 번 감점하지 않음"
+    },
+    {
+      "id": "S5",
+      "label": "내용 일부 누락·문법 정확",
+      "content_state": "partial",
+      "language_state": "accurate",
+      "expected_pattern": "누락된 필수 요소만큼 내용 점수를 감점하고 언어 점수는 보존",
+      "caution": "짧다는 이유만으로 언어 범위 외의 항목을 중복 감점하지 않음"
+    },
+    {
+      "id": "S6",
+      "label": "내용 정확·국지적 문법 오류",
+      "content_state": "accurate",
+      "language_state": "minor_error",
+      "expected_pattern": "내용 점수는 보존하고 언어 영역에서 경미한 감점",
+      "caution": "오류 수뿐 아니라 의미 전달 방해 정도를 함께 판정"
+    },
+    {
+      "id": "S7",
+      "label": "문법 오류로 의미 변경",
+      "content_state": "unclear_or_changed",
+      "language_state": "meaning_changing_error",
+      "expected_pattern": "언어 점수를 감점하고 실제 전달된 의미가 틀리거나 불명확한 범위에서 내용 점수에도 반영",
+      "caution": "두 영역에 영향을 준 이유를 각각 evidence에 명시"
+    },
+    {
+      "id": "S8",
+      "label": "지문과 다른 타당한 관점·문법 정확",
+      "content_state": "valid_alternative",
+      "language_state": "accurate",
+      "expected_pattern": "지문 근거가 타당하고 과제를 수행했다면 내용과 언어 점수를 보존",
+      "caution": "예시답안과 표현이 다르다는 이유로 감점하지 않음"
+    }
+  ]
+}

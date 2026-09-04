@@ -1,0 +1,1047 @@
+{
+  "schema_version": 1,
+  "experiment": "topik_economy_grade_vocabulary_repair",
+  "ontology_mode": "diagnostic",
+  "source_key": "pet_restaurant",
+  "grade": 1,
+  "text_type": "개인 문자",
+  "essential_lexemes": [],
+  "required_keyword": "식당",
+  "source_terms": [
+    "식당"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "passage_status": "NEEDS_HUMAN_REVIEW",
+  "question_status": "NEEDS_REGENERATION",
+  "rounds_used": 4,
+  "generated_passage": "민수 씨, 오늘 점심에 저와 같이 식당에 가실래요? 저는 비빔밥을 아주 좋아해서 민수 씨와 함께 비빔밥을 먹으러 가고 싶어요. 우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다.",
+  "final_ai_validation": {
+    "passed": false,
+    "failed_ids": [
+      "P-VAL-VOCAB"
+    ],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료의 핵심 의미(사람이 식당에 가서 음식을 먹는 일상 장면)를 충실히 반영하고 있습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "추측성 정보나 확인 불가능한 사실을 단정적으로 포함하지 않았습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "1급 수준에 적합한 짧은 문장 구조, 기초 어휘 사용, 그리고 '개인 문자'라는 요구된 유형과 목적에 부합하는 구성입니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "식사 제안 → 이유 및 기분 표현 → 행동 촉구로 이어지는 선형적인 흐름을 가지고 있으며, 각 문장이 앞선 상황이나 대상을 자연스럽게 이어받고 있습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "식당 방문 여부, 메뉴(비빔밥), 약속 시간 등 명시적 정보를 바탕으로 질문을 구성하기 충분합니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 문화 편향이나 민감한 정보 없이 보편적인 일상 소재를 다루고 있습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "반복되는 단어나 구조가 학습 방해 요소가 되지 않으며, 쉬운 대체어를 사용하여 난이도를 조절했습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명하고 의미 전달에 모순이 없습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "1~2급 수준에서 허용되는 수식어 범위 내에 있으며, 불필요하게 복잡하거나 중의적인 표현이 없습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-10",
+        "passed": true,
+        "evidence": "단순 나열이 아닌 '점심 식사 제안'이라는 하나의 중심 주제로 흐름을 묶었으며, 마지막 문장에서 새로운 주제를 도입하지 않습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-11",
+        "passed": true,
+        "evidence": "한국어 실생활에서 자연스러운 결합(비빔밥을 좋아하다, 기분이 좋다 등)을 사용하였고 사실 관계가 일관됩니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-SOURCE-KEYWORD",
+        "passed": true,
+        "evidence": "필수 원문 핵심어 ‘식당’ 포함",
+        "revision_instruction": "원문의 급수 적합 핵심어 ‘식당’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB",
+        "passed": false,
+        "evidence": "등급 검토 참고 어휘: 정말(미등록 내용어)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      },
+      {
+        "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+        "passed": true,
+        "evidence": "문장 수 4개(허용 3~5개)",
+        "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-LENGTH",
+      "O-VAL-REQUIRED-RELATIONS"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "공백 포함 105자, 1급 목표 120~180자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "목표 급수 초과·미등록 어휘 없음",
+        "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: ",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "reading_items": [
+    {
+      "question_type": "main_idea",
+      "question": "이 글의 중심 생각은 무엇입니까?",
+      "choices": [
+        "비빔밥이 아주 맛있는 음식이라는 것",
+        "점심에 식당에서 함께 비빔밥을 먹자는 제안",
+        "식당에서 음식을 먹으면 기분이 좋아진다는 것",
+        "민수 씨가 점심에 어디에 가는지 물어보는 것"
+      ],
+      "answer": "점심에 식당에서 함께 비빔밥을 먹자는 제안",
+      "explanation": "글쓴이가 민수 씨에게 오늘 점심에 같이 식당에 가서 비빔밥을 먹자고 제안하고 있습니다."
+    },
+    {
+      "question_type": "content_match",
+      "question": "글의 내용과 같은 것은 무엇입니까?",
+      "choices": [
+        "글쓴이는 비빔밥을 싫어합니다.",
+        "글쓴이는 혼자서 밥을 먹으러 갑니다.",
+        "글쓴이는 점심에 민수 씨와 만나기로 했습니다.",
+        "글쓴이는 내일 점심에 식당에 가고 싶어 합니다."
+      ],
+      "answer": "글쓴이는 점심에 민수 씨와 만나기로 했습니다.",
+      "explanation": "지문 마지막 문장에서 '우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다'라고 말하고 있으므로, 오늘 점심에 만나는 것이 맞습니다."
+    }
+  ],
+  "question_checks": [
+    {
+      "question_type": "main_idea",
+      "passed": true,
+      "failed_ids": []
+    },
+    {
+      "question_type": "content_match",
+      "passed": true,
+      "failed_ids": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "민수 씨, 오늘 저녁에 같이 식당에 가요. 우리 그 식당에서 맛있는 한국 음식을 함께 먹읍시다. 한국 음식이 아주 맛있어서 기분이 정말 좋습니다. 오늘 저녁 7시에 약속한 그 식당 앞에서 만납시다. 그때 같이 즐겁게 밥을 먹고 이야기합시다.",
+      "chars": 134,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [
+          {
+            "word": "그때",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "그때"
+            ]
+          }
+        ],
+        "violation_count": 1,
+        "known_token_count": 24,
+        "unknown_tokens": [
+          "그",
+          "정말"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "그",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "그",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "그",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미(사람이 식당에 가서 음식을 먹는 일상 장면)를 충실히 반영하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 사실 확인이 필요한 외부 정보를 단정적으로 포함하지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 적합한 짧은 문장, 기초 어휘(식당, 음식, 약속 등), 단순한 구조로 구성되었습니다. 글자 수 또한 120~180자 범위 내에 있으며 개인적인 상황을 다루고 있어 목표 급수에 부합합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "'식당/음식'이라는 주제가 모든 문장에서 이어지며, [제안 -> 이유 → 시간 및 장소 안내]라는 선형적인 흐름을 따르고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "시간(7시), 장소(식당 앞), 행동(함께 먹기) 등의 명시적 정보가 포함되어 읽기 평가를 수행하기에 충분합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화 편향이나 민감한 정보 없이 보편적인 일상 대화로 구성되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현이 학습 방해 수준이 아니며, 쉬운 단어를 사용하여 난이도를 조절했습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어와 서술어가 분명하며, 문법적으로 완결된 구조입니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 범위 내에서 허용되는 수식어(맛있는, 즐겁게 등)를 사용하였으며, 불필요하게 복잡하거나 모호한 꾸밈말은 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아닌 '저녁 약속'이라는 하나의 상황을 중심으로 내용이 전개되며, 마지막에 새로운 주제가 등장하지 않습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어의 자연스러운 결합(함께 먹다, 밥을 먹고 이야기하다 등)을 따르고 있으며 번역투나 어색한 연결이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘식당’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘식당’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 그때(2급), 그(미등록 내용어), 정말(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 5개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 134자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "그때(2급), 그(미등록), 정말(미등록)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 그때(2급), 그(미등록), 정말(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 2,
+      "passage": "오늘 점심에 저는 친구와 함께 식당에 갑니다. 그 식당의 음식은 아주 맛있어서 우리는 거기에서 같이 맛있는 음식을 먹기로 했습니다. 우리는 식당에서 배불리 음식을 먹었습니다. 그리고 밥을 다 먹고 나서 친구와 즐겁게 대화했습니다.",
+      "chars": 128,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 24,
+        "unknown_tokens": [
+          "그",
+          "배불리"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "그",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "배불리",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "그",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "배불리",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "그",
+            "part_of_speech": "MM",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "배불리",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미(사람이 식당에 가서 음식을 먹는 일상 장면)를 정확하게 반영하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료의 범위를 벗어난 사실을 단정하거나 허구의 정보를 포함하지 않습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 적합한 짧은 문장 구조와 기초 어휘를 사용하였으며, 한 문장에 하나의 정보만을 전달하는 선형 구조를 따릅니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "'식당', '음식', '친구'라는 대상을 명확히 유지하며 상황→행동→결과로 이어지는 선형 흐름이 자연스럽습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "누가 어디서 무엇을 했는지 명시된 정보를 통해 기본적인 읽기 목표를 달성할 수 있는 충분한 정보를 제공합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보 없이 보편적인 일상 소재를 다루고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "어려운 동의어를 피하고 쉬운 표현을 사용하여 1급 학습자의 부담을 줄였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며, 앞뒤 문장 간의 연결에 모순이나 비약이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 범위 내에서 허용되는 형용사(맛있는, 즐겁게)와 부사를 적절히 활용하였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아닌 '식당 방문과 식사'라는 하나의 장면으로 응집력 있게 구성되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "번역투나 어색한 결합 없이 자연스러운 한국어 표현을 사용하였으며 사실 관계가 일관됩니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘식당’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘식당’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 그(미등록 내용어), 배불리(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 4개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 128자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "그(미등록), 배불리(미등록)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 그(미등록), 배불리(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 3,
+      "passage": "오늘 점심에 친구와 식당에 갑니다. 우리는 두 시에 식당 앞에서 만나서 같이 밥을 먹습니다. 친구는 매운 음식을 못 먹어서 비빔밥 대신 다른 한국 음식을 주문합니다. 우리는 맛있는 음식을 먹고 즐겁게 식사를 마칩니다.",
+      "chars": 121,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [
+          {
+            "word": "대신",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "대신"
+            ]
+          },
+          {
+            "word": "마치다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "마치"
+            ]
+          },
+          {
+            "word": "주문",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "주문"
+            ]
+          }
+        ],
+        "violation_count": 3,
+        "known_token_count": 25,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(핵심어 '식당')의 의미인 '사람이 식당에 가서 음식을 먹는 일상 장면'을 정확하게 반영하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 확인 불가능한 사실을 단정적으로 포함하지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 적합한 짧은 문장과 기초 어휘를 사용하였으며, 한 문장에 하나의 정보를 담고 있습니다. 글자 수 또한 120~180자 범위 내에 있으며 요구된 유형(개인 문자/메모 성격)에 부합합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[오늘 점심] - [두 시 약속 및 장소] - [음식 선택 이유] - [결과]로 이어지는 선형 구조가 명확하며, 각 문장이 앞 문장의 상황이나 행동을 자연스럽게 이어받고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "시간, 장소, 메뉴 선택의 이유 등 읽기 평가를 위한 명시적 정보가 충분히 포함되어 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향성 없이 보편적인 일상 소재를 다루고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "어려운 동의어를 피하고 기초 어휘를 사용하였으며, 동일한 표현이 불필요하게 반복되지 않습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어(맛있는, 즐겁게)를 적절히 활용하였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '약속→장소 이동→메뉴 결정→마무리'라는 하나의 장면 안에서 선형 흐름을 형성하며 구성되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "번역투나 부자연스러운 결합이 없으며 실제 한국어 구어체/문어체 상황에 맞는 자연스러운 표현입니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘식당’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘식당’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 대신(3급), 마치다(2급), 주문(2급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 4개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 121자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "대신(3급), 마치다(2급), 주문(2급)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 대신(3급), 마치다(2급), 주문(2급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 4,
+      "passage": "민수 씨, 오늘 점심에 저와 같이 식당에 가실래요? 저는 비빔밥을 아주 좋아해서 민수 씨와 함께 식당에서 비빔밥을 먹고 싶습니다. 식당에서 맛있는 음식을 먹으면 기분이 정말 좋습니다. 우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다.",
+      "chars": 137,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 26,
+        "unknown_tokens": [
+          "정말"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미(사람이 식당에 가서 음식을 먹는 일상 장면)를 충실히 반영하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 확인 불가능한 사실을 단정적으로 포함하지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 적합한 짧은 문장 구조, 기초 어휘 사용, 그리고 '개인 문자'라는 요구된 유형과 목적에 부합하는 구성입니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "식사 제안 → 이유 및 기분 표현 → 행동 촉구로 이어지는 선형적인 흐름을 가지고 있으며, 각 문장이 앞선 상황이나 대상을 자연스럽게 이어받고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "식당 방문 여부, 메뉴(비빔밥), 약속 시간 등 명시적 정보를 바탕으로 질문을 구성하기 충분합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화 편향이나 민감한 정보 없이 보편적인 일상 소재를 다루고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 단어나 구조가 학습 방해 요소가 되지 않으며, 쉬운 대체어를 사용하여 난이도를 조절했습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명하고 의미 전달에 모순이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어 범위 내에 있으며, 불필요하게 복잡하거나 중의적인 표현이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아닌 '점심 식사 제안'이라는 하나의 중심 주제로 흐름을 묶었으며, 마지막 문장에서 새로운 주제를 도입하지 않습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 실생활에서 자연스러운 결합(비빔밥을 좋아하다, 기분이 좋다 등)을 사용하였고 사실 관계가 일관됩니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘식당’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘식당’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 정말(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 4개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 137자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "정말(미등록)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 정말(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    }
+  ],
+  "generated_at": "2026-08-27T00:03:56.162936+00:00",
+  "vocabulary_repair": {
+    "before_passage": "민수 씨, 오늘 점심에 저와 같이 식당에 가실래요? 저는 비빔밥을 아주 좋아해서 민수 씨와 함께 식당에서 비빔밥을 먹고 싶습니다. 식당에서 맛있는 음식을 먹으면 기분이 정말 좋습니다. 우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다.",
+    "after_passage": "민수 씨, 오늘 점심에 저와 같이 식당에 가실래요? 저는 비빔밥을 아주 좋아해서 민수 씨와 함께 비빔밥을 먹으러 가고 싶어요. 우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다.",
+    "before_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 1,
+      "violations": [],
+      "violation_count": 0,
+      "known_token_count": 22,
+      "unknown_tokens": [
+        "정말"
+      ],
+      "unknown_token_count": 1,
+      "unknown_items": [
+        {
+          "word": "정말",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_tokens": [
+        {
+          "word": "정말",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_token_count": 1,
+      "blocked_unknown_nouns": [
+        {
+          "word": "정말",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_noun_count": 1,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "after_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 1,
+      "violations": [],
+      "violation_count": 0,
+      "known_token_count": 18,
+      "unknown_tokens": [],
+      "unknown_token_count": 0,
+      "unknown_items": [],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "history": [
+      {
+        "round": 1,
+        "before_chars": 137,
+        "after_chars": 134,
+        "before_violations": [],
+        "after_violations": [],
+        "before_blocked_unknown_tokens": [
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "after_blocked_unknown_tokens": [],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 1->0 감소"
+      }
+    ],
+    "naturalness_revision": {
+      "attempted": true,
+      "accepted": true,
+      "reason": "통과",
+      "before_passage": "민수 씨, 오늘 점심에 저와 같이 식당에 가실래요? 저는 비빔밥을 아주 좋아해서 민수 씨와 함께 식당에서 비빔밥을 먹고 싶습니다. 식당에서 맛있는 음식을 먹으면 기분이 좋습니다. 우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다.",
+      "candidate_passage": "민수 씨, 오늘 점심에 저와 같이 식당에 가실래요? 저는 비빔밥을 아주 좋아해서 민수 씨와 함께 비빔밥을 먹으러 가고 싶어요. 우리 오늘 점심에 식당에서 만나서 같이 맛있게 밥을 먹읍시다.",
+      "content_anchor_overlap": 0.846,
+      "before_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 22,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "candidate_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 18,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      }
+    },
+    "naturalness_accepted": true
+  }
+}

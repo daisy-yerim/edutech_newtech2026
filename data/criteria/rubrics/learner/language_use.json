@@ -1,0 +1,17 @@
+{
+  "id": "learner_language_use_v2",
+  "source_ids": ["MCST-KSC-2020", "TOPIK-II-WRITE", "CEFR-CV-2020", "ACTFL-WRITING-2024"],
+  "weight_policy_id": "OPS-WEIGHTS-30-30-40",
+  "version": 2,
+  "status": "provisional_pending_expert_review",
+  "label": "언어 사용",
+  "purpose": "목표 등급에 적합한 문법·어휘의 정확성, 범위, 맞춤법과 문체를 평가",
+  "max_score": 40,
+  "criteria": [
+    {"key":"grammar_accuracy","label":"문법 정확성","weight":12,"description":"문법 오류가 의미 전달을 방해하지 않고 문장 구조가 정확한가","bands":{"high":"10~12: 오류가 드물고 의미가 명확","mid":"5~9: 오류가 있으나 대체로 이해 가능","low":"0~4: 오류가 빈번해 이해를 방해"}},
+    {"key":"vocabulary_appropriacy","label":"어휘 적절성","weight":10,"description":"문맥과 과제에 적절한 어휘를 정확하게 사용하는가","bands":{"high":"8~10: 정확하고 적절","mid":"4~7: 제한적이거나 일부 부정확","low":"0~3: 부정확해 의미 전달을 방해"}},
+    {"key":"language_range","label":"언어 범위와 등급 적합성","weight":8,"description":"목표 등급에 맞는 어휘·문법을 반복 없이 다양하게 사용하는가","bands":{"high":"7~8: 등급에 맞고 다양","mid":"3~6: 범위가 제한적","low":"0~2: 목표 등급에 현저히 미달"}},
+    {"key":"spelling_spacing","label":"맞춤법과 띄어쓰기","weight":5,"description":"철자와 띄어쓰기 오류가 적고 읽기에 지장이 없는가","bands":{"high":"5: 오류가 거의 없음","mid":"2~4: 일부 오류","low":"0~1: 오류가 빈번"}},
+    {"key":"register_style","label":"문체와 격식","weight":5,"description":"글의 목적과 상황에 맞는 종결 표현과 격식을 유지하는가","bands":{"high":"5: 일관되고 적절","mid":"2~4: 일부 혼용","low":"0~1: 부적절하거나 일관성 없음"}}
+  ]
+}

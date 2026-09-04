@@ -1,0 +1,1582 @@
+{
+  "schema_version": 1,
+  "experiment": "topik_economy_grade_vocabulary_repair",
+  "ontology_mode": "diagnostic",
+  "source_key": "energy_saving",
+  "grade": 1,
+  "text_type": "개인 문자",
+  "essential_lexemes": [],
+  "required_keyword": "불",
+  "source_terms": [
+    "불"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "passage_status": "NEEDS_HUMAN_REVIEW",
+  "question_status": "NEEDS_REGENERATION",
+  "rounds_used": 4,
+  "generated_passage": "민수 씨, 오늘 사무실에 일찍 왔습니까? 다른 사람도 없고 사람이 없어요. 그러니까 사무실 불을 다 꺼 주세요. 불을 끄면 전기를 아껴요. 일을 다 하고 나중에 저에게 꼭 전화해 주세요. 기다릴게요.",
+  "final_ai_validation": {
+    "passed": false,
+    "failed_ids": [
+      "P-VAL-VOCAB",
+      "P-VAL-TOPIK-I-STRUCTURE"
+    ],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료의 핵심 의미(사무실/방의 불을 끄는 상황)를 정확하게 반영하였으며, 화재와 같은 오해의 소지가 없는 일상적인 맥락으로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "추측성 정보나 외부 사실을 단정적으로 포함하지 않고, 제공된 핵심어의 범위 내에서 필요한 정보를 기술함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "1급 수준에 적합한 짧은 문장 구조와 기초 어휘를 사용함. '전기', '아끼다' 등 필수 주제 관련 어휘가 적절하며 복잡한 관형절이나 나열이 없음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "[상황: 아무도 없음] → [행동: 불을 꺼라] → [결과/이유: 전기를 아낀다] → [후속 행동: 전화해라]로 이어지는 선형적 흐름이 명확함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "사무실 상황에서 수행해야 할 구체적인 동작(불 끄기)과 이후 행동(전화하기)이 명시되어 있어 읽기 기능을 수행하기 충분함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 문화나 편향된 정보 없이 보편적인 사무 공간의 일상을 다룸.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "반복되는 표현이나 어려운 동의어 대신 쉬운 단어를 사용하였으며, 문장 구조가 단순하여 학습 부담이 낮음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 주어와 서술어가 분명하며, 앞뒤 문장의 연결 관계에 모순이 없음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "1~2급 수준에서 허용되는 수식어 범위 내이며, 불필요한 감정적/문학적 꾸밈말을 배제하고 기능 중심의 어휘를 선택함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-10",
+        "passed": true,
+        "evidence": "단순 나열이 아니라 '상황 설명 - 행동 지시 - 이유 제시'로 이어지는 하나의 장면(Scene)으로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-11",
+        "passed": true,
+        "evidence": "'불을 끄다', '전기를 아끼다' 등 실제 한국어에서 자연스러운 결합을 사용했으며 원문의 의도를 왜곡 없이 반영함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-SOURCE-KEYWORD",
+        "passed": true,
+        "evidence": "필수 원문 핵심어 ‘불’ 포함",
+        "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB",
+        "passed": false,
+        "evidence": "등급 검토 참고 어휘: 그러다(3급), 아끼다(3급), 끝내다(2급), 모든(2급), 전기(2급), 지금(미등록 내용어), 아무(미등록 내용어)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      },
+      {
+        "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+        "passed": false,
+        "evidence": "문장 수 6개(허용 3~5개)",
+        "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-LENGTH",
+      "O-VAL-GRADE-RESOURCE",
+      "O-VAL-REQUIRED-RELATIONS"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "공백 포함 111자, 1급 목표 120~180자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "아끼다(3급), 전기(2급)",
+        "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 전기(2급)",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "reading_items": [
+    {
+      "question_type": "main_idea",
+      "question": "이 글의 중심 생각으로 알맞은 것은 무엇입니까?",
+      "choices": [
+        "사무실에 빨리 오는 방법",
+        "전기를 아끼기 위해 불을 꺼 주세요.",
+        "다른 사람들과 함께 일하는 방법",
+        "전화가 오면 사무실 불을 켜 주세요."
+      ],
+      "answer": "전기를 아끼기 위해 불을 꺼 주세요.",
+      "explanation": "글쓴이가 민수 씨에게 아무도 없는 상황에서 전기를 아끼기 위해 사무실 불을 모두 꺼 달라고 부탁하고 있습니다."
+    },
+    {
+      "question_type": "content_match",
+      "question": "위 내용과 같은 것은 무엇입니까?",
+      "choices": [
+        "민수 씨는 지금 다른 사람과 같이 있습니다.",
+        "민수 씨는 일을 끝내고 나서 전화해야 합니다.",
+        "민수 씨는 오늘 사무실에 늦게 왔습니다.",
+        "민수 씨는 사무실에 도착하면 바로 집에 가야 합니다."
+      ],
+      "answer": "민수 씨는 일을 끝내고 나서 전화해야 합니다.",
+      "explanation": "지문에 '모든 일을 다 끝내고 나서 저에게 꼭 전화해 주세요.'라고 명시되어 있습니다."
+    }
+  ],
+  "question_checks": [
+    {
+      "question_type": "main_idea",
+      "passed": true,
+      "failed_ids": []
+    },
+    {
+      "question_type": "content_match",
+      "passed": true,
+      "failed_ids": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "민수 씨, 오늘 회사에 가시나요? 저녁에 같이 식사하고 싶어요. 저는 지금 사무실에 있습니다. 그런데 빈 방에 불이 켜져 있어서 확인하러 가야 합니다. 그래서 일을 모두 끝낸 후에 집으로 돌아갈 예정입니다. 그럼 우리 내일 아침에 다시 만납시다. 그때까지 잘 지내세요.",
+      "chars": 150,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [
+          {
+            "word": "예정",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "예정"
+            ]
+          },
+          {
+            "word": "확인",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "확인"
+            ]
+          },
+          {
+            "word": "그때",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "그때"
+            ]
+          },
+          {
+            "word": "끝내다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "끝내"
+            ]
+          },
+          {
+            "word": "비다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "비"
+            ]
+          }
+        ],
+        "violation_count": 5,
+        "known_token_count": 27,
+        "unknown_tokens": [
+          "지금"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB",
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 내용(사무실 불을 확인하는 상황)을 유지하며 적절히 개작되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료를 벗어난 사실을 단정하거나 허구의 정보를 포함하지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 맞게 짧은 문장과 기초 어휘를 사용하였으며, '개인 문자'라는 형식에 부합합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "상황(불이 켜짐)→행동(확인하러 감)→결과/계획(집으로 귀가 및 내일 약속)의 선형 구조가 명확하게 이어집니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "문자 메시지로서 정보 전달 목적이 분명하며, 질문이나 계획 등 읽기 평가 요소가 충분합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보 없이 일상적인 상황만을 다루고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "어려운 동의어를 피하고 기본 표현을 사용하여 난이도를 조절했습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확하여 의미 전달에 오류가 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 범위 내에서 허용되는 수식어만 사용되었으며 불필요한 꾸밈말이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아닌 '사무실 업무 후 귀가 및 약속'이라는 하나의 흐름으로 연결되어 있으며 마지막 문장에서 새로운 주제를 꺼내지 않습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "핵심어 '불'의 의미(전등)가 상황과 적절하게 결합되었으며 번역투나 어색한 표현이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘불’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 예정(3급), 확인(3급), 그때(2급), 끝내다(2급), 비다(2급), 지금(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 7개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 150자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "예정(3급), 확인(3급), 그때(2급), 끝내다(2급), 비다(2급), 지금(미등록)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 예정(3급), 확인(3급), 그때(2급), 끝내다(2급), 비다(2급), 지금(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 2,
+      "passage": "민수 씨, 지금 사무실 불이 아직 켜져 있습니다. 민수 씨는 저녁 식사를 마친 후에 사무실에 갈 것입니다. 그리고 사무실에 가서 불을 끌 것입니다. 이렇게 불을 꺼서 전기를 아끼고 에너지를 절약하려고 합니다.",
+      "chars": 116,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [
+          {
+            "word": "에너지",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "에너지"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          },
+          {
+            "word": "마치다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "마치"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "violation_count": 5,
+        "known_token_count": 21,
+        "unknown_tokens": [
+          "지금"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '불'을 화재 상황이 아닌 사무실 전등을 끄는 일상적인 장면으로 정확하게 활용하였으며, 원문의 의미를 유지하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료의 범위를 벗어나거나 사실을 왜곡하여 단정한 내용이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 적합한 짧고 단순한 문장 구조와 기초 어휘(사무실, 저녁 식사, 전기 등)를 사용하였습니다. 분량 또한 목표 범위 내에 있으며 복잡한 수식이나 개념 밀도가 낮습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[상황: 불이 켜져 있음] → [행동: 저녁 후 방문 및 끄기] → [결과/목적: 에너지 절약]의 선형 흐름이 명확하며, 각 문장이 앞 문장의 장소나 행동을 자연스럽게 이어받고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "'불이 켜져 있는지', '언제 갈 것인지', '왜 끌 것인지'에 대한 정보가 명시되어 있어 읽기 평가용으로 충분합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보 없이 보편적인 일상 상황을 다루고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "중복되는 표현이나 어려운 동의어 대신 쉬운 대용 표현을 사용하였으며, 구조가 단조롭지 않으면서도 간결합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명하고 의미 전달에 모순이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어를 사용하였으며, 불필요하게 화려하거나 중의적인 꾸밈말이 배제되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '불이 켜져 있음'이라는 상태에서 시작해 행동과 목적(절약)으로 이어지는 하나의 장면으로 구성되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "'전기를 아끼고 에너지를 절약하다' 등 실제 한국어에서 자연스러운 결합을 사용하였으며 원문과의 사실 관계 왜곡이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘불’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 에너지(4급), 아끼다(3급), 절약(3급), 마치다(2급), 전기(2급), 지금(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 4개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-LENGTH",
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "공백 포함 116자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "에너지(4급), 아끼다(3급), 절약(3급), 마치다(2급), 전기(2급), 지금(미등록)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 에너지(4급), 아끼다(3급), 절약(3급), 마치다(2급), 전기(2급), 지금(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 3,
+      "passage": "민수 씨, 오늘 회사에 가요? 사무실 불(불을 꺼요)을 다 껐어요. 내일 아침에 일찍 가요. 그럼 내일 아침에 만나요. 우리 내일 아침에 만나서 같이 이야기해요. 내일은 좋은 날이에요. 내일 아침에 웃으면서 봐요. 내일 약속 장소에서 기다릴게요. 내일 꼭 만나요.",
+      "chars": 147,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 25,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미(사무실 불을 끄는 상황)를 유지하며 일상적인 대화 내용으로 적절히 개작되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 외부 사실을 단정적으로 포함하지 않고, 개인 간의 약속과 행동에 집중하였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 맞게 짧고 단순한 문장 구조를 사용하였으며, 어휘 또한 기초적인 것들로 구성되어 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "'내일 아침', '약속 장소' 등 시간과 장소를 반복 언급하며 선형적인 흐름(질문→답변/설명→제안→확인)을 잘 따르고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "개인 문자 형식에서 필수 정보(시간, 장소, 행위 여부)가 명시되어 있어 읽기 평가용으로 충분합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보 없이 보편적인 일상 상황을 다루고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 표현의 과도한 중복이 없으며, 쉬운 단어를 사용하여 난이도를 조절했습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 명확하여 의미 전달에 오류가 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어 범위 내에 있으며, 불필요한 감성적 꾸밈말이 남발되지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '내일 만남'이라는 하나의 주제를 중심으로 내용이 연결되고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 실생활에서 쓰이는 자연스러운 결합이며, 원문 핵심어(불)의 맥락을 정확하게 반영하였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘불’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 9개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 147자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "목표 급수 초과·미등록 어휘 없음",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: ",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 4,
+      "passage": "민수 씨, 오늘 사무실에 일찍 왔습니까? 지금은 다른 사람도 없고 아무도 없습니다. 그러니 사무실 불을 모두 꺼 주세요. 불을 끄면 전기를 아낄 수 있습니다. 모든 일을 다 끝내고 나서 저에게 꼭 전화해 주세요. 기다리고 있겠습니다.",
+      "chars": 130,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [
+          {
+            "word": "그러다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "그러"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "끝내다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "끝내"
+            ]
+          },
+          {
+            "word": "모든",
+            "grade": 2,
+            "part_of_speech": "MM",
+            "tokens": [
+              "모든"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "violation_count": 5,
+        "known_token_count": 19,
+        "unknown_tokens": [
+          "지금",
+          "아무"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "지금",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "지금",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB",
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미(사무실/방의 불을 끄는 상황)를 정확하게 반영하였으며, 화재와 같은 오해의 소지가 없는 일상적인 맥락으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 외부 사실을 단정적으로 포함하지 않고, 제공된 핵심어의 범위 내에서 필요한 정보를 기술함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 적합한 짧은 문장 구조와 기초 어휘를 사용함. '전기', '아끼다' 등 필수 주제 관련 어휘가 적절하며 복잡한 관형절이나 나열이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[상황: 아무도 없음] → [행동: 불을 꺼라] → [결과/이유: 전기를 아낀다] → [후속 행동: 전화해라]로 이어지는 선형적 흐름이 명확함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "사무실 상황에서 수행해야 할 구체적인 동작(불 끄기)과 이후 행동(전화하기)이 명시되어 있어 읽기 기능을 수행하기 충분함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향된 정보 없이 보편적인 사무 공간의 일상을 다룸.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현이나 어려운 동의어 대신 쉬운 단어를 사용하였으며, 문장 구조가 단순하여 학습 부담이 낮음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어와 서술어가 분명하며, 앞뒤 문장의 연결 관계에 모순이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어 범위 내이며, 불필요한 감정적/문학적 꾸밈말을 배제하고 기능 중심의 어휘를 선택함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '상황 설명 - 행동 지시 - 이유 제시'로 이어지는 하나의 장면(Scene)으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "'불을 끄다', '전기를 아끼다' 등 실제 한국어에서 자연스러운 결합을 사용했으며 원문의 의도를 왜곡 없이 반영함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘불’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 그러다(3급), 아끼다(3급), 끝내다(2급), 모든(2급), 전기(2급), 지금(미등록 내용어), 아무(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 6개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 130자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "그러다(3급), 아끼다(3급), 끝내다(2급), 모든(2급), 전기(2급), 지금(미등록), 아무(미등록)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 그러다(3급), 아끼다(3급), 끝내다(2급), 모든(2급), 전기(2급), 지금(미등록), 아무(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    }
+  ],
+  "generated_at": "2026-08-27T00:44:35.446810+00:00",
+  "vocabulary_repair": {
+    "before_passage": "민수 씨, 오늘 사무실에 일찍 왔습니까? 지금은 다른 사람도 없고 아무도 없습니다. 그러니 사무실 불을 모두 꺼 주세요. 불을 끄면 전기를 아낄 수 있습니다. 모든 일을 다 끝내고 나서 저에게 꼭 전화해 주세요. 기다리고 있겠습니다.",
+    "after_passage": "민수 씨, 오늘 사무실에 일찍 왔습니까? 다른 사람도 없고 사람이 없어요. 그러니까 사무실 불을 다 꺼 주세요. 불을 끄면 전기를 아껴요. 일을 다 하고 나중에 저에게 꼭 전화해 주세요. 기다릴게요.",
+    "before_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 1,
+      "violations": [
+        {
+          "word": "그러다",
+          "grade": 3,
+          "part_of_speech": "VV",
+          "tokens": [
+            "그러"
+          ]
+        },
+        {
+          "word": "아끼다",
+          "grade": 3,
+          "part_of_speech": "VV",
+          "tokens": [
+            "아끼"
+          ]
+        },
+        {
+          "word": "끝내다",
+          "grade": 2,
+          "part_of_speech": "VV",
+          "tokens": [
+            "끝내"
+          ]
+        },
+        {
+          "word": "모든",
+          "grade": 2,
+          "part_of_speech": "MM",
+          "tokens": [
+            "모든"
+          ]
+        },
+        {
+          "word": "전기",
+          "grade": 2,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "전기"
+          ]
+        }
+      ],
+      "violation_count": 5,
+      "known_token_count": 17,
+      "unknown_tokens": [
+        "지금",
+        "아무"
+      ],
+      "unknown_token_count": 2,
+      "unknown_items": [
+        {
+          "word": "지금",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "아무",
+          "part_of_speech": "NP",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_tokens": [
+        {
+          "word": "지금",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "아무",
+          "part_of_speech": "NP",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_token_count": 2,
+      "blocked_unknown_nouns": [
+        {
+          "word": "지금",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "아무",
+          "part_of_speech": "NP",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_noun_count": 2,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "after_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 1,
+      "violations": [
+        {
+          "word": "아끼다",
+          "grade": 3,
+          "part_of_speech": "VV",
+          "tokens": [
+            "아끼"
+          ]
+        },
+        {
+          "word": "전기",
+          "grade": 2,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "전기"
+          ]
+        }
+      ],
+      "violation_count": 2,
+      "known_token_count": 18,
+      "unknown_tokens": [],
+      "unknown_token_count": 0,
+      "unknown_items": [],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "history": [
+      {
+        "round": 1,
+        "before_chars": 130,
+        "after_chars": 347,
+        "before_violations": [
+          {
+            "word": "그러다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "그러"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "끝내다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "끝내"
+            ]
+          },
+          {
+            "word": "모든",
+            "grade": 2,
+            "part_of_speech": "MM",
+            "tokens": [
+              "모든"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "교정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "교정"
+            ]
+          },
+          {
+            "word": "제거",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "제거"
+            ]
+          },
+          {
+            "word": "조정",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "조정"
+            ]
+          },
+          {
+            "word": "최종",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "최종"
+            ]
+          },
+          {
+            "word": "관련",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "관련"
+            ]
+          },
+          {
+            "word": "그러다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "그러"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "어휘",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "어휘"
+            ]
+          },
+          {
+            "word": "절약",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절약"
+            ]
+          },
+          {
+            "word": "표현",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "표현"
+            ]
+          },
+          {
+            "word": "결과",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "결과"
+            ]
+          },
+          {
+            "word": "금지",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "금지"
+            ]
+          },
+          {
+            "word": "끝내다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "끝내"
+            ]
+          },
+          {
+            "word": "모든",
+            "grade": 2,
+            "part_of_speech": "MM",
+            "tokens": [
+              "모든"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          },
+          {
+            "word": "줄이다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "줄이"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "after_blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "수정본",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "accepted": false,
+        "acceptance_reason": "어휘 문제 미감소(7->20)"
+      },
+      {
+        "round": 2,
+        "before_chars": 130,
+        "after_chars": 111,
+        "before_violations": [
+          {
+            "word": "그러다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "그러"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "끝내다",
+            "grade": 2,
+            "part_of_speech": "VV",
+            "tokens": [
+              "끝내"
+            ]
+          },
+          {
+            "word": "모든",
+            "grade": 2,
+            "part_of_speech": "MM",
+            "tokens": [
+              "모든"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "after_blocked_unknown_tokens": [],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 7->2 감소"
+      },
+      {
+        "round": 3,
+        "before_chars": 111,
+        "after_chars": 104,
+        "before_violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [],
+        "after_blocked_unknown_tokens": [],
+        "accepted": false,
+        "acceptance_reason": "어휘 문제 미감소(2->2)"
+      }
+    ],
+    "naturalness_revision": {
+      "attempted": true,
+      "accepted": false,
+      "reason": "미등록 내용어 수가 교정 전보다 증가함",
+      "before_passage": "민수 씨, 오늘 사무실에 일찍 왔습니까? 다른 사람도 없고 사람이 없어요. 그러니까 사무실 불을 다 꺼 주세요. 불을 끄면 전기를 아껴요. 일을 다 하고 나중에 저에게 꼭 전화해 주세요. 기다릴게요.",
+      "candidate_passage": "민수 씨, 오늘 사무실에 일찍 왔어요? 지금 아무도 없으니까 불을 꺼 주세요. 불을 끄면 전기를 아낄 수 있어요. 일을 다 하고 나중에 저에게 전화해 주세요. 기다릴게요.",
+      "content_anchor_overlap": 0.727,
+      "before_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "violation_count": 2,
+        "known_token_count": 18,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "candidate_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "전기",
+            "grade": 2,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "전기"
+            ]
+          }
+        ],
+        "violation_count": 2,
+        "known_token_count": 12,
+        "unknown_tokens": [
+          "지금",
+          "아무"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "아무",
+            "part_of_speech": "NP",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      }
+    },
+    "naturalness_accepted": false
+  }
+}

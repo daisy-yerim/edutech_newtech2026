@@ -1,0 +1,675 @@
+{
+  "schema_version": 1,
+  "experiment": "ontology_in_validation_loop",
+  "source_key": "energy_saving",
+  "grade": 2,
+  "text_type": "안내문",
+  "essential_lexemes": [],
+  "required_keyword": "전기",
+  "source_terms": [
+    "전기"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "rounds_used": 3,
+  "generated_passage": "[전기를 아껴요]\n\n우리 회사는 전기를 적게 써야 합니다. 전기는 우리 생활에 아주 중요합니다. 전기를 적게 쓰면 자연이 좋아집니다. 그래서 모든 직원은 잘 들어 주세요. 먼저 사무실을 나갈 때 불을 꺼 주세요. 그리고 쓰지 않는 전기 물건도 다 꺼 주세요. 작은 행동으로 소중한 전기를 함께 아끼고 또 아낍시다. 우리 모두가 같이 노력해서 전기를 조금씩 적게 쓰는 것이 좋습니다. 우리 모두 힘을 내서 같이 해 주세요.",
+  "final_ai_validation": {
+    "passed": false,
+    "failed_ids": [
+      "P-VAL-VOCAB",
+      "P-VAL-TOPIK-I-STRUCTURE"
+    ],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료의 핵심 의미인 '전기를 아끼는 행동'을 충실히 반영하고 있으며, 정전이나 고장 등의 부차적인 상황으로 변질되지 않았습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "공공 정책이나 특정 법령 등 외부 사실을 단정적으로 포함하지 않고 일상적인 안내문의 형식을 취하고 있습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "2급 수준에 적합한 어휘(중요하다, 소중하다, 노력하다)를 사용하였으며, 문장 구조가 단순하고 명확합니다. 공백 포함 약 195자로 목표 범위(180~260자) 내에 있으며 안내문이라는 목적에 맞는 구성입니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "[상황: 전기의 중요성] → [이유/결과: 자연 보호 및 절약 필요성] → [행동: 불 끄기, 물건 끄기]로 이어지는 선형적 흐름이 분명하며, 주어와 대상의 전환 없이 일관되게 유지됩니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "'불을 꺼 주세요', '물건도 다 꺼 주세요' 등 구체적인 행동 지침이 포함되어 있어 정보 파악 및 세부 내용 파악이 가능한 구조입니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 문화나 편향된 시각 없이 보편적인 환경 보호 메시지를 전달하고 있습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "반복되는 문장 구조를 최소화하였으며, 어려운 동의어를 사용하지 않고 쉬운 표현으로 의미를 전달했습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 문법적으로 완벽하며, 앞뒤 문장의 연결 관계가 논리적이고 명확합니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "2급 수준에서 허용되는 수식어(소중한, 모두)를 적절히 활용하였으며, 불필요하게 화려하거나 모호한 꾸밈말은 배제되었습니다.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-SOURCE-KEYWORD",
+        "passed": true,
+        "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+        "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB",
+        "passed": false,
+        "evidence": "등급 검토 참고 어휘: 아끼다(3급), 먼저(미등록 내용어)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      },
+      {
+        "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+        "passed": false,
+        "evidence": "문장 수 9개(허용 4~7개)",
+        "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-GRADE-RESOURCE"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "공백 포함 235자, 2급 목표 180~260자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "아끼다(3급), 먼저(미등록)",
+        "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 먼저(미등록)",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "전기를 적게 쓰는 안내\n\n우리 회사는 자연을 위해 전기를 아껴야 합니다. 여기서 전기는 집이나 회사에서 쓰는 힘입니다. 그래서 사무실에서 전기를 조금만 써야 합니다. 일을 끝난 후에 컴퓨터를 꺼 주세요. 빈 방의 불도 반드시 꺼야 합니다. 전기를 적게 쓰면 돈을 적게 써요. 우리 모두 함께 노력해 주세요. 여러분의 도움이 꼭 필요합니다. 다 같이 잘하면 좋습니다.",
+      "chars": 204,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "위하다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "위하"
+            ]
+          }
+        ],
+        "violation_count": 2,
+        "known_token_count": 44,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB",
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '전기'를 활용하여 전기를 아끼는 행동(꺼주세요)을 주제로 일관되게 서술함. 원문 의미인 '절약'의 맥락을 유지하고 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료 기반의 자유 개작 모드이며, 허구의 법령이나 특정 수치를 사실처럼 단정하는 내용이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 문장 구조를 사용함. 안내문의 형식을 갖추고 있으며, 한 문장에 핵심 정보 하나를 배치하고 짧은 연결어로 인과 관계를 표현함. 분량도 약 150자 내외로 목표 범위 내에 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "상황(아껴야 함) → 행동(끄기) → 결과/권유(돈 절약, 협조 요청)의 선형적 흐름을 따르며, 각 문장이 앞선 상황이나 대상을 명확히 이어받음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문 형식으로 작성되어 '무엇을 해야 하는지'에 대한 명시적인 정보를 제공하며 읽기 유형에 부합함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향된 내용 없이 보편적인 공공 서비스(절전) 관련 내용을 다룸.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "어려운 동의어를 사용하지 않고 쉬운 어휘를 선택했으며, 동일한 구조가 과도하게 반복되지 않으면서도 일관성을 유지함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명하고 의미 전달에 모순이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "2급 수준에서 허용되는 수식어 범위를 준수하였으며, 불필요하거나 중복된 감정 표현/꾸밈말이 배제됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 아끼다(3급), 위하다(3급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 9개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 204자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "아끼다(3급), 위하다(3급)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 위하다(3급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 2,
+      "passage": "[알림] 전기(전기를 적게 쓰는 것) 아껴 쓰기\n\n우리 회사는 자연을 위해 전기를 아낍니다. 사무실에 들어오면 먼저 불을 끄고 컴퓨터를 사용하십시오. 업무가 끝난 뒤에는 모든 기계의 선을 뽑아야 합니다. 특히 비어 있는 방의 불은 반드시 꺼야 합니다. 우리 모두 함께 노력해 주시기 바랍니다. 여러분의 작은 행동이 큰 도움이 됩니다.",
+      "chars": 186,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "기계",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "기계"
+            ]
+          },
+          {
+            "word": "선",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "선"
+            ]
+          },
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          },
+          {
+            "word": "업무",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "업무"
+            ]
+          },
+          {
+            "word": "위하다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "위하"
+            ]
+          }
+        ],
+        "violation_count": 5,
+        "known_token_count": 38,
+        "unknown_tokens": [
+          "먼저"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '전기'를 활용하여 전기를 아끼는 행동(불 끄기, 선 뽑기)을 주제로 일관되게 서술함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료의 범위를 벗어나지 않는 공공 안내문의 형식을 취하고 있으며, 사실 관계를 왜곡하는 내용이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 문법을 사용함. 한 문장에 핵심 정보 하나를 담고 있으며, 복잡한 관형절이나 나열을 피함. 글자 수(약 145자)가 목표 범위 내에서 효율적으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "상황(사무실 환경)-행동(불 끄기, 선 뽑기)-결과/당부(도움이 됨)의 선형 구조를 따르며, 각 문장이 앞선 상황과 연결되어 하나의 장면으로 이어짐.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문 형식으로서 '어디서', '무엇을' 해야 하는지에 대한 명시적 정보가 충분하여 읽기 평가로 활용 가능함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "even_reasoning": "특정 문화나 편향된 내용 없이 보편적인 공공 안내문의 성격을 유지함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현을 지양하고 쉬운 단어를 사용하여 의미를 전달하며, 어려운 동의어로 난이도를 높이지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확함. 비약이나 모순이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어를 사용하였으며, 불필요한 감정 과잉이나 중복된 꾸밈말이 없어 깔끔하게 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 기계(3급), 선(3급), 아끼다(3급), 업무(3급), 위하다(3급), 먼저(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 6개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 186자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "기계(3급), 선(3급), 아끼다(3급), 업무(3급), 위하다(3급), 먼저(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 기계(3급), 선(3급), 아끼다(3급), 업무(3급), 위하다(3급), 먼저(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 3,
+      "passage": "[전기를 아껴요]\n\n우리 회사는 전기를 적게 써야 합니다. 전기는 우리 생활에 아주 중요합니다. 전기를 적게 쓰면 자연이 좋아집니다. 그래서 모든 직원은 잘 들어 주세요. 먼저 사무실을 나갈 때 불을 꺼 주세요. 그리고 쓰지 않는 전기 물건도 다 꺼 주세요. 작은 행동으로 소중한 전기를 함께 아끼고 또 아낍시다. 우리 모두가 같이 노력해서 전기를 조금씩 적게 쓰는 것이 좋습니다. 우리 모두 힘을 내서 같이 해 주세요.",
+      "chars": 235,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "아끼다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "아끼"
+            ]
+          }
+        ],
+        "violation_count": 1,
+        "known_token_count": 47,
+        "unknown_tokens": [
+          "먼저"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB",
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료의 핵심 의미인 '전기를 아끼는 행동'을 충실히 반영하고 있으며, 정전이나 고장 등의 부차적인 상황으로 변질되지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "공공 정책이나 특정 법령 등 외부 사실을 단정적으로 포함하지 않고 일상적인 안내문의 형식을 취하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘(중요하다, 소중하다, 노력하다)를 사용하였으며, 문장 구조가 단순하고 명확합니다. 공백 포함 약 195자로 목표 범위(180~260자) 내에 있으며 안내문이라는 목적에 맞는 구성입니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[상황: 전기의 중요성] → [이유/결과: 자연 보호 및 절약 필요성] → [행동: 불 끄기, 물건 끄기]로 이어지는 선형적 흐름이 분명하며, 주어와 대상의 전환 없이 일관되게 유지됩니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "'불을 꺼 주세요', '물건도 다 꺼 주세요' 등 구체적인 행동 지침이 포함되어 있어 정보 파악 및 세부 내용 파악이 가능한 구조입니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향된 시각 없이 보편적인 환경 보호 메시지를 전달하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 문장 구조를 최소화하였으며, 어려운 동의어를 사용하지 않고 쉬운 표현으로 의미를 전달했습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며, 앞뒤 문장의 연결 관계가 논리적이고 명확합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "2급 수준에서 허용되는 수식어(소중한, 모두)를 적절히 활용하였으며, 불필요하게 화려하거나 모호한 꾸밈말은 배제되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘전기’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘전기’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 아끼다(3급), 먼저(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 9개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 235자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "아끼다(3급), 먼저(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 아끼다(3급), 먼저(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    }
+  ],
+  "generated_at": "2026-08-12T02:12:17.107181+00:00"
+}

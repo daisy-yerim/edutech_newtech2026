@@ -1,0 +1,1010 @@
+{
+  "schema_version": 1,
+  "experiment": "topik_economy_grade_vocabulary_repair",
+  "ontology_mode": "diagnostic",
+  "source_key": "energy_saving",
+  "grade": 5,
+  "text_type": "보고서",
+  "essential_lexemes": [
+    "에너지"
+  ],
+  "required_keyword": "",
+  "source_terms": [
+    "승용차",
+    "에너지"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "passage_status": "PASS",
+  "question_status": "NEEDS_REGENERATION",
+  "rounds_used": 1,
+  "generated_passage": "기후에너지환경부에 따르면 큰 회사와 은행, 경제단체 등 여러 곳이 스스로 승용차 5부제(자동차를 나누어 타는 약속)에 참여하고 있습니다. 2026년 4월 3일 기준으로 총 50개의 회사가 이 정책에 함께하고 있는 것으로 알았습니다.\n\n특히 시멘트, 기름, 석유 관련 일을 하는 대표 기업 50개사는 올해 석유 사용량을 작년보다 약 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 내놓았습니다. 이것은 원전을 약 한 달 동안 돌려야 얻을 수 있는 양입니다. 이를 위해 해당 기업들은 기계 작동 제한, 남은 열 쓰기, 만드는 과정 효율 높이기 등의 방법을 제시했습니다.\n\n기후에너지환경부는 목표를 달성한 기업에 에너지 절약 시설 설치 비용을 먼저 도와줄 예정입니다. 또한 직원들이 실천하는 조명 끄기, 계단 오르기, 카풀 및 자전거 타기 등을 권하며 승용차 부제와 에너지 절약 문화가 퍼질 수 있도록 노력할 계획이라고 밝혔습니다.",
+  "final_ai_validation": {
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료(F1~F9)에 명시된 민간 기업 참여 사실, 수치(50여 개, 13만toe, 610GWh), 실천 방안(설비 가동 제한 등), 지원 정책 및 향후 계획 등이 누락 없이 정확하게 포함됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료에 없는 내용(기후 변화 효과나 주관적 감상 등)을 임의로 추가하거나 단정적으로 기술하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "공백 포함 약 400자 내외로 목표 길이(380~520자)를 충족하며, 전문적인 문체를 사용한 다문단 구조임. 사회 분야의 공적 보고서 성격이 잘 드러남.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "각 문장이 앞 문장의 대상이나 내용을 구체화하며 연결됨. '특히'와 같은 접속어를 통해 정보의 범위를 좁히고 상세 정보를 제시하는 흐름이 매끄러움.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "정책의 배경, 실행 수단, 보상 체계가 명확히 제시되어 있어 정책의 목적과 지원 방안 등을 추론하고 파악하기에 충분한 정보가 제공됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 집단을 차별하거나 편향된 시각을 담지 않고 객관적인 사실 위주로 기술됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "동일한 종결형이나 단어의 불필요한 반복 없이 적절하게 변주되었으며, 어려운 어휘를 피하기 위한 모호한 표현도 없음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 주어-서술어 관계가 명확하며, 지시 대상이 분명함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "장식적 수식어나 감정적 호소 없이 정보 전달에 필요한 핵심 내용 중심으로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-10",
+        "passed": true,
+        "evidence": "단순 나열이 아니라 '현황(참여 기업) -> 구체적 실천 방안 및 목표 → 지원 정책과 향후 전망'으로 이어지는 논리적 흐름을 갖춤. 마지막 문장에서 새로운 주제를 도입하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-11",
+        "passed": true,
+        "evidence": "원문과의 수치/기관/조건 일치가 완벽하며, 5급 수준에서 요구하는 전문적인 문체와 구조적 정합성을 유지하고 있음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB-ADVISORY",
+        "passed": true,
+        "evidence": "등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 설비(6급), 업종(6급), 장려(6급)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-REQUIRED-RELATIONS"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "공백 포함 467자, 5급 목표 380~520자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "목표 급수 초과·미등록 어휘 없음",
+        "revision_instruction": "다음 어휘를 5급 이하 등록 표현으로 바꾸세요: ",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "reading_items": [
+    {
+      "question_type": "main_idea",
+      "question": "이 글의 중심 내용으로 가장 적절한 것은 무엇입니까?",
+      "choices": [
+        "1. 정부가 기업들에게 강제로 석유 사용량을 줄이도록 명령하고 있다.",
+        "2. 여러 민간 기관들이 자발적으로 승용차 5부제와 에너지 절약 정책에 참여하고 있다.",
+        "3. 시멘트 및 정유 업종의 기업들은 설비 가동을 중단하여 수익을 올리고 있다.",
+        "4. 기후에너지환경부는 모든 국민에게 카풀과 자전거 타기를 의무화할 계획이다."
+      ],
+      "answer": "2. 여러 민간 기관들이 자발적으로 승용차 5부제와 에너지 절약 정책에 참여하고 있다.",
+      "explanation": "지문의 첫 문장에서 '민간 기관이 자발적으로 승용차 5부제에 참여하고 있습니다'라고 언급하며, 이후 구체적인 실천 방안과 지원 계획을 설명하고 있으므로 2번이 중심 생각으로 가장 적절합니다."
+    },
+    {
+      "question_type": "content_match",
+      "question": "윗글의 내용과 일치하는 것은 무엇입니까?",
+      "choices": [
+        "1. 2026년 4월 3일 기준으로 약 100개의 민간 기업이 정책에 동참했다.",
+        "2. 목표를 달성한 기업에는 에너지 절약 시설 설치 자금을 우선 지원한다.",
+        "3. 석유 사용량을 줄이기 위해 공정 효율 강화는 제외된 방안이다.",
+        "4. 임직원들에게 조명 끄기 대신 계단 이용하기만을 권장하고 있다."
+      ],
+      "answer": "2. 목표를 달성한 기업에는 에너지 절약 시설 설치 자금을 우선 지원한다.",
+      "explanation": "지문 세 번째 단락에서 '기후에너지환경부는 목표를 달성한 기업에 에너지 절약 시설 설치 자금을 우선 지원할 예정입니다.'라고 명시되어 있습니다. (1번은 50여 개, 3번은 포함됨, 4번은 여러 활동을 장려함)"
+    }
+  ],
+  "question_checks": [
+    {
+      "question_type": "main_idea",
+      "passed": true,
+      "failed_ids": []
+    },
+    {
+      "question_type": "content_match",
+      "passed": true,
+      "failed_ids": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "기후에너지환경부에 따르면 대기업, 금융사, 경제단체 등 여러 민간 기관이 자발적으로 승용차 5부제에 참여하고 있습니다. 2026년 4월 3일 기준 총 50여 개의 민간 기업과 경제단체가 이 정책에 동참하고 있는 것으로 파악되었습니다.\n\n특히 시멘트, 정유, 석유화학 업종의 대표 기업 50개사는 올해 석유 사용량을 지난해보다 약 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 제출했습니다. 이는 원전을 약 한 달 가동해야 생산할 수 있는 양이며, 이를 위해 해당 기업들은 설비 가동 제한, 폐열 활용, 공정 효율 강화 등의 방안을 제시했습니다.\n\n기후에너지환경부는 목표를 달성한 기업에 에너지 절약 시설 설치 자금을 우선 지원할 예정입니다. 또한 임직원들이 실천하는 조명 끄기, 계단 이용하기, 카풀 및 자전거 타기 등을 장려하며 승용차 부제와 에너지 절약 문화가 확산될 수 있도록 노력할 계획이라고 밝혔습니다.",
+      "chars": 460,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 5,
+        "violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          },
+          {
+            "word": "동참",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "동참"
+            ]
+          },
+          {
+            "word": "민간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "민간"
+            ]
+          },
+          {
+            "word": "설비",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "설비"
+            ]
+          },
+          {
+            "word": "업종",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "업종"
+            ]
+          },
+          {
+            "word": "장려",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "장려"
+            ]
+          }
+        ],
+        "violation_count": 7,
+        "known_token_count": 80,
+        "unknown_tokens": [
+          "환경부",
+          "금융사",
+          "자발",
+          "부제",
+          "정유",
+          "사용량",
+          "구체",
+          "원전",
+          "있다",
+          "임직원",
+          "카풀"
+        ],
+        "unknown_token_count": 11,
+        "unknown_items": [
+          {
+            "word": "환경부",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "금융사",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "자발",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "부제",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "정유",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "구체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "원전",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "임직원",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "카풀",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1~F9)에 명시된 민간 기업 참여 사실, 수치(50여 개, 13만toe, 610GWh), 실천 방안(설비 가동 제한 등), 지원 정책 및 향후 계획 등이 누락 없이 정확하게 포함됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 내용(기후 변화 효과나 주관적 감상 등)을 임의로 추가하거나 단정적으로 기술하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "공백 포함 약 400자 내외로 목표 길이(380~520자)를 충족하며, 전문적인 문체를 사용한 다문단 구조임. 사회 분야의 공적 보고서 성격이 잘 드러남.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "각 문장이 앞 문장의 대상이나 내용을 구체화하며 연결됨. '특히'와 같은 접속어를 통해 정보의 범위를 좁히고 상세 정보를 제시하는 흐름이 매끄러움.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "정책의 배경, 실행 수단, 보상 체계가 명확히 제시되어 있어 정책의 목적과 지원 방안 등을 추론하고 파악하기에 충분한 정보가 제공됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 집단을 차별하거나 편향된 시각을 담지 않고 객관적인 사실 위주로 기술됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 종결형이나 단어의 불필요한 반복 없이 적절하게 변주되었으며, 어려운 어휘를 피하기 위한 모호한 표현도 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어-서술어 관계가 명확하며, 지시 대상이 분명함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "장식적 수식어나 감정적 호소 없이 정보 전달에 필요한 핵심 내용 중심으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '현황(참여 기업) -> 구체적 실천 방안 및 목표 → 지원 정책과 향후 전망'으로 이어지는 논리적 흐름을 갖춤. 마지막 문장에서 새로운 주제를 도입하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "원문과의 수치/기관/조건 일치가 완벽하며, 5급 수준에서 요구하는 전문적인 문체와 구조적 정합성을 유지하고 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB-ADVISORY",
+            "passed": true,
+            "evidence": "등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 설비(6급), 업종(6급), 장려(6급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 460자, 5급 목표 380~520자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "가동(6급), 공정(6급), 동참(6급), 민간(6급), 설비(6급), 업종(6급), 장려(6급)",
+            "revision_instruction": "다음 어휘를 5급 이하 등록 표현으로 바꾸세요: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 설비(6급), 업종(6급), 장려(6급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-08-27T01:14:30.799953+00:00",
+  "vocabulary_repair": {
+    "before_passage": "기후에너지환경부에 따르면 대기업, 금융사, 경제단체 등 여러 민간 기관이 자발적으로 승용차 5부제에 참여하고 있습니다. 2026년 4월 3일 기준 총 50여 개의 민간 기업과 경제단체가 이 정책에 동참하고 있는 것으로 파악되었습니다.\n\n특히 시멘트, 정유, 석유화학 업종의 대표 기업 50개사는 올해 석유 사용량을 지난해보다 약 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 제출했습니다. 이는 원전을 약 한 달 가동해야 생산할 수 있는 양이며, 이를 위해 해당 기업들은 설비 가동 제한, 폐열 활용, 공정 효율 강화 등의 방안을 제시했습니다.\n\n기후에너지환경부는 목표를 달성한 기업에 에너지 절약 시설 설치 자금을 우선 지원할 예정입니다. 또한 임직원들이 실천하는 조명 끄기, 계단 이용하기, 카풀 및 자전거 타기 등을 장려하며 승용차 부제와 에너지 절약 문화가 확산될 수 있도록 노력할 계획이라고 밝혔습니다.",
+    "after_passage": "기후에너지환경부에 따르면 큰 회사와 은행, 경제단체 등 여러 곳이 스스로 승용차 5부제(자동차를 나누어 타는 약속)에 참여하고 있습니다. 2026년 4월 3일 기준으로 총 50개의 회사가 이 정책에 함께하고 있는 것으로 알았습니다.\n\n특히 시멘트, 기름, 석유 관련 일을 하는 대표 기업 50개사는 올해 석유 사용량을 작년보다 약 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 내놓았습니다. 이것은 원전을 약 한 달 동안 돌려야 얻을 수 있는 양입니다. 이를 위해 해당 기업들은 기계 작동 제한, 남은 열 쓰기, 만드는 과정 효율 높이기 등의 방법을 제시했습니다.\n\n기후에너지환경부는 목표를 달성한 기업에 에너지 절약 시설 설치 비용을 먼저 도와줄 예정입니다. 또한 직원들이 실천하는 조명 끄기, 계단 오르기, 카풀 및 자전거 타기 등을 권하며 승용차 부제와 에너지 절약 문화가 퍼질 수 있도록 노력할 계획이라고 밝혔습니다.",
+    "before_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 5,
+      "violations": [
+        {
+          "word": "가동",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "가동"
+          ]
+        },
+        {
+          "word": "공정",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "공정"
+          ]
+        },
+        {
+          "word": "동참",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "동참"
+          ]
+        },
+        {
+          "word": "민간",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "민간"
+          ]
+        },
+        {
+          "word": "설비",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "설비"
+          ]
+        },
+        {
+          "word": "업종",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "업종"
+          ]
+        },
+        {
+          "word": "장려",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "장려"
+          ]
+        }
+      ],
+      "violation_count": 7,
+      "known_token_count": 76,
+      "unknown_tokens": [
+        "환경부",
+        "금융사",
+        "자발",
+        "부제",
+        "정유",
+        "사용량",
+        "구체",
+        "원전",
+        "있다",
+        "임직원",
+        "카풀"
+      ],
+      "unknown_token_count": 11,
+      "unknown_items": [
+        {
+          "word": "환경부",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "금융사",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "자발",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "부제",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "정유",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "사용량",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "구체",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "원전",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "있다",
+          "part_of_speech": "VA",
+          "policy": "record_only"
+        },
+        {
+          "word": "임직원",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "카풀",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        }
+      ],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "after_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 5,
+      "violations": [],
+      "violation_count": 0,
+      "known_token_count": 81,
+      "unknown_tokens": [
+        "환경부",
+        "크다",
+        "스스로",
+        "부제",
+        "사용량",
+        "구체",
+        "원전",
+        "있다",
+        "먼저",
+        "카풀"
+      ],
+      "unknown_token_count": 10,
+      "unknown_items": [
+        {
+          "word": "환경부",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "크다",
+          "part_of_speech": "VA",
+          "policy": "record_only"
+        },
+        {
+          "word": "스스로",
+          "part_of_speech": "MAG",
+          "policy": "record_only"
+        },
+        {
+          "word": "부제",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "사용량",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "구체",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "원전",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        },
+        {
+          "word": "있다",
+          "part_of_speech": "VA",
+          "policy": "record_only"
+        },
+        {
+          "word": "먼저",
+          "part_of_speech": "MAG",
+          "policy": "record_only"
+        },
+        {
+          "word": "카풀",
+          "part_of_speech": "NNG",
+          "policy": "record_only"
+        }
+      ],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "history": [
+      {
+        "round": 1,
+        "before_chars": 460,
+        "after_chars": 463,
+        "before_violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          },
+          {
+            "word": "동참",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "동참"
+            ]
+          },
+          {
+            "word": "민간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "민간"
+            ]
+          },
+          {
+            "word": "설비",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "설비"
+            ]
+          },
+          {
+            "word": "업종",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "업종"
+            ]
+          },
+          {
+            "word": "장려",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "장려"
+            ]
+          }
+        ],
+        "after_violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          }
+        ],
+        "before_blocked_unknown_tokens": [],
+        "after_blocked_unknown_tokens": [],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 7->2 감소"
+      },
+      {
+        "round": 2,
+        "before_chars": 463,
+        "after_chars": 467,
+        "before_violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          }
+        ],
+        "after_violations": [],
+        "before_blocked_unknown_tokens": [],
+        "after_blocked_unknown_tokens": [],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 2->0 감소"
+      }
+    ],
+    "naturalness_revision": {
+      "attempted": true,
+      "accepted": false,
+      "reason": "등급 초과 어휘 수가 교정 전보다 증가함",
+      "before_passage": "기후에너지환경부에 따르면 큰 회사와 은행, 경제단체 등 여러 곳이 스스로 승용차 5부제(자동차를 나누어 타는 약속)에 참여하고 있습니다. 2026년 4월 3일 기준으로 총 50개의 회사가 이 정책에 함께하고 있는 것으로 알았습니다.\n\n특히 시멘트, 기름, 석유 관련 일을 하는 대표 기업 50개사는 올해 석유 사용량을 작년보다 약 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 내놓았습니다. 이것은 원전을 약 한 달 동안 돌려야 얻을 수 있는 양입니다. 이를 위해 해당 기업들은 기계 작동 제한, 남은 열 쓰기, 만드는 과정 효율 높이기 등의 방법을 제시했습니다.\n\n기후에너지환경부는 목표를 달성한 기업에 에너지 절약 시설 설치 비용을 먼저 도와줄 예정입니다. 또한 직원들이 실천하는 조명 끄기, 계단 오르기, 카풀 및 자전거 타기 등을 권하며 승용차 부제와 에너지 절약 문화가 퍼질 수 있도록 노력할 계획이라고 밝혔습니다.",
+      "candidate_passage": "기후에너지환경부에 따르면 대기업과 금융사, 경제단체 등 여러 기관이 자발적으로 승용차 5부제에 참여하고 있습니다. 2026년 4월 3일 기준으로 총 50여 개의 민간기업과 경제단체가 이 정책에 동참하는 것으로 확인되었습니다.\n\n특히 시멘트, 정유, 석유화학 분야의 대표 기업 50개사는 올해 석유 사용량을 작년보다 약 13만toe 줄이겠다는 계획을 제출했습니다. 이는 원전을 약 한 달 동안 가동해야 생산할 수 있는 양입니다. 해당 기업들은 이를 위해 설비 가동 제한, 폐열 활용, 생산공정 효율 강화 등의 방법을 제시했습니다.\n\n기후에너지환경부는 이러한 절감 목표를 달성한 기업에 에너지 절약 시설 설치 비용을 우선 지원할 방침입니다. 또한 직원들이 실천하는 조명 끄기, 계단 오르기, 카풀 및 자전거 타기 등을 장려하며 승용차 부제와 에너지 절약 문화가 확산될 수 있도록 노력할 계획이라고 밝혔습니다.",
+      "content_anchor_overlap": 0.687,
+      "before_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 5,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 81,
+        "unknown_tokens": [
+          "환경부",
+          "크다",
+          "스스로",
+          "부제",
+          "사용량",
+          "구체",
+          "원전",
+          "있다",
+          "먼저",
+          "카풀"
+        ],
+        "unknown_token_count": 10,
+        "unknown_items": [
+          {
+            "word": "환경부",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "크다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "스스로",
+            "part_of_speech": "MAG",
+            "policy": "record_only"
+          },
+          {
+            "word": "부제",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "구체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "원전",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "record_only"
+          },
+          {
+            "word": "카풀",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "candidate_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 5,
+        "violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          },
+          {
+            "word": "동참",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "동참"
+            ]
+          },
+          {
+            "word": "민간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "민간"
+            ]
+          },
+          {
+            "word": "방침",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "방침"
+            ]
+          },
+          {
+            "word": "설비",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "설비"
+            ]
+          },
+          {
+            "word": "장려",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "장려"
+            ]
+          },
+          {
+            "word": "절감",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절감"
+            ]
+          }
+        ],
+        "violation_count": 8,
+        "known_token_count": 78,
+        "unknown_tokens": [
+          "환경부",
+          "금융사",
+          "자발",
+          "부제",
+          "정유",
+          "사용량",
+          "원전",
+          "있다",
+          "이러",
+          "카풀"
+        ],
+        "unknown_token_count": 10,
+        "unknown_items": [
+          {
+            "word": "환경부",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "금융사",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "자발",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "부제",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "정유",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "원전",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "이러",
+            "part_of_speech": "XR",
+            "policy": "record_only"
+          },
+          {
+            "word": "카풀",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      }
+    },
+    "naturalness_accepted": false
+  }
+}

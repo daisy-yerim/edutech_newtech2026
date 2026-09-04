@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "source_key": "pet_restaurant",
+      "grade": 1,
+      "changed": true,
+      "before_violation_count": 0,
+      "after_violation_count": 0,
+      "before_unknown_count": 1,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "pet_restaurant",
+      "grade": 2,
+      "changed": false,
+      "before_violation_count": 5,
+      "after_violation_count": 5,
+      "before_unknown_count": 2,
+      "after_unknown_count": 2
+    },
+    {
+      "source_key": "pet_restaurant",
+      "grade": 3,
+      "changed": true,
+      "before_violation_count": 14,
+      "after_violation_count": 1,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "pet_restaurant",
+      "grade": 4,
+      "changed": true,
+      "before_violation_count": 6,
+      "after_violation_count": 1,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "pet_restaurant",
+      "grade": 5,
+      "changed": true,
+      "before_violation_count": 2,
+      "after_violation_count": 0,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "pet_restaurant",
+      "grade": 6,
+      "changed": false,
+      "before_violation_count": 0,
+      "after_violation_count": 0,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "energy_saving",
+      "grade": 1,
+      "changed": true,
+      "before_violation_count": 5,
+      "after_violation_count": 2,
+      "before_unknown_count": 2,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "energy_saving",
+      "grade": 2,
+      "changed": true,
+      "before_violation_count": 8,
+      "after_violation_count": 3,
+      "before_unknown_count": 2,
+      "after_unknown_count": 2
+    },
+    {
+      "source_key": "energy_saving",
+      "grade": 3,
+      "changed": true,
+      "before_violation_count": 15,
+      "after_violation_count": 3,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "energy_saving",
+      "grade": 4,
+      "changed": true,
+      "before_violation_count": 7,
+      "after_violation_count": 0,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "energy_saving",
+      "grade": 5,
+      "changed": true,
+      "before_violation_count": 7,
+      "after_violation_count": 2,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    },
+    {
+      "source_key": "energy_saving",
+      "grade": 6,
+      "changed": false,
+      "before_violation_count": 0,
+      "after_violation_count": 0,
+      "before_unknown_count": 0,
+      "after_unknown_count": 0
+    }
+  ]
+}

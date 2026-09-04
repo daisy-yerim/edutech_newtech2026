@@ -1,0 +1,890 @@
+{
+  "schema_version": 1,
+  "experiment": "ontology_in_validation_loop",
+  "source_key": "energy_saving",
+  "grade": 5,
+  "text_type": "보고서",
+  "essential_lexemes": [
+    "에너지"
+  ],
+  "required_keyword": "",
+  "source_terms": [
+    "에너지"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "rounds_used": 3,
+  "generated_passage": "최근 많은 민간 기업과 경제단체 등이 자발적으로 승용차 5부제를 시행하며 에너지 절약에 참여하고 있습니다. 2026년 4월 3일 기준 총 50여 개 기관이 이 활동에 동참하고 있습니다. 특히 시멘트, 정유, 석유화학 업종 대표기업 50개사는 올해 석유 사용량을 작년 대비 3.3%인 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 제출했습니다.\n\n이를 위해 해당 기업들은 설비 가동 제한, 폐열 활용, 생산공정 합리화 등의 수단을 실행하고 있습니다. 기후에너지환경부는 목표를 달성한 기업에 에너지 절약시설 설치자금을 우선 지원할 방침입니다. 또한 임직원들이 실천하는 조명 끄기, 카풀 등 일상 속 에너지 절약 문화가 확산될 수 있도록 노력할 계획입니다.",
+  "final_ai_validation": {
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료(F1~F9)에 포함된 민간 기업 및 경제단체의 참여 사실, 특정 업종별 감축량(13만toe), 세부 실천 방안(설비 가동 제한 등), 지원 정책 등이 정확하게 반영됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료에 없는 주관적인 해석이나 외부 정보를 추가하지 않고 제공된 데이터 내에서 내용을 구성함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "5급 수준에 부합하는 다문단 구조를 갖추고 있으며, '보고서' 유형의 목적에 맞는 정보 전달 중심의 문체를 사용함. 분량 또한 약 400자 내외로 목표 범위(380~520자)에 적절히 들어옴.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "각 문장이 앞 문장의 대상(기업/기관)과 행동을 논리적으로 이어받으며, 문단 간 연결이 매끄럽고 지시어와 명칭이 일관되게 유지됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "정부의 지원 계획, 기업의 구체적 수치 및 실천 방안 등 독자가 보고서를 읽고 핵심 정보를 파악하거나 정책 의도를 이해할 수 있는 충분한 단서가 포함됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 집단에 대한 편향이나 민감한 정보 없이 공공 정책 관련 사실 위주로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "동일한 종결형이나 구조의 반복을 피하며 전문적인 어휘를 활용함. 불필요하게 어려운 동의어로 대체하여 난이도만 높이는 행위가 없음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 주어-서술어 관계가 명확하며, 앞뒤 문장 간 논리적 비약이나 모순 없이 자연스럽게 연결됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "화려한 수식어나 감정 표현 대신 '구체적인', '실행하고 있습니다'와 같은 기능적이고 정확한 표현을 사용하여 정보 전달에 집중함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB-ADVISORY",
+        "passed": true,
+        "evidence": "등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-LENGTH",
+      "O-VAL-GRADE-RESOURCE"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "공백 포함 370자, 5급 목표 380~520자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)",
+        "revision_instruction": "다음 어휘를 5급 이하 등록 표현으로 바꾸세요: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "최근 여러 민간 기업과 경제 단체가 자율적으로 승용차 5부제를 시행하며 에너지 절약에 참여하고 있습니다. 기후에너지환경부에 따르면 대기업과 금융사 등을 포함한 50여 개 조직이 이에 동참하고 있습니다. 특히 시멘트, 정유, 석유화학 업종의 대표 기업 50개사는 올해 석유 사용량을 작년 대비 3.3%인 13만toe 줄이겠다는 계획을 제출했습니다. 이는 약 610GWh에 해당하며 원전을 한 달 가동해야 얻을 수 있는 양입니다. 이들 기업은 설비 가동 제한, 폐열 활용, 공정 합리화 등을 통해 이를 실현하고자 합니다. 또한 임직원들은 점심시간 조명 끄기, 계단 오르기, 적정 실내온도 준수, 카풀 등 생활 속 실천을 이어가고 있습니다. 기후에너지환경부는 목표를 달성한 기업에 시설 설치 자금을 우선 지원할 방침이며, 향후에도 이러한 노력이 확산되도록 노력할 계획입니다.",
+      "chars": 430,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 5,
+        "violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          },
+          {
+            "word": "동참",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "동참"
+            ]
+          },
+          {
+            "word": "민간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "민간"
+            ]
+          },
+          {
+            "word": "방침",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "방침"
+            ]
+          },
+          {
+            "word": "설비",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "설비"
+            ]
+          },
+          {
+            "word": "업종",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "업종"
+            ]
+          },
+          {
+            "word": "자율",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "자율"
+            ]
+          },
+          {
+            "word": "적정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "적정"
+            ]
+          },
+          {
+            "word": "준수",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "준수"
+            ]
+          }
+        ],
+        "violation_count": 10,
+        "known_token_count": 73,
+        "unknown_tokens": [
+          "환경부",
+          "금융사",
+          "정유",
+          "사용량",
+          "원전",
+          "있다",
+          "임직원",
+          "카풀",
+          "이러"
+        ],
+        "unknown_token_count": 9,
+        "unknown_items": [
+          {
+            "word": "환경부",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "금융사",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "정유",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "원전",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "임직원",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "카풀",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "이러",
+            "part_of_speech": "XR",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1~F9)에 포함된 민간 기업 및 경제 단체의 승용차 5부제 참여, 특정 업종별 감축량(13만toe), 원전 가동 환산치(610GWh), 실천 방안들, 정부 지원 계획 등 모든 주요 수치와 사실관계가 정확하게 일치함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 정보나 주관적인 해석을 추가하지 않고 제공된 정보를 바탕으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "5급 수준의 요구사항인 '문제 제기·근거·대안/반론' 구조를 갖춘 다문단 형태이며, 사회 분야의 전문성 있는 어휘(석유화학, 공정 합리화, 추진 정책 등)를 적절히 활용함. 분량 또한 약 400자 내외로 목표 범위(380~520자)에 부합하며 문장 길이도 적절함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "각 문장이 앞 문장의 대상이나 상황을 논리적으로 이어받으며 전개됨. (예: 기업 참여 → 구체적 업종 및 수치 → 기술적 이행수단 → 임직원 실천 사례 → 정부 지원책). 지시어와 연결이 명확하여 정보 전달이 매끄러움.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "보고서 형식의 글로서 정책의 배경, 구체적인 실행 계획, 향후 전망 등을 포함하고 있어 읽기 기능(정보 전달, 보고)과 관련한 충분한 단서를 제공함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 집단에 대한 편향이나 민감한 정보를 포함하지 않으며 객관적인 사실 위주로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 종결형이나 구조가 반복되지 않으며, 핵심 의미를 왜곡하는 어려운 동의어로 대체하지 않고 적절한 전문 용어를 사용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며 주어-서술어 관계가 명확함. 비약이나 모순 없이 논리적 흐름을 유지함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "불필요한 감정 표현이나 장식적 수식어가 배제되었으며, 정보 전달에 필요한 형용사/부사가 적재적소에 활용됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB-ADVISORY",
+            "passed": true,
+            "evidence": "등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급), 자율(6급), 적정(6급), 준수(6급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 430자, 5급 목표 380~520자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급), 자율(6급), 적정(6급), 준수(6급)",
+            "revision_instruction": "다음 어휘를 5급 이하 등록 표현으로 바꾸세요: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급), 자율(6급), 적정(6급), 준수(6급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 2,
+      "passage": "최근 기후 변화 대응을 위해 대기업과 경제 단체를 중심으로 자발적인 승용차 5부제와 에너지 절약 참여가 확산되고 있습니다. 2026년 4월 기준 약 50여 개 민간 기업과 경제 단체가 이 정책에 동참하고 있는 것으로 확인되었습니다. 특히 시멘트, 정유, 석유화학 업종 대표 기업 50개사는 올해 석유 사용량을 작년 대비 3.3%인 13만toe 줄이는 계획을 제출했습니다. 이는 원전을 한 달 가동해야 생산할 수 있는 양이며, 해당 기업들은 설비 가동 제한, 폐열 활용, 공정의 합리적 운전 등을 구체적인 실행 방법으로 제시했습니다.\n\n기후에너지환경부는 이러한 절감 목표를 달성한 기업에 에너지 절약시설 설치 자금을 우선 지원할 방침입니다. 또한 임직원들은 점심시간 조명 끄기, 계단 오르기, 카풀 등 일상 속 실천을 통해 에너지 절약을 실천하고 있습니다. 정부는 앞으로도 승용차 부제와 에너지 절약이 사회 전반에 더욱 확산될 수 있도록 노력할 계획입니다.",
+      "chars": 478,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 5,
+        "violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          },
+          {
+            "word": "동참",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "동참"
+            ]
+          },
+          {
+            "word": "민간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "민간"
+            ]
+          },
+          {
+            "word": "방침",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "방침"
+            ]
+          },
+          {
+            "word": "설비",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "설비"
+            ]
+          },
+          {
+            "word": "업종",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "업종"
+            ]
+          },
+          {
+            "word": "절감",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "절감"
+            ]
+          }
+        ],
+        "violation_count": 8,
+        "known_token_count": 90,
+        "unknown_tokens": [
+          "자발",
+          "부제",
+          "정유",
+          "사용량",
+          "원전",
+          "있다",
+          "구체",
+          "환경부",
+          "이러",
+          "임직원",
+          "카풀"
+        ],
+        "unknown_token_count": 11,
+        "unknown_items": [
+          {
+            "word": "자발",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "부제",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "정유",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "원전",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          },
+          {
+            "word": "구체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "환경부",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "이러",
+            "part_of_speech": "XR",
+            "policy": "record_only"
+          },
+          {
+            "word": "임직원",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "카풀",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1~F9)에 포함된 주요 사실인 민간 기업 및 경제 단체의 자발적 참여, 특정 업종의 감축량(13만toe), 원전 가동 환산치, 세부 실천 방안 및 정부 지원 계획 등이 정확하게 반영됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 주관적인 해석이나 외부 정보를 추가하지 않고 제공된 데이터 범위 내에서 내용을 구성함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "5급 수준에 부합하는 다문단 구조와 전문성 있는 어휘를 사용함. 공백 포함 약 400자 내외로 목표 길이(380~520자)를 충족하며, '보고서' 유형에 적합한 정보 전달 중심의 문체를 유지함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "각 문장이 앞 문장의 대상(기업/정부)과 내용(실행 방법/지원 정책 등)을 논리적으로 이어받으며, 지시어와 연결이 명확하여 정보 전개가 일관됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "정책 참여 현황, 구체적 수치, 실천 방안 및 지원책 등의 정보를 포함하고 있어 보고서 형태로서 충분한 정보량과 추론 단서를 제공함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 집단에 대한 차별이나 편향된 표현 없이 객관적인 사실 위주로 기술됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 종결형이나 문장 구조가 반복되지 않으며, 핵심 어휘를 불필요하게 어렵게 변형하지 않고 전문성을 유지함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며 주어-서술어 관계가 명확함. 의미의 비약이나 모순이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "화려한 수식어나 감정적 형용사 대신 '구체적인', '사회 전반에' 등 정보 전달에 필요한 적절한 수식어를 사용하였으며 장식적 표현을 배제함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB-ADVISORY",
+            "passed": true,
+            "evidence": "등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급), 절감(6급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 478자, 5급 목표 380~520자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급), 절감(6급)",
+            "revision_instruction": "다음 어휘를 5급 이하 등록 표현으로 바꾸세요: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급), 절감(6급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 3,
+      "passage": "최근 많은 민간 기업과 경제단체 등이 자발적으로 승용차 5부제를 시행하며 에너지 절약에 참여하고 있습니다. 2026년 4월 3일 기준 총 50여 개 기관이 이 활동에 동참하고 있습니다. 특히 시멘트, 정유, 석유화학 업종 대표기업 50개사는 올해 석유 사용량을 작년 대비 3.3%인 13만toe(약 610GWh) 줄이겠다는 구체적인 계획을 제출했습니다.\n\n이를 위해 해당 기업들은 설비 가동 제한, 폐열 활용, 생산공정 합리화 등의 수단을 실행하고 있습니다. 기후에너지환경부는 목표를 달성한 기업에 에너지 절약시설 설치자금을 우선 지원할 방침입니다. 또한 임직원들이 실천하는 조명 끄기, 카풀 등 일상 속 에너지 절약 문화가 확산될 수 있도록 노력할 계획입니다.",
+      "chars": 370,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 5,
+        "violations": [
+          {
+            "word": "가동",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "가동"
+            ]
+          },
+          {
+            "word": "공정",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "공정"
+            ]
+          },
+          {
+            "word": "동참",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "동참"
+            ]
+          },
+          {
+            "word": "민간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "민간"
+            ]
+          },
+          {
+            "word": "방침",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "방침"
+            ]
+          },
+          {
+            "word": "설비",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "설비"
+            ]
+          },
+          {
+            "word": "업종",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "업종"
+            ]
+          }
+        ],
+        "violation_count": 7,
+        "known_token_count": 67,
+        "unknown_tokens": [
+          "자발",
+          "정유",
+          "사용량",
+          "구체",
+          "환경부",
+          "임직원",
+          "카풀",
+          "있다"
+        ],
+        "unknown_token_count": 8,
+        "unknown_items": [
+          {
+            "word": "자발",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "정유",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "사용량",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "구체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "환경부",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "임직원",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "카풀",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "있다",
+            "part_of_speech": "VA",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1~F9)에 포함된 민간 기업 및 경제단체의 참여 사실, 특정 업종별 감축량(13만toe), 세부 실천 방안(설비 가동 제한 등), 지원 정책 등이 정확하게 반영됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 주관적인 해석이나 외부 정보를 추가하지 않고 제공된 데이터 내에서 내용을 구성함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "5급 수준에 부합하는 다문단 구조를 갖추고 있으며, '보고서' 유형의 목적에 맞는 정보 전달 중심의 문체를 사용함. 분량 또한 약 400자 내외로 목표 범위(380~520자)에 적절히 들어옴.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "각 문장이 앞 문장의 대상(기업/기관)과 행동을 논리적으로 이어받으며, 문단 간 연결이 매끄럽고 지시어와 명칭이 일관되게 유지됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "정부의 지원 계획, 기업의 구체적 수치 및 실천 방안 등 독자가 보고서를 읽고 핵심 정보를 파악하거나 정책 의도를 이해할 수 있는 충분한 단서가 포함됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 집단에 대한 편향이나 민감한 정보 없이 공공 정책 관련 사실 위주로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 종결형이나 구조의 반복을 피하며 전문적인 어휘를 활용함. 불필요하게 어려운 동의어로 대체하여 난이도만 높이는 행위가 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어-서술어 관계가 명확하며, 앞뒤 문장 간 논리적 비약이나 모순 없이 자연스럽게 연결됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "화려한 수식어나 감정 표현 대신 '구체적인', '실행하고 있습니다'와 같은 기능적이고 정확한 표현을 사용하여 정보 전달에 집중함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB-ADVISORY",
+            "passed": true,
+            "evidence": "등급 검토 참고 어휘: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-LENGTH",
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "공백 포함 370자, 5급 목표 380~520자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 380~520자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)",
+            "revision_instruction": "다음 어휘를 5급 이하 등록 표현으로 바꾸세요: 가동(6급), 공정(6급), 동참(6급), 민간(6급), 방침(6급), 설비(6급), 업종(6급)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    }
+  ],
+  "generated_at": "2026-08-12T02:31:49.261736+00:00"
+}

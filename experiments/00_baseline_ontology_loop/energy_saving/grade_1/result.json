@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "experiment": "ontology_in_validation_loop",
+  "source_key": "energy_saving",
+  "grade": 1,
+  "text_type": "개인 문자",
+  "essential_lexemes": [],
+  "required_keyword": "불",
+  "source_terms": [
+    "불"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "rounds_used": 3,
+  "generated_passage": "민수 씨, 오늘 회사에 가요? 저는 집으로 가요. 사무실에 불이 켜져 있어요. 방에 사람이 없으면 불을 꺼 주세요. 내일 아침에 다시 올게요. 고맙습니다.",
+  "final_ai_validation": {
+    "passed": false,
+    "failed_ids": [
+      "P-VAL-TOPIK-I-STRUCTURE"
+    ],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "핵심어 '불'을 화재 상황이 아닌 사무실 전등(꺼 주세요) 상황으로 적절하게 활용함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료의 범위를 벗어나지 않는 일상적인 대화로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "1급 수준에 맞는 짧은 문장, 기초 어휘 사용, 단일 장면(사무실 퇴근 및 부탁) 구성으로 목표 등급에 부합함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "[민수 씨/오늘/회사 가요?] -> [나/집/가요] -> [사무실/불/켜져 있음] -> [사람 없으면/끄기] 순서로 정보가 선형적으로 연결되며 하나의 장면 내에서 행동과 이유를 명확히 전달함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "문자 메시지 형식에 맞게 핵심 정보(퇴근 여부 확인, 불 꺼달라는 요청)가 명시적으로 포함되어 있음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "편향되거나 민감한 내용이 없는 일반적인 직장 동료 간의 소통 상황임.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "어려운 동의어를 피하고 기본 표현을 사용하여 난이도를 조절함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 주어와 서술어가 분명하며, 앞뒤 문맥이 논리적으로 이어짐.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "1~2급 수준에서 허용되는 수식어 범위 내이며, 과도한 감정 표현이나 꾸밈말 없이 필요한 정보만 전달됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-SOURCE-KEYWORD",
+        "passed": true,
+        "evidence": "필수 원문 핵심어 ‘불’ 포함",
+        "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+      },
+      {
+        "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+        "passed": false,
+        "evidence": "문장 수 6개(허용 3~5개)",
+        "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-LENGTH"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "공백 포함 86자, 1급 목표 120~180자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "목표 급수 초과·미등록 어휘 없음",
+        "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: ",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "민수 씨, 오늘 회의가 끝난 후에 사무실에 오세요. 제가 방에 있어요. 그런데 다른 방 불(불을 끄는 것)을 다 꺼야 해요. 아주 큰 일이 있어서 조금 바빠요. 하지만 민수 씨를 만나면 기분이 좋을 거예요. 저녁에 같이 식사해요.",
+      "chars": 128,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 23,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '불'을 화재 상황이 아닌 사무실/방의 전등을 끄는 의미로 정확하게 사용하였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료(자유 개작 모드)를 바탕으로 한 일상적인 내용이며, 근거 없는 사실 단정이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 적합한 짧은 문장과 기초 어휘를 사용하였으며, 개인 문자 형식의 목적에 부합합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "사무실 방문 요청 → 방 안 상황 설명 → 기분 및 식사 제안으로 이어지는 선형 구조가 명확하며 정보 간 연결이 자연스럽습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "회의 후 방문 여부, 불을 꺼야 하는지 등 핵심 정보를 파악할 수 있는 충분한 단서가 포함되어 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "편향되거나 민감한 정보 없이 보편적인 직장 동료/지인 간의 소통 내용을 담고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 표현이나 문장 구조가 과도하게 반복되지 않으며, 어려운 동의어 대신 쉬운 대용 표현을 사용하였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명하고 의미 전달에 모순이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 범위 내의 형용사(큰, 좋은)를 사용하여 상황을 설명하였으며, 불필요한 꾸밈말은 배제되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘불’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 6개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 128자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "목표 급수 초과·미등록 어휘 없음",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: ",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 2,
+      "passage": "민수 씨, 오늘 회사에 가요? 지금 사무실 불을 끕니다. 옆에 있는 다른 방도 모두 불을 껐어요. 이제 퇴근해서 집에 갈 거예요. 내일 아침에 일찍 만날까요? 괜찮으면 나중에 저에게 전화해 주세요. 기다릴게요.",
+      "chars": 117,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 21,
+        "unknown_tokens": [
+          "지금"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "지금",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-VOCAB",
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '불'을 화재 상황이 아닌 사무실 전등을 끄는 일상적인 장면으로 적절하게 활용하였습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료(자유 개작 모드)를 기반으로 하며, 사실 여부를 단정해야 하는 공공/법령 정보를 포함하지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 맞게 문장이 짧고 단순하며, 어휘가 기초적입니다. 글자 수가 약 115자로 목표 범위(120~180자)에 매우 근접하며 내용 밀도가 낮아 초급에 적합합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "사무실 불을 끄는 행동 → 퇴근 및 귀가 예정 → 내일 만남 제안이라는 선형 구조로 이어지며, 각 문장이 앞 문장의 상황이나 주체를 자연스럽게 이어받고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "'퇴근', '내일 아침', '전화해 주세요' 등 명시적인 정보가 있어 질문 구성이 용이합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "even_evidence": "편향되거나 민감한 정보 없이 일상적인 대화 내용을 담고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동의어를 활용하여 난이도를 높이지 않았으며, 반복되는 표현 없이 간결하게 작성되었습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며 지시 대상(나/민수 씨)과 행위 관계가 명확합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어 범위 내에 있으며, 불필요한 감정적 꾸밈말이나 모호한 표현이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘불’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 지금(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 7개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-LENGTH",
+          "O-VAL-GRADE-RESOURCE"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "공백 포함 117자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "지금(미등록)",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: 지금(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 3,
+      "passage": "민수 씨, 오늘 회사에 가요? 저는 집으로 가요. 사무실에 불이 켜져 있어요. 방에 사람이 없으면 불을 꺼 주세요. 내일 아침에 다시 올게요. 고맙습니다.",
+      "chars": 86,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 1,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 15,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-TOPIK-I-STRUCTURE"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "핵심어 '불'을 화재 상황이 아닌 사무실 전등(꺼 주세요) 상황으로 적절하게 활용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료의 범위를 벗어나지 않는 일상적인 대화로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "1급 수준에 맞는 짧은 문장, 기초 어휘 사용, 단일 장면(사무실 퇴근 및 부탁) 구성으로 목표 등급에 부합함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[민수 씨/오늘/회사 가요?] -> [나/집/가요] -> [사무실/불/켜져 있음] -> [사람 없으면/끄기] 순서로 정보가 선형적으로 연결되며 하나의 장면 내에서 행동과 이유를 명확히 전달함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "문자 메시지 형식에 맞게 핵심 정보(퇴근 여부 확인, 불 꺼달라는 요청)가 명시적으로 포함되어 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "편향되거나 민감한 내용이 없는 일반적인 직장 동료 간의 소통 상황임.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "어려운 동의어를 피하고 기본 표현을 사용하여 난이도를 조절함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어와 서술어가 분명하며, 앞뒤 문맥이 논리적으로 이어짐.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "1~2급 수준에서 허용되는 수식어 범위 내이며, 과도한 감정 표현이나 꾸밈말 없이 필요한 정보만 전달됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": true,
+            "evidence": "필수 원문 핵심어 ‘불’ 포함",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘불’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": false,
+            "evidence": "문장 수 6개(허용 3~5개)",
+            "revision_instruction": "TOPIK I 1급 수준으로 3~5개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-LENGTH"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "공백 포함 86자, 1급 목표 120~180자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 120~180자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "목표 급수 초과·미등록 어휘 없음",
+            "revision_instruction": "다음 어휘를 1급 이하 등록 표현으로 바꾸세요: ",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    }
+  ],
+  "generated_at": "2026-08-12T02:05:29.147388+00:00"
+}

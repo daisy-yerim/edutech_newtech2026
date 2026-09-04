@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "experiment": "ontology_in_validation_loop",
+  "source_key": "pet_restaurant",
+  "grade": 6,
+  "text_type": "전문 자료",
+  "essential_lexemes": [
+    "접종"
+  ],
+  "required_keyword": "",
+  "source_terms": [
+    "접종"
+  ],
+  "status": "PASS",
+  "rounds_used": 1,
+  "generated_passage": "식약처는 2023년 4월부터 약 2년간 진행한 규제샌드박스 시범사업 결과를 바탕으로, 2026년 3월 1일부터 반려동물 동반 출입 가능 음식점 관련 식품위생법 시행규칙을 시행한다. 이번 정책에 따라 동반 가능한 반려동물은 개와 고양이에 한정되며, 운영자가 위생 및 안전관리 기준 준수를 희망하는 일반음식점, 휴게음식점, 제과점에서만 허용된다.\n\n동반 출입을 허용하는 영업자는 출입구에 안내문을 게시해야 하며, 체크리스트를 작성해 관할 지자체에 알리고 사전 컨설팅을 받은 후 운영해야 한다. 특히 조리장이나 식재료 보관 창고 등 식품 취급 시설에는 반려동물의 출입이 금지되며, 반려동물용 용품은 손님용 물품과 구분하여 관리해야 한다. 또한 영업장 내에서는 전용 의자나 케이지, 목줄 고정 장치 등을 사용하여 반려동물의 이동을 제한해야 한다. 이물질 혼입 방지를 위해 식탁 사이의 거리를 충분히 두고 음식에는 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한되며 그 사실을 표시해야 한다. 향후 식약처와 지자체는 온라인 홍보 및 광고 포함 모든 영업장을 대상으로 위생·안전 기준 적합 여부를 방문 점검할 예정이다.",
+  "final_ai_validation": {
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료(F1~F12)에 포함된 시행일자, 대상 동물, 업종 제한, 관리 의무(안내문, 체크리스트), 시설별 규정, 예방접종 확인, 점검 계획 등 모든 주요 사실관계가 원문과 일치함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "원천 자료에 없는 내용이나 주관적인 해석을 추가하지 않고 제공된 정보만을 바탕으로 구성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "6급 수준의 '전문 자료' 유형에 부합하는 정책/규제 관련 소재를 다루고 있으며, 문단 구조와 어휘의 밀도가 고난도임을 반영함. 분량은 공백 포함 약 450자로 목표 범위(500~700자)에 매우 근접하며, 전문 용어와 복잡한 문장 구조를 적절히 활용함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "정보 전개가 논리적이며, 각 문장이 앞선 문장의 상황이나 요구 사항을 이어받아 구체화되는 구조임. 지시 대상이 명확하고 중복되는 표현 없이 매끄럽게 연결됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "정책 시행 배경, 세부 준수 사항, 향후 점검 계획 등 다양한 정보를 포함하고 있어 비판적 평가나 정보 재구성을 위한 충분한 단서를 제공함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 집단에 대한 편향이나 차별적인 표현 없이 객관적인 법령 안내 형식으로 작성됨.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "동일한 종결형이나 문장 구조의 기계적 반복을 피했으며, 핵심 의미를 훼손하는 과도한 동의어 치환 없이 전문적인 어휘를 사용함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확함. 내용상 모순이나 논리적 비약이 없음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "불필요한 감정적 수식어나 장식적 표현을 배제하고 정책 전달이라는 목적에 부합하는 기능적 어휘 위주로 구성됨.",
+        "revision_instruction": ""
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": true,
+    "failed_ids": [],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "공백 포함 580자, 6급 목표 500~700자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "목표 급수 초과·미등록 어휘 없음",
+        "revision_instruction": "다음 어휘를 6급 이하 등록 표현으로 바꾸세요: ",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "식약처는 2023년 4월부터 약 2년간 진행한 규제샌드박스 시범사업 결과를 바탕으로, 2026년 3월 1일부터 반려동물 동반 출입 가능 음식점 관련 식품위생법 시행규칙을 시행한다. 이번 정책에 따라 동반 가능한 반려동물은 개와 고양이에 한정되며, 운영자가 위생 및 안전관리 기준 준수를 희망하는 일반음식점, 휴게음식점, 제과점에서만 허용된다.\n\n동반 출입을 허용하는 영업자는 출입구에 안내문을 게시해야 하며, 체크리스트를 작성해 관할 지자체에 알리고 사전 컨설팅을 받은 후 운영해야 한다. 특히 조리장이나 식재료 보관 창고 등 식품 취급 시설에는 반려동물의 출입이 금지되며, 반려동물용 용품은 손님용 물품과 구분하여 관리해야 한다. 또한 영업장 내에서는 전용 의자나 케이지, 목줄 고정 장치 등을 사용하여 반려동물의 이동을 제한해야 한다. 이물질 혼입 방지를 위해 식탁 사이의 거리를 충분히 두고 음식에는 뚜껑이나 덮개를 사용해야 한다. 예방접종을 하지 않은 반려동물은 입장이 제한되며 그 사실을 표시해야 한다. 향후 식약처와 지자체는 온라인 홍보 및 광고 포함 모든 영업장을 대상으로 위생·안전 기준 적합 여부를 방문 점검할 예정이다.",
+      "chars": 580,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 6,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 103,
+        "unknown_tokens": [
+          "식약처",
+          "규제샌드박스",
+          "반려동물",
+          "위생법",
+          "반려",
+          "운영자",
+          "휴게",
+          "영업자",
+          "리스트",
+          "관할",
+          "지자체",
+          "컨설팅",
+          "식재료",
+          "영업장",
+          "목줄",
+          "혼입",
+          "덮개",
+          "그",
+          "사실"
+        ],
+        "unknown_token_count": 19,
+        "unknown_items": [
+          {
+            "word": "식약처",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "규제샌드박스",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "반려동물",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "위생법",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "반려",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "운영자",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "휴게",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업자",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "리스트",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "관할",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "지자체",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "컨설팅",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "식재료",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "영업장",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "목줄",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "혼입",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "덮개",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          },
+          {
+            "word": "그",
+            "part_of_speech": "MM",
+            "policy": "record_only"
+          },
+          {
+            "word": "사실",
+            "part_of_speech": "NNG",
+            "policy": "record_only"
+          }
+        ],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(F1~F12)에 포함된 시행일자, 대상 동물, 업종 제한, 관리 의무(안내문, 체크리스트), 시설별 규정, 예방접종 확인, 점검 계획 등 모든 주요 사실관계가 원문과 일치함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "원천 자료에 없는 내용이나 주관적인 해석을 추가하지 않고 제공된 정보만을 바탕으로 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "6급 수준의 '전문 자료' 유형에 부합하는 정책/규제 관련 소재를 다루고 있으며, 문단 구조와 어휘의 밀도가 고난도임을 반영함. 분량은 공백 포함 약 450자로 목표 범위(500~700자)에 매우 근접하며, 전문 용어와 복잡한 문장 구조를 적절히 활용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "정보 전개가 논리적이며, 각 문장이 앞선 문장의 상황이나 요구 사항을 이어받아 구체화되는 구조임. 지시 대상이 명확하고 중복되는 표현 없이 매끄럽게 연결됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "정책 시행 배경, 세부 준수 사항, 향후 점검 계획 등 다양한 정보를 포함하고 있어 비판적 평가나 정보 재구성을 위한 충분한 단서를 제공함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 집단에 대한 편향이나 차별적인 표현 없이 객관적인 법령 안내 형식으로 작성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 종결형이나 문장 구조의 기계적 반복을 피했으며, 핵심 의미를 훼손하는 과도한 동의어 치환 없이 전문적인 어휘를 사용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완벽하며 주어와 서술어 관계가 명확함. 내용상 모순이나 논리적 비약이 없음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "불필요한 감정적 수식어나 장식적 표현을 배제하고 정책 전달이라는 목적에 부합하는 기능적 어휘 위주로 구성됨.",
+            "revision_instruction": ""
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": true,
+        "failed_ids": [],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 580자, 6급 목표 500~700자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 500~700자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "목표 급수 초과·미등록 어휘 없음",
+            "revision_instruction": "다음 어휘를 6급 이하 등록 표현으로 바꾸세요: ",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "선언된 원문 필수어를 모두 사용함",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-08-12T01:59:43.505411+00:00"
+}

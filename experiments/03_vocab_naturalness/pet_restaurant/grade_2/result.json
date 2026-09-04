@@ -1,0 +1,1262 @@
+{
+  "schema_version": 1,
+  "experiment": "topik_economy_grade_vocabulary_repair",
+  "ontology_mode": "diagnostic",
+  "source_key": "pet_restaurant",
+  "grade": 2,
+  "text_type": "안내문",
+  "essential_lexemes": [],
+  "required_keyword": "음식점",
+  "source_terms": [
+    "음식점"
+  ],
+  "status": "NEEDS_HUMAN_REVIEW",
+  "passage_status": "NEEDS_HUMAN_REVIEW",
+  "question_status": "NEEDS_REGENERATION",
+  "rounds_used": 4,
+  "generated_passage": "건물 안에 있는 음식점에 가려고 합니다. 그런데 점심에는 손님이 아주 많아서 매우 복잡합니다. 그래서 미리 약속을 하면 기다리지 않고 바로 자리에 앉아 음식을 먹습니다. 알려야 할 말이 있습니다. 이 식당은 월요일에 쉽니다. 그러므로 식당에 가기 전에 다른 날짜를 미리 알아보시기 바랍니다.",
+  "final_ai_validation": {
+    "passed": false,
+    "failed_ids": [
+      "P-VAL-SOURCE-KEYWORD",
+      "P-VAL-VOCAB"
+    ],
+    "items": [
+      {
+        "criterion_id": "P-VAL-01",
+        "passed": true,
+        "evidence": "원천 자료(음식점 이용 안내/경험)와 생성 지문의 내용이 일치함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-02",
+        "passed": true,
+        "evidence": "추측성 정보나 사실 확인 불가능한 수치를 단정적으로 포함하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-03",
+        "passed": true,
+        "evidence": "2급 수준에 적합한 어휘를 사용하였으며, 한 문장에 하나의 정보를 담고 '그래서', '따라서' 등 쉬운 연결어를 사용하여 논리 구조를 형성함. 글자 수도 200자 내외로 적절함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-04",
+        "passed": true,
+        "evidence": "상황(복잡함) → 행동(예약 권장) → 결과(대기 없이 식사), 주의사항(휴무일 확인)으로 이어지는 선형적인 흐름을 유지하며 각 문장이 앞 문장의 상황이나 이유를 잘 이어받고 있음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-05",
+        "passed": true,
+        "evidence": "안내문 형식으로서 예약의 필요성과 휴무일 확인이라는 명시적 정보를 제공하여 읽기 평가가 가능함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-06",
+        "passed": true,
+        "evidence": "특정 문화나 편향된 정보 없이 보편적인 안내문의 형태를 취하고 있음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-07",
+        "passed": true,
+        "evidence": "반복되는 표현이 없으며, 어려운 동의어 대신 일상적인 어휘를 사용함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-08",
+        "passed": true,
+        "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 명확함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-09",
+        "passed": true,
+        "evidence": "2급 수준에서 허용되는 수식어를 적절히 활용하였으며, 불필요한 감정 표현이나 모호한 꾸밈말을 배제함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-10",
+        "passed": true,
+        "evidence": "단순 나열이 아닌 '예약 권장'과 '휴무일 확인'이라는 핵심 주제로 연결된 흐름을 가짐. 마지막에 새로운 주제를 도입하지 않음.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-11",
+        "passed": true,
+        "evidence": "한국어 실생활에서 자연스러운 결합(점심시간, 예약하다, 영업일 등)을 보여주며 원인/결과의 논리적 구조가 정확함.",
+        "revision_instruction": ""
+      },
+      {
+        "criterion_id": "P-VAL-SOURCE-KEYWORD",
+        "passed": false,
+        "evidence": "필수 원문 핵심어 ‘음식점’ 누락",
+        "revision_instruction": "원문의 급수 적합 핵심어 ‘음식점’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+      },
+      {
+        "criterion_id": "P-VAL-VOCAB",
+        "passed": false,
+        "evidence": "등급 검토 참고 어휘: 시간(6급), 점(6급), 따라서(3급), 주의(3급), 확인(3급), 매주(미등록 내용어), 영업일(미등록 내용어)",
+        "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+      },
+      {
+        "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+        "passed": true,
+        "evidence": "문장 수 6개(허용 4~7개)",
+        "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+      }
+    ]
+  },
+  "final_ontology_validation": {
+    "policy_schema_version": 1,
+    "passed": false,
+    "failed_ids": [
+      "O-VAL-LENGTH",
+      "O-VAL-REQUIRED-RELATIONS"
+    ],
+    "items": [
+      {
+        "criterion_id": "O-VAL-LENGTH",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "공백 포함 162자, 2급 목표 180~260자",
+        "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+        "policy_kind": "passage_length_from_grade_requirement"
+      },
+      {
+        "criterion_id": "O-VAL-GRADE-RESOURCE",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "목표 급수 초과·미등록 어휘 없음",
+        "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: ",
+        "policy_kind": "lexeme_grade_not_above_target_unless_required"
+      },
+      {
+        "criterion_id": "O-VAL-SOURCE-TERM-USED",
+        "severity": "Violation",
+        "passed": true,
+        "evidence": "선언된 원문 필수어를 모두 사용함",
+        "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: ",
+        "policy_kind": "required_source_term_must_be_used"
+      },
+      {
+        "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+        "severity": "Violation",
+        "passed": false,
+        "evidence": "TARGETS_GRADE=1, GROUNDED_IN=0, REALIZES_TEXT_TYPE=1",
+        "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: GROUNDED_IN",
+        "policy_kind": "passage_required_relations"
+      }
+    ]
+  },
+  "reading_items": [
+    {
+      "question_type": "main_idea",
+      "question": "이 글의 중심 생각으로 알맞은 것은 무엇입니까?",
+      "choices": [
+        "식당에서 맛있는 음식을 먹는 방법",
+        "점심시간에 식당에 방문할 때 주의할 점",
+        "건물 안에 있는 식당의 위치 정보",
+        "매주 월요일에 열리는 특별한 식당 소개"
+      ],
+      "answer": "점심시간에 식당에 방문할 때 주의할 점",
+      "explanation": "지문은 점심시간에 복잡하므로 미리 예약하는 것과 매주 월요일 휴무를 확인해야 한다는 등 식당 이용 시 주의사항을 설명하고 있습니다."
+    },
+    {
+      "question_type": "content_match",
+      "question": "글의 내용과 같은 것은 무엇입니까?",
+      "choices": [
+        "예약을 하면 줄을 서서 기다려야 합니다.",
+        "월요일에는 식당이 문을 엽니다.",
+        "미리 예약하면 바로 자리에 앉아 먹을 수 있습니다.",
+        "점심시간에는 손님이 적어서 한가합니다."
+      ],
+      "answer": "미리 예약하면 바로 자리에 앉아 먹을 수 있습니다.",
+      "explanation": "지문에 '미리 예약을 하면 줄을 서서 기다리지 않고 바로 자리에 앉아 음식을 먹을 수 있습니다'라고 명시되어 있습니다."
+    }
+  ],
+  "question_checks": [
+    {
+      "question_type": "main_idea",
+      "passed": true,
+      "failed_ids": []
+    },
+    {
+      "question_type": "content_match",
+      "passed": true,
+      "failed_ids": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "passage": "저희 식당은 정말 맛있는 음식을 파는 곳입니다. 특히 점심시간에는 손님이 아주 많이 오기 때문에 미리 예약하시면 좋습니다. 예약을 하시려면 전화나 인터넷을 이용하십시오. 만약 여러 명이 함께 올 경우에는 일주일 전에 꼭 연락해 주시기 바랍니다. 미리 예약하고 오시면 많은 사람과 함께도 훨씬 편안하게 식사하실 수 있습니다.",
+      "chars": 180,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "경우",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "경우"
+            ]
+          },
+          {
+            "word": "파다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "파"
+            ]
+          }
+        ],
+        "violation_count": 2,
+        "known_token_count": 39,
+        "unknown_tokens": [
+          "정말"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-SOURCE-KEYWORD",
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(음식점)의 핵심 의미인 '사람이 음식점을 이용하는 일상 안내'를 충실히 반영하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 확인 불가능한 수치를 단정적으로 제시하지 않고, 일반적인 예약 절차와 상황을 설명하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘(식당, 점심시간, 예약, 전화, 인터넷 등)와 단순한 연결어(~때문에, ~면)를 사용하여 문장 구조가 복잡하지 않습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[상황(붐비는 식당)] → [행동(예약 권유/방법)] → [결과(편안한 식사)]로 이어지는 선형적 흐름이 명확하며, 각 문장이 앞선 내용과 논리적으로 연결됩니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "예약 여부, 방법(전화/인터넷), 인원수에 따른 사전 연락 등의 구체적인 정보를 포함하여 읽기 평가용으로 충분한 단서를 제공합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향된 정보 없이 보편적인 안내문의 형태를 취하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "중복되는 표현이나 불필요하게 어려운 동의어를 사용하지 않고 핵심 어휘를 적절히 활용했습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 분명합니다. 지시 대상도 명확합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "2급 수준에서 허용되는 수식어 범위 내에 있으며, 의미 없는 감성적 꾸밈말이 과도하게 중첩되지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '예약'이라는 하나의 중심 주제로 정보를 묶었으며, 마지막 문장에서 새로운 주제를 꺼내지 않습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "even_more_detail": "실제 한국어 환경에서 자연스러운 안내문 형식을 취하고 있으며, 원인과 결과(붐비는 시간 → 예약 필요)의 논리 구조가 일관됩니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": false,
+            "evidence": "필수 원문 핵심어 ‘음식점’ 누락",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘음식점’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 경우(3급), 파다(3급), 정말(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 5개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE",
+          "O-VAL-SOURCE-TERM-USED"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 180자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "경우(3급), 파다(3급), 정말(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 경우(3급), 파다(3급), 정말(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "누락: 음식점",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: 음식점",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 2,
+      "passage": "이 건물에 있는 식당에서는 조용히 말해 주세요. 큰 소리로 말하면 다른 사람이 불편하게 느낄 수 있습니다. 식사를 모두 마친 후에는 자리를 깨끗하게 치워 주세요. 여러분이 자리를 잘 치워야 다음 손님이 기분 좋게 들어올 수 있습니다. 모두가 깨끗한 식탁에서 즐겁게 식사할 수 있도록 협조해 주세요. 매너를 지켜 주셔서 진심으로 감사합니다.",
+      "chars": 189,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "협조",
+            "grade": 4,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "협조"
+            ]
+          },
+          {
+            "word": "진심",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "진심"
+            ]
+          },
+          {
+            "word": "치우다",
+            "grade": 3,
+            "part_of_speech": "VV",
+            "tokens": [
+              "치우"
+            ]
+          }
+        ],
+        "violation_count": 3,
+        "known_token_count": 32,
+        "unknown_tokens": [
+          "매너"
+        ],
+        "unknown_token_count": 1,
+        "unknown_items": [
+          {
+            "word": "매너",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "매너",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 1,
+        "blocked_unknown_nouns": [
+          {
+            "word": "매너",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 1,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-SOURCE-KEYWORD",
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(음식점)의 의미를 바탕으로 한 일상적인 안내 사항을 충실히 반영함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 사실 확인이 필요한 외부 수치를 단정적으로 포함하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 짧은 문장 구조를 사용하였으며, 공백 포함 약 140자로 목표 범위 내에서 간결하게 구성됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "'조용히 말하기', '자리 치우기', '협조 요청'이라는 행동과 그 이유가 선형적으로 연결되어 하나의 장면을 형성함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문의 목적(매너 준수)이 명확하며, 구체적인 상황(소음 방지, 청결 유지)이 제시되어 이해 가능함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보 없이 보편적인 식당 에티켓을 다룸.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "동일한 표현의 불필요한 반복이 없으며, 쉬운 단어로 의미를 전달함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 주어와 서술어 관계가 분명하며, 앞뒤 문장의 인과관계가 매끄럽게 이어짐.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "2급 수준에서 허용되는 수식어를 사용하였으며, 과도한 감성적/평가적 꾸밈말이 배제됨.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 '상황→행동→이유'의 흐름으로 구성되었으며 마지막에 새로운 주제를 도입하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "실제 한국어 안내문에서 흔히 쓰이는 자연스러운 결합을 사용했으며 원문의 핵심 의도를 왜곡 없이 반영함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": false,
+            "evidence": "필수 원문 핵심어 ‘음식점’ 누락",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘음식점’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 협조(4급), 진심(3급), 치우다(3급), 매너(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 6개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE",
+          "O-VAL-SOURCE-TERM-USED"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 189자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "협조(4급), 진심(3급), 치우다(3급), 매너(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 협조(4급), 진심(3급), 치우다(3급), 매너(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "누락: 음식점",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: 음식점",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 3,
+      "passage": "저는 오늘 저녁에 건물 안에 있는 식당에 갔습니다. 먼저 식당 안에서 메뉴판을 자세히 보고 맛있는 비빔밥을 주문했습니다. 직원이 제 음식을 아주 빨리 준비해 주어서 정말 기분이 좋았습니다. 저는 자리에 앉아 음식을 맛있게 먹고 나서 계산을 했습니다. 배부르게 식사를 모두 마친 후에 가게를 나왔습니다. 그리고 기분 좋게 집으로 돌아갔습니다.",
+      "chars": 190,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "배부르다",
+            "grade": 4,
+            "part_of_speech": "VA",
+            "tokens": [
+              "배부르"
+            ]
+          },
+          {
+            "word": "메뉴판",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "메뉴판"
+            ]
+          }
+        ],
+        "violation_count": 2,
+        "known_token_count": 41,
+        "unknown_tokens": [
+          "먼저",
+          "정말"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "먼저",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "정말",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-SOURCE-KEYWORD",
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(음식점)의 핵심 의미인 '사람이 음식점을 이용하는 일상 경험'을 충실히 반영하고 있습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 사실 확인이 필요한 외부 정보를 단정적으로 포함하지 않고, 일반적인 식당 방문 과정만을 기술했습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘와 구조를 갖추고 있습니다. 한 문장에 하나의 정보 중심을 유지하며 복잡한 관형절이나 명사절 중첩이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "[상황→행동→결과]의 선형 흐름이 뚜렷합니다. (건물 내 식당 → 메뉴 확인 및 주문 → 조리/대기 → 식사 후 계산 → 귀가). 각 문장이 앞 문장의 장소나 행동을 자연스럽게 이어받습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "음식점에서의 구체적인 행위(주문, 대기, 결제 등)가 순서대로 제시되어 있어 세부 내용 파악 및 정보 이해용으로 충분한 단서를 제공합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화적 편향이나 민감한 정보를 포함하지 않는 보편적인 일상 상황입니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "어휘가 반복되거나 어려운 동의어를 사용하여 난이도를 인위적으로 높이지 않았으며, 표현이 간결합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 명확하고 지시 대상이 분명합니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "2급 수준에서 허용되는 수식어 범위 내에 있으며, 불필요하게 화려하거나 모호한 꾸밈말을 사용하지 않았습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아니라 식당 방문이라는 하나의 장면 안에서 시간 순서대로 정보가 흐르고 있습니다. 마지막 문장도 새로운 주제를 도입하지 않고 결론(귀가)으로 마무리됩니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 어법상 자연스러운 표현들로 구성되어 있으며 번역투나 부자연스러운 단어 조합이 없습니다.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": false,
+            "evidence": "필수 원문 핵심어 ‘음식점’ 누락",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘음식점’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 배부르다(4급), 메뉴판(3급), 먼저(미등록 내용어), 정말(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 6개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE",
+          "O-VAL-SOURCE-TERM-USED"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 190자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "배부르다(4급), 메뉴판(3급), 먼저(미등록), 정말(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 배부르다(4급), 메뉴판(3급), 먼저(미등록), 정말(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "누락: 음식점",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: 음식점",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    },
+    {
+      "round": 4,
+      "passage": "건물 안에 있는 식당에 가려고 합니다. 그런데 점심시간에는 손님이 아주 많아서 매우 복잡합니다. 그래서 미리 예약을 하면 줄을 서서 기다리지 않고 바로 자리에 앉아 음식을 먹을 수 있습니다. 주의할 점이 있습니다. 이 식당은 매주 월요일에 쉽니다. 따라서 식당에 방문하기 전에 반드시 다른 날짜의 영업일을 미리 확인하시기 바랍니다.",
+      "chars": 185,
+      "vocabulary_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "시간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "시간"
+            ]
+          },
+          {
+            "word": "점",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "점"
+            ]
+          },
+          {
+            "word": "따라서",
+            "grade": 3,
+            "part_of_speech": "MAJ",
+            "tokens": [
+              "따라서"
+            ]
+          },
+          {
+            "word": "주의",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "주의"
+            ]
+          },
+          {
+            "word": "확인",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "확인"
+            ]
+          }
+        ],
+        "violation_count": 5,
+        "known_token_count": 39,
+        "unknown_tokens": [
+          "매주",
+          "영업일"
+        ],
+        "unknown_token_count": 2,
+        "unknown_items": [
+          {
+            "word": "매주",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "영업일",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_tokens": [
+          {
+            "word": "매주",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "영업일",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_token_count": 2,
+        "blocked_unknown_nouns": [
+          {
+            "word": "매주",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "영업일",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "blocked_unknown_noun_count": 2,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "ai_validation": {
+        "passed": false,
+        "failed_ids": [
+          "P-VAL-SOURCE-KEYWORD",
+          "P-VAL-VOCAB"
+        ],
+        "items": [
+          {
+            "criterion_id": "P-VAL-01",
+            "passed": true,
+            "evidence": "원천 자료(음식점 이용 안내/경험)와 생성 지문의 내용이 일치함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-02",
+            "passed": true,
+            "evidence": "추측성 정보나 사실 확인 불가능한 수치를 단정적으로 포함하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-03",
+            "passed": true,
+            "evidence": "2급 수준에 적합한 어휘를 사용하였으며, 한 문장에 하나의 정보를 담고 '그래서', '따라서' 등 쉬운 연결어를 사용하여 논리 구조를 형성함. 글자 수도 200자 내외로 적절함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-04",
+            "passed": true,
+            "evidence": "상황(복잡함) → 행동(예약 권장) → 결과(대기 없이 식사), 주의사항(휴무일 확인)으로 이어지는 선형적인 흐름을 유지하며 각 문장이 앞 문장의 상황이나 이유를 잘 이어받고 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-05",
+            "passed": true,
+            "evidence": "안내문 형식으로서 예약의 필요성과 휴무일 확인이라는 명시적 정보를 제공하여 읽기 평가가 가능함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-06",
+            "passed": true,
+            "evidence": "특정 문화나 편향된 정보 없이 보편적인 안내문의 형태를 취하고 있음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-07",
+            "passed": true,
+            "evidence": "반복되는 표현이 없으며, 어려운 동의어 대신 일상적인 어휘를 사용함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-08",
+            "passed": true,
+            "evidence": "모든 문장이 문법적으로 완결되며 주어와 서술어 관계가 명확함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-09",
+            "passed": true,
+            "evidence": "2급 수준에서 허용되는 수식어를 적절히 활용하였으며, 불필요한 감정 표현이나 모호한 꾸밈말을 배제함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-10",
+            "passed": true,
+            "evidence": "단순 나열이 아닌 '예약 권장'과 '휴무일 확인'이라는 핵심 주제로 연결된 흐름을 가짐. 마지막에 새로운 주제를 도입하지 않음.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-11",
+            "passed": true,
+            "evidence": "한국어 실생활에서 자연스러운 결합(점심시간, 예약하다, 영업일 등)을 보여주며 원인/결과의 논리적 구조가 정확함.",
+            "revision_instruction": ""
+          },
+          {
+            "criterion_id": "P-VAL-SOURCE-KEYWORD",
+            "passed": false,
+            "evidence": "필수 원문 핵심어 ‘음식점’ 누락",
+            "revision_instruction": "원문의 급수 적합 핵심어 ‘음식점’를 한 번 이상 포함하되 다른 초과어를 추가하지 말고 문장 전체를 자연스럽게 다시 쓰세요."
+          },
+          {
+            "criterion_id": "P-VAL-VOCAB",
+            "passed": false,
+            "evidence": "등급 검토 참고 어휘: 시간(6급), 점(6급), 따라서(3급), 주의(3급), 확인(3급), 매주(미등록 내용어), 영업일(미등록 내용어)",
+            "revision_instruction": "표시된 어휘를 목표 등급 이하의 등록 어휘로 교체하세요. 단, 원문의 정확한 핵심 개념은 모호하게 바꾸지 말고 짧은 쉬운 설명을 덧붙이세요."
+          },
+          {
+            "criterion_id": "P-VAL-TOPIK-I-STRUCTURE",
+            "passed": true,
+            "evidence": "문장 수 6개(허용 4~7개)",
+            "revision_instruction": "TOPIK I 2급 수준으로 4~7개의 짧고 직접적인 문장으로 고치세요."
+          }
+        ]
+      },
+      "ontology_validation": {
+        "policy_schema_version": 1,
+        "passed": false,
+        "failed_ids": [
+          "O-VAL-GRADE-RESOURCE",
+          "O-VAL-SOURCE-TERM-USED"
+        ],
+        "items": [
+          {
+            "criterion_id": "O-VAL-LENGTH",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "공백 포함 185자, 2급 목표 180~260자",
+            "revision_instruction": "원문 사실과 문맥을 유지하면서 공백 포함 180~260자로 조정하세요.",
+            "policy_kind": "passage_length_from_grade_requirement"
+          },
+          {
+            "criterion_id": "O-VAL-GRADE-RESOURCE",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "시간(6급), 점(6급), 따라서(3급), 주의(3급), 확인(3급), 매주(미등록), 영업일(미등록)",
+            "revision_instruction": "다음 어휘를 2급 이하 등록 표현으로 바꾸세요: 시간(6급), 점(6급), 따라서(3급), 주의(3급), 확인(3급), 매주(미등록), 영업일(미등록)",
+            "policy_kind": "lexeme_grade_not_above_target_unless_required"
+          },
+          {
+            "criterion_id": "O-VAL-SOURCE-TERM-USED",
+            "severity": "Violation",
+            "passed": false,
+            "evidence": "누락: 음식점",
+            "revision_instruction": "원문 의미를 유지해 다음 필수어를 실제 지문에 사용하세요: 음식점",
+            "policy_kind": "required_source_term_must_be_used"
+          },
+          {
+            "criterion_id": "O-VAL-REQUIRED-RELATIONS",
+            "severity": "Violation",
+            "passed": true,
+            "evidence": "TARGETS_GRADE=1, GROUNDED_IN=1, REALIZES_TEXT_TYPE=1",
+            "revision_instruction": "누락되거나 중복된 지문 관계를 복구하세요: ",
+            "policy_kind": "passage_required_relations"
+          }
+        ]
+      },
+      "passed": false
+    }
+  ],
+  "generated_at": "2026-08-27T00:13:31.483574+00:00",
+  "vocabulary_repair": {
+    "before_passage": "건물 안에 있는 식당에 가려고 합니다. 그런데 점심시간에는 손님이 아주 많아서 매우 복잡합니다. 그래서 미리 예약을 하면 줄을 서서 기다리지 않고 바로 자리에 앉아 음식을 먹을 수 있습니다. 주의할 점이 있습니다. 이 식당은 매주 월요일에 쉽니다. 따라서 식당에 방문하기 전에 반드시 다른 날짜의 영업일을 미리 확인하시기 바랍니다.",
+    "after_passage": "건물 안에 있는 음식점에 가려고 합니다. 그런데 점심에는 손님이 아주 많아서 매우 복잡합니다. 그래서 미리 약속을 하면 기다리지 않고 바로 자리에 앉아 음식을 먹습니다. 알려야 할 말이 있습니다. 이 식당은 월요일에 쉽니다. 그러므로 식당에 가기 전에 다른 날짜를 미리 알아보시기 바랍니다.",
+    "before_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 2,
+      "violations": [
+        {
+          "word": "시간",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "시간"
+          ]
+        },
+        {
+          "word": "점",
+          "grade": 6,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "점"
+          ]
+        },
+        {
+          "word": "따라서",
+          "grade": 3,
+          "part_of_speech": "MAJ",
+          "tokens": [
+            "따라서"
+          ]
+        },
+        {
+          "word": "주의",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "주의"
+          ]
+        },
+        {
+          "word": "확인",
+          "grade": 3,
+          "part_of_speech": "NNG",
+          "tokens": [
+            "확인"
+          ]
+        }
+      ],
+      "violation_count": 5,
+      "known_token_count": 39,
+      "unknown_tokens": [
+        "매주",
+        "영업일"
+      ],
+      "unknown_token_count": 2,
+      "unknown_items": [
+        {
+          "word": "매주",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "영업일",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_tokens": [
+        {
+          "word": "매주",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "영업일",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_token_count": 2,
+      "blocked_unknown_nouns": [
+        {
+          "word": "매주",
+          "part_of_speech": "MAG",
+          "policy": "blocked_unregistered_lexical_token"
+        },
+        {
+          "word": "영업일",
+          "part_of_speech": "NNG",
+          "policy": "blocked_unregistered_lexical_token"
+        }
+      ],
+      "blocked_unknown_noun_count": 2,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "after_audit": {
+      "engine": "kiwipiepy",
+      "target_grade": 2,
+      "violations": [],
+      "violation_count": 0,
+      "known_token_count": 34,
+      "unknown_tokens": [],
+      "unknown_token_count": 0,
+      "unknown_items": [],
+      "blocked_unknown_tokens": [],
+      "blocked_unknown_token_count": 0,
+      "blocked_unknown_nouns": [],
+      "blocked_unknown_noun_count": 0,
+      "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+    },
+    "history": [
+      {
+        "round": 1,
+        "before_chars": 185,
+        "after_chars": 162,
+        "before_violations": [
+          {
+            "word": "시간",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "시간"
+            ]
+          },
+          {
+            "word": "점",
+            "grade": 6,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "점"
+            ]
+          },
+          {
+            "word": "따라서",
+            "grade": 3,
+            "part_of_speech": "MAJ",
+            "tokens": [
+              "따라서"
+            ]
+          },
+          {
+            "word": "주의",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "주의"
+            ]
+          },
+          {
+            "word": "확인",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "확인"
+            ]
+          }
+        ],
+        "after_violations": [],
+        "before_blocked_unknown_tokens": [
+          {
+            "word": "매주",
+            "part_of_speech": "MAG",
+            "policy": "blocked_unregistered_lexical_token"
+          },
+          {
+            "word": "영업일",
+            "part_of_speech": "NNG",
+            "policy": "blocked_unregistered_lexical_token"
+          }
+        ],
+        "after_blocked_unknown_tokens": [],
+        "accepted": true,
+        "acceptance_reason": "어휘 문제 7->0 감소"
+      }
+    ],
+    "naturalness_revision": {
+      "attempted": true,
+      "accepted": false,
+      "reason": "등급 초과 어휘 수가 교정 전보다 증가함",
+      "before_passage": "건물 안에 있는 음식점에 가려고 합니다. 그런데 점심에는 손님이 아주 많아서 매우 복잡합니다. 그래서 미리 약속을 하면 기다리지 않고 바로 자리에 앉아 음식을 먹습니다. 알려야 할 말이 있습니다. 이 식당은 월요일에 쉽니다. 그러므로 식당에 가기 전에 다른 날짜를 미리 알아보시기 바랍니다.",
+      "candidate_passage": "건물 안에 있는 식당에 가려고 합니다. 점심에는 손님이 많아서 매우 복잡합니다. 그래서 미리 약속을 하면 기다리지 않고 바로 자리에 앉아 음식을 먹을 수 있습니다. 참고할 내용이 있습니다. 이 식당은 월요일에 쉽니다. 그러므로 식당에 가기 전에 다른 날짜를 확인하시기 바랍니다.",
+      "content_anchor_overlap": 0.773,
+      "before_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [],
+        "violation_count": 0,
+        "known_token_count": 34,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      },
+      "candidate_audit": {
+        "engine": "kiwipiepy",
+        "target_grade": 2,
+        "violations": [
+          {
+            "word": "참고",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "참고"
+            ]
+          },
+          {
+            "word": "확인",
+            "grade": 3,
+            "part_of_speech": "NNG",
+            "tokens": [
+              "확인"
+            ]
+          }
+        ],
+        "violation_count": 2,
+        "known_token_count": 32,
+        "unknown_tokens": [],
+        "unknown_token_count": 0,
+        "unknown_items": [],
+        "blocked_unknown_tokens": [],
+        "blocked_unknown_token_count": 0,
+        "blocked_unknown_nouns": [],
+        "blocked_unknown_noun_count": 0,
+        "unknown_policy": "grades_1_2_allow_only_registered_lexical_tokens_at_or_below_target_grade; grades_3_6_record_unknown_tokens_only"
+      }
+    },
+    "naturalness_accepted": false
+  }
+}

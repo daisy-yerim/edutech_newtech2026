@@ -1,0 +1,27 @@
+{
+  "schema_version":2,"version":"2.0-provisional","status":"pending_expert_review","rubric_type":"validation",
+  "decision_policy":{"critical":"1개라도 실패하면 교수자 승인 전 수정 필수","major":"2개 이상 실패하면 재생성 권고, 1개는 교수자 근거 기록 후 승인 가능","minor":"경고로 표시하고 교수자가 최종 판단","ai_role":"자동 통과 결정자가 아니라 오류 후보를 제시하는 보조 검증기"},
+  "passage":[
+    {"id":"P-VAL-01","label":"사실 일치","check":"핵심 주장·수치·인과·주체가 원천 자료와 일치하는가?","severity":"critical","regenerate_scope":"passage"},
+    {"id":"P-VAL-02","label":"근거 없는 추가","check":"원천 자료에서 확인할 수 없는 사실을 단정하지 않았는가?","severity":"critical","regenerate_scope":"passage"},
+    {"id":"P-VAL-03","label":"등급 적합성","check":"어휘·문법·문장 길이·개념 밀도가 목표 등급에 적합한가?","severity":"major","regenerate_scope":"passage"},
+    {"id":"P-VAL-04","label":"구조와 응집성","check":"중심 내용과 정보 전개가 분명한가? 각 문장은 앞 문장의 사람·대상·장소·시간·원인 중 하나 이상을 이어 받는가? 동일 대상의 명칭과 생략 주어가 일관되며 지시어의 선행 대상이 하나로 정해지는가? 1~2급은 하나의 장면에서 상황→행동→결과(2급은 이유도 허용)의 선형 흐름을 이루는가?","severity":"major","regenerate_scope":"passage"},
+    {"id":"P-VAL-05","label":"평가 단서 충분성","check":"선택 가능한 읽기 유형과 쓰기 기능을 평가할 명시 정보·추론 단서가 있는가?","severity":"major","regenerate_scope":"passage"},
+    {"id":"P-VAL-06","label":"공정성과 안전성","check":"불필요한 편향·차별·민감 정보나 특정 문화 배경에 과도하게 의존하지 않는가?","severity":"minor","regenerate_scope":"passage"},
+    {"id":"P-VAL-07","label":"어휘·문형 반복","check":"같은 내용어·연결어·종결형 또는 동일 문장 구조가 학습상 필요한 범위를 넘어 연속 반복되지 않는가? 핵심어를 낯선 동의어로 바꿔 난이도를 높이지 않았는가?","severity":"major","regenerate_scope":"passage"},
+    {"id":"P-VAL-08","label":"문장 성립과 의미 연결","check":"각 문장이 문법적으로 완결되고 주어·서술어·수식 관계가 성립하며, 앞뒤 문장 사이에 모순·비약·지시 대상 불명확·의미 없는 표현이 없는가?","severity":"critical","regenerate_scope":"passage"},
+    {"id":"P-VAL-09","label":"수식어 절제","check":"1~2급의 목표 급수 이하 등록 수식어는 모두 허용한다. 3~6급에서 관형어·형용사·부사가 핵심 정보나 관계 설명에 필요한 범위에서 쓰였으며, 정보 없이 분위기만 꾸미는 평가·감정 표현과 같은 꾸밈말의 반복이 억제되었는가? 어려운 명사를 피하기 위한 뜻이 모호한 수식어구가 없는가?","severity":"major","regenerate_scope":"passage"},
+    {"id":"P-VAL-10","label":"TOPIK형 담화 흐름","check":"원자료의 사실을 항목처럼 나열하지 않고 하나의 중심 정보 흐름으로 묶었는가? 앞 문장을 다음 문장이 구체화하거나 이유·결과로 연결하며, 같은 권유·평가·결론을 바꾸어 반복하지 않는가? 1~2급은 한 장면의 선형 흐름, 3~4급은 중심 정보→관련 사실→결과·계획, 5~6급은 배경·핵심 내용→근거·방법→의미·전망의 역할이 드러나고 마지막 문장이 새 주제를 시작하지 않는가?","severity":"critical","regenerate_scope":"passage"},
+    {"id":"P-VAL-11","label":"자연스러운 어휘 결합과 사실 관계","check":"각 단어가 쉬운지만 보지 말고 실제 한국어에서 함께 쓰이는 결합인가? 번역투나 단어별 기계 치환이 없으며, 원인·결과·조건이 상식 및 앞 문장과 모순되지 않는가? 기관·날짜·수치·적용 대상·의무·금지·지원의 관계가 원문과 같은가? 제도명을 임의의 괄호 풀이로 왜곡하지 않았는가? 5~6급에서 핵심 조건이나 예외가 마지막 문장에 뒤늦게 추가되지 않았는가?","severity":"critical","regenerate_scope":"passage"}
+  ],
+  "assessment":[
+    {"id":"A-VAL-01","label":"문항-지문 정합성","check":"각 문항과 쓰기 과제를 승인 지문만으로 해결할 수 있는가?","severity":"critical","regenerate_scope":"affected_item"},
+    {"id":"A-VAL-02","label":"유형 및 수량 준수","check":"선택한 모든 읽기 유형이 정확히 한 문항씩 생성되고 제작 규칙을 지켰는가?","severity":"critical","regenerate_scope":"missing_or_invalid_item"},
+    {"id":"A-VAL-03","label":"정답 유일성과 오답 기능","check":"정답은 하나이며 모든 오답을 지문 근거로 명확히 배제할 수 있는가? 오답은 지문의 실제 정보를 이용한 부분 일치·주체/대상 교체·인과 교체·범위 과장 등 서로 다른 오류 원리를 가지며, 상식만으로 제거할 수 있는 무관하거나 비문인 선택지가 없는가? 선택지 길이·문체·문법 형식이 정답 단서를 노출하지 않는가?","severity":"critical","regenerate_scope":"affected_item"},
+    {"id":"A-VAL-04","label":"해설의 교육성·정확성","check":"해설이 정답의 지문 근거를 밝히고 각 오답이 틀린 핵심 이유를 설명하며, 지문에 없는 사실을 추가하지 않아 학습자의 복습 자료로 사용할 수 있는가?","severity":"critical","regenerate_scope":"affected_item"},
+    {"id":"A-VAL-05","label":"쓰기 조건 정합성","check":"질문·조건·필수 내용·예시답안이 서로 모순되지 않고 다양한 타당 답안을 허용하는가?","severity":"major","regenerate_scope":"writing"},
+    {"id":"A-VAL-06","label":"채점 기준 정합성","check":"scoring_guide에 내용·과제 30, 전개 구조 30, 언어 사용 40의 관찰 근거가 있고 내용 오류와 문법 오류를 독립 판정할 수 있는가?","severity":"major","regenerate_scope":"writing"},
+    {"id":"A-VAL-07","label":"등급 적합성","check":"질문·선택지·쓰기 요구량과 해설 언어가 목표 등급에 적합한가?","severity":"major","regenerate_scope":"affected_item"},
+    {"id":"A-VAL-08","label":"문항 독립성","check":"한 문항의 정답이나 해설이 다른 문항의 정답을 직접 노출하지 않는가?","severity":"minor","regenerate_scope":"affected_item"}
+  ]
+}
